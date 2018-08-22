@@ -234,7 +234,7 @@ nav li a {
 
 .promo-icon,
 .promo-heading {
-  color: #1f7a8c;
+  color: #fd5c63;
 }
 
 .promo-row {
@@ -272,4 +272,15 @@ nav li a {
   #menu-btn {
     margin-right: 0;
   }
+}
+
+.module-link {
+  text-decoration: none !important;
+}
+.module-link h4 {
+  color: #fd5c63;
+}
+
+.module-link:hover *{
+  color: black !important; 
 }
