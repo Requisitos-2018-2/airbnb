@@ -1,8 +1,8 @@
-# Pré-rastreabilidade 
+# Pré-rastreabilidade
 
 ## Rastreabilidade de requisitos
 
-A rastreabilidade de requisitos é uma técnica utilizada para prover um relacionamento entre os requisitos levantados, a arquitetura do sistema até sua implementação final, possibilitando assim uma compreensão adequada do contexto no qual o software foi construído. A rastreabilidade é identificada como um fator de qualidade, sendo essa uma das características não funcionais do sistema. A rastrebilidade deve possibilitar acompanhar e relatar a vida de um requisito. 
+A rastreabilidade de requisitos é uma técnica utilizada para prover um relacionamento entre os requisitos levantados, a arquitetura do sistema até sua implementação final, possibilitando assim uma compreensão adequada do contexto no qual o software foi construído. A rastreabilidade é identificada como um fator de qualidade, sendo essa uma das características não funcionais do sistema. A rastrebilidade deve possibilitar acompanhar e relatar a vida de um requisito.
 
 Esse módulo tem como foco a etapa de **Pré-Rastreabilidade**, que é definida como o estudo do universo de onde são levantados os requisitos.
 
@@ -16,6 +16,11 @@ Rich Picture é uma ferramenta para expressar ideias com o objetivo de resolver 
 
 O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneiras de modelar e racionar sobre os requisitos discutidos durante uma reunião com os stakeholders, com o objetivo de verificar a validação dos artefatos da solução. O ACE disponibiliza uma vocabulário para representar as informações e decisões levantadas durante a discussão.
 
+
+## Versões:
+  [V0 - Versão preliminar](./v0/index.md "versão preliminar")
+
+  [V1 - Primeira versão](./v1/index.md "versão preliminar") 
 
 ## Referências
 

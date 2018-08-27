@@ -5,8 +5,8 @@
 ## Rich Picture
 
 ### Visão Geral :
-![alt text](img/visao_geral_v1.png "Visão Geral")
+![visão getal](img/visao_geral_v1.png "Visão Geral")
 ### Hospede :
-![alt text](img/hospede_v1.png "Hospede")
+![visão do hospede](img/hospede_v1.png "Hospede")
 ### Anfitrião :
-![alt text](img/anfitriao_v1.png "Anfitrião")
+![visão do anfitrião](img/anfitriao_v1.png "Anfitrião")
