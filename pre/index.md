@@ -18,10 +18,18 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
 
 
 ## Versões:
-  [V0 - Versão preliminar](./v0/index "versão preliminar")
-
-  [V1 - Primeira versão](./v1/index "versão preliminar") 
-
+<div>
+  <a href="v0/index" class="module-link">
+  <p>
+    V0 - versão preliminar
+  </p>
+  </a>
+  <a href="v1/index" class="module-link">
+  <p>
+    V1 - Primeira versão
+  </p>
+  </a>
+</div>
 ## Referências
 
 - SAYÃO, LEITE, Rastreabilidade de Requisitos. PUC Rio, 2005.
