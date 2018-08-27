@@ -18,9 +18,9 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
 
 
 ## Versões:
-  [V0 - Versão preliminar](./v0/index.md "versão preliminar")
+  [V0 - Versão preliminar](./v0/index "versão preliminar")
 
-  [V1 - Primeira versão](./v1/index.md "versão preliminar") 
+  [V1 - Primeira versão](./v1/index "versão preliminar") 
 
 ## Referências
 
