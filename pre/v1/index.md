@@ -32,5 +32,9 @@
 
   <h3>Vale a pena pagar os 3% para o anfitrião?</h3>
   <img src="img/vale_a_pena_v1.png" width="100%">
-  
+
+  <h3>Ferramenta para fazer o rich picture</h3>
+  <img src="img/arg_ferramenta.png" width="60%">
+
+
 </div>
