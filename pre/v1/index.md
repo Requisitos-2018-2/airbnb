@@ -21,7 +21,7 @@
   <img src="img/anfitriao_v1.png" width="600px">
 
   <h4>Monetário</h4>
-  <img src="img/richPictureMoney.png" width="600px">
+  <img src="img/RichPictureMoney.png" width="600px">
 
   <h4>Boa Experiência</h4>
   <img src="img/boa_experiencia_v1.png" width="600px">
