@@ -19,6 +19,10 @@
 
   <h3>Anfitrião</h3>
   <img src="img/anfitriao_v1.png" width="100%">
+
+  <h4>Monetário</h4>
+  <img src="img/richPicture.png" width="100%">
 </div>
+
 
 ## Argumentação
