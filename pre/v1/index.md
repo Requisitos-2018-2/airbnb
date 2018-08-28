@@ -21,16 +21,16 @@
   <img src="img/anfitriao_v1.png" width="600px">
 
   <h4>Monetário</h4>
-<<<<<<< HEAD
-  <img src="img/richPictureMoney.png" width="100%">
-
-
-=======
   <img src="img/richPictureMoney.png" width="600px">
 
   <h4>Boa Experiência</h4>
   <img src="img/boa_experiencia_v1.png" width="600px">
->>>>>>> b47a8b60dd68aede950e84e1512e6336c8a661d8
+=======
+  <img src="img/money_v1.png" width="600px">
+
+  <h4>Boa Experiência</h4>
+  <img src="img/boa_experiencia_v1.png" width="600px">
+>>>>>>> master
 </div>
 
 
