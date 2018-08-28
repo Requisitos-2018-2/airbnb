@@ -36,7 +36,7 @@
 
 <div style="background-color:white;">
   <h3>Escolha de ferramenta de desenho</h3>
-  <img src="img/decisão_ferramenta_richpic_v1.png">
+  <img src="img/decisão_ferramenta_richpic_v1.png" width="100%">
   <ul>
     <li>
       <b>p0</b> - É necessário usar uma ferramenta de desenho unificada para haver padrão de linguagem nos diagramas de rich picture.
@@ -52,7 +52,7 @@
     </li>
   </ul>
   <h3>Hospedeiro que já trabalha na área</h3>
-  <img src="img/argumentacao_hospedeiro_v1.png">
+  <img src="img/argumentacao_hospedeiro_v1.png" width="100%">
   <ul>
     <li>
       <b>p0</b> - Usuário possui bom fluxo de clientes e não busca por novos clientes
