@@ -67,4 +67,20 @@
       <b>p3</b> - Através do Airbnb é possível buscar novos clientes a um investimento muito baixo.
     </li>
   </ul>
+    <h3>Preocupação do anfitrião</h3>
+  <img src="img/argumentacaoAnfitriao_v1.png" width="100%">
+  <ul>
+    <li>
+      <b>p0</b> - O anfitrião se preocupa apenas com o dinheiro que ele vai ganhar
+    </li>
+    <li>
+      <b>p1</b> - A preocupação deve ser maior com a experiência pois existe o sistema de avaliação do airbnb.
+    </li>
+    <li>
+      <b>p2</b> - Usuário não deseja ampliar o perfil de seus clientes, devido necessidade de de altos investimentos.
+    </li>
+    <li>
+      <b>p3</b> - As duas são importantes porém se preocupando com a experiência consequentemente terá boas avaliações e muitos clientes.
+    </li>
+  </ul>
 </div>
