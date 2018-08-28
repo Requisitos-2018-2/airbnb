@@ -21,7 +21,7 @@
   <img src="img/anfitriao_v1.png" width="100%">
 
   <h4>Monetário</h4>
-  <img src="img/richPicture.png" width="100%">
+  <img src="img/richPictureMoney.png" width="100%">
 </div>
 
 
