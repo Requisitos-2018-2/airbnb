@@ -5,7 +5,7 @@
 ## Rich Picture
 
 ### Visão Geral :
-![visão getal](img/visao_geral_v1.png "Visão Geral")
+![visão getal](img/a_visao_geral_v1.png "Visão Geral")
 ### Questões Regionais :
 ![Questões Regionais](img/relacoes_regionais_v1.png "Questões Regionais")
 ### Relações entre usuários
