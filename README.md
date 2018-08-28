@@ -6,4 +6,4 @@
 
 <p>Repositorio para a disciplina de Requisitos de software, pela Universidade de Brasília - UNB, campus Gama - FGA.</p>
 
-<h3><p align="left"><a href="https://requisitos-2017-2-nubank.github.io/Nubank/siki/index.html">Acesse os documentos.</a></p></h3>
+<h3><p align="left"><a href="https://requisitos-2018-2.github.io/airbnb/">Acesse os documentos.</a></p></h3>
