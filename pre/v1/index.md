@@ -22,7 +22,15 @@
 
   <h4>Monetário</h4>
   <img src="img/richPictureMoney.png" width="100%">
+
+
 </div>
 
 
 ## Argumentação
+<div style="background-color:white;">
+
+  <h3>Vale a pena pagar os 3% para o anfitrião?</h3>
+  <img src="img/vale_a_pena_v1.png" width="100%">
+  
+</div>
