@@ -25,6 +25,10 @@
 
   <h4>Boa Experiência</h4>
   <img src="img/boa_experiencia_v1.png" width="600px">
+
+  <h4>Central de Resoluções</h4>
+  <img src="img/resolutions_v1.png" width="600px">
+
 </div>
 
 
