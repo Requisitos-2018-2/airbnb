@@ -51,6 +51,8 @@
       <b>p3</b> - draw io pode ser usado apartir do browser e  tem compatibilidade com o google drive.
     </li>
   </ul>
+  <h3>Preocupação do anfitrião</h3>
+  <img src="img/decisao_termo.png" width="100%">
   <h3>Hospedeiro que já trabalha na área</h3>
   <img src="img/argumentacao_hospedeiro_v1.png" width="100%">
   <ul>
