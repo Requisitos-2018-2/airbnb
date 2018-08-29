@@ -34,7 +34,6 @@
   <h3>Central de Resoluções</h3>
   <img src="img/resolutions_v1.png" width="100%">
 
->>>>>>> b2566bbc184f11bb9c3a760ebb236a646b3bcefb
 </div>
 
 
