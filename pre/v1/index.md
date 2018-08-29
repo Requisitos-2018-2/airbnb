@@ -23,7 +23,7 @@
   <h3>Monetário</h3>
   <img src="img/money_v1.png" width="100%">
 
-  <h3>Boa Experiência</h3>
+  <h3>Boas Experiências</h3>
   <img src="img/boa_experiencia_v1.png" width="100%">
 
   <img src="img/money_v1.png" width="600px">
