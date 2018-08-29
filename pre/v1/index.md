@@ -15,10 +15,10 @@
   <img src="../ultima_versao/relacoes_dos_usuarios_v1.png" width="100%">
 
   <h3>Hospede</h3>
-  <img src="../ultima_versao/hospede_v1.png" width="100%">
+  <img src="../ultima_versao/hospede_v3.png" width="100%">
 
   <h3>Anfitrião</h3>
-  <img src="../ultima_versao/anfitriao_v1.png" width="100%">
+  <img src="../ultima_versao/anfitriao_v3.png" width="100%">
 
   <h3>Monetário</h3>
   <img src="../ultima_versao/money_v1.png" width="100%">
@@ -55,7 +55,7 @@
   <img src="../ultima_versao/decisao_termo.png" width="100%">
 
   <h3>Hospedeiro que já trabalha na área</h3>
-  <img src="../ultima_versao/argumentacao_hospedeiro_v1.png" width="100%">
+  <img src="../ultima_versao/argumentacao_anfitriao_v1.png" width="100%">
   <ul>
     <li>
       <b>p0</b> - Usuário possui bom fluxo de clientes e não busca por novos clientes
