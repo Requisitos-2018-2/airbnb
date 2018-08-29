@@ -6,28 +6,28 @@
 <div style="background-color:white;">
 <!-- image in 100% pls  -->
   <h3>Visão Geral</h3>
-  <img src="img/a_visao_geral_v1.png" width="100%">
+  <img src="../ultima_versao/a_visao_geral_v1.png" width="100%">
 
   <h3>Questões Regionais</h3>
-  <img src="img/relacoes_regionais_v1.png" width="100%">
+  <img src="../ultima_versao/relacoes_regionais_v1.png" width="100%">
 
   <h3>Relações Entre Usuários</h3>
-  <img src="img/relacoes_dos_usuarios_v1.png" width="100%">
+  <img src="../ultima_versao/relacoes_dos_usuarios_v1.png" width="100%">
 
   <h3>Hospede</h3>
-  <img src="img/hospede_v1.png" width="100%">
+  <img src="../ultima_versao/hospede_v1.png" width="100%">
 
   <h3>Anfitrião</h3>
-  <img src="img/anfitriao_v1.png" width="100%">
+  <img src="../ultima_versao/anfitriao_v1.png" width="100%">
 
   <h3>Monetário</h3>
-  <img src="img/money_v1.png" width="100%">
+  <img src="../ultima_versao/money_v1.png" width="100%">
 
   <h3>Boas Experiências</h3>
-  <img src="img/boa_experiencia_v1.png" width="100%">
+  <img src="../ultima_versao/boa_experiencia_v1.png" width="100%">
 
   <h3>Central de Resoluções</h3>
-  <img src="img/resolutions_v1.png" width="100%">
+  <img src="../ultima_versao/resolutions_v1.png" width="100%">
 
 </div>
 
@@ -36,7 +36,7 @@
 
 <div style="background-color:white;">
   <h3>Escolha de ferramenta de desenho</h3>
-  <img src="img/decisão_ferramenta_richpic_v1.png" width="100%">
+  <img src="../ultima_versao/decisão_ferramenta_richpic_v1.png" width="100%">
   <ul>
     <li>
       <b>p0</b> - É necessário usar uma ferramenta de desenho unificada para haver padrão de linguagem nos diagramas de rich picture.
@@ -51,10 +51,11 @@
       <b>p3</b> - draw io pode ser usado apartir do browser e  tem compatibilidade com o google drive.
     </li>
   </ul>
-  <h3>Preocupação do anfitrião</h3>
-  <img src="img/decisao_termo.png" width="100%">
+  <h3>Decisão de Termo</h3>
+  <img src="../ultima_versao/decisao_termo.png" width="100%">
+
   <h3>Hospedeiro que já trabalha na área</h3>
-  <img src="img/argumentacao_hospedeiro_v1.png" width="100%">
+  <img src="../ultima_versao/argumentacao_hospedeiro_v1.png" width="100%">
   <ul>
     <li>
       <b>p0</b> - Usuário possui bom fluxo de clientes e não busca por novos clientes
@@ -70,7 +71,7 @@
     </li>
   </ul>
     <h3>Preocupação do anfitrião</h3>
-  <img src="img/argumentacaoAnfitriao_v1.png" width="100%">
+  <img src="../ultima_versao/argumentacaoAnfitriao_v1.png" width="100%">
   <ul>
     <li>
       <b>p0</b> - O anfitrião se preocupa apenas com o dinheiro que ele vai ganhar
