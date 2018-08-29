@@ -28,6 +28,9 @@
   
   <h3>Central de Resoluções</h3>
   <img src="img/resolutions_v1.png" width="100%">
+
+  <h3>Segurança</h3>
+  <img src="img/security_v1.png" width="100%">
 </div>
 
 
