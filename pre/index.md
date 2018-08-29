@@ -23,35 +23,35 @@ Rich Picture é uma ferramenta para expressar ideias com o objetivo de resolver 
 
 <img src="ultima_versao/anfitriao_v3.png" class="responsive-img">
 
-#### Restaurante 1.0 
+#### Restaurante 1.0
 
 <img src="ultima_versao/restaurante_v1.png" class="responsive-img">
 
-#### Pesquisa de Experiência 1.0 
+#### Pesquisa de Experiência 1.0
 
 <img src="ultima_versao/experiencia_v1.png" class="responsive-img">
 
-#### Questões Regionais 1.0 
+#### Questões Regionais 1.0
 
 <img src="ultima_versao/relacoes_regionais_v1.png" class="responsive-img">
 
-#### Relações Entre Usuários 1.0 
+#### Relações Entre Usuários 1.0
 
 <img src="ultima_versao/relacoes_dos_usuarios_v1.png" class="responsive-img">
 
-#### Monetário 1.0 
+#### Monetário 1.0
 
 <img src="ultima_versao/money_v1.png" class="responsive-img">
 
-#### Boas Experiências 1.0 
+#### Boas Experiências 1.0
 
 <img src="ultima_versao/boa_experiencia_v1.png" class="responsive-img">
 
-#### Central de Resoluções 1.0 
+#### Central de Resoluções 1.0
 
 <img src="ultima_versao/resolutions_v1.png" class="responsive-img">
 
-#### Segurança 1.0 
+#### Segurança 1.0
 
 <img src="ultima_versao/security_v1.png" class="responsive-img">
 
@@ -131,6 +131,25 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
 
 <img src="ultima_versao/argumentacao_quarto_v0.png" class="responsive-img">
 
+#### Representação do pagamento no Rich Picture monetário
+<img src="ultima_versao/arg_monetario_v0.png" class="responsive-img">
+<ul>
+   <li>
+     <b>p0</b> - Ao se hospedar em uma acomodação o anfitrião recebe o dinheiro do hospede.
+   </li>
+   <li>
+     <b>p1</b> -  O pagamento deve ser representado ligado diretamente ao anfitrião no Rich Picture monetário.
+   </li>
+   <li>
+     <b>p2</b> -  O dinheiro é recebido pelo Airbnb.
+   </li>
+   <li>
+     <b>p3</b> - O dinheiro é repassado pelo Airbnb ao anfitrião.
+   </li>
+   <li>
+     <b>p4</b> - O pagamento deve ser representado ligado ao Airbnb diretamente e posteriormente sendo repassado ao anfitrião.
+   </li>
+ </ul>
 
 <h5><a href="versao_antiga/index">Versões anteriores</a></h5>
 
