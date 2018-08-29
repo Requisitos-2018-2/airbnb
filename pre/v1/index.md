@@ -26,14 +26,14 @@
   <h3>Boas Experiências</h3>
   <img src="img/boa_experiencia_v1.png" width="100%">
 
-  <img src="img/money_v1.png" width="600px">
-
   <h4>Boa Experiência</h4>
-  <img src="img/boa_experiencia_v1.png" width="600px">
-=======
+  <img src="img/boa_experiencia_v1.png" width="100%">
+
   <h3>Central de Resoluções</h3>
   <img src="img/resolutions_v1.png" width="100%">
 
+  <h3>Segurança</h3>
+  <img src="img/security_v1.png" width="100%">
 </div>
 
 
