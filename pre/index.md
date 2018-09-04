@@ -1,3 +1,4 @@
+<div style="background-color:white;">
 # Pré-rastreabilidade
 
 ## Rastreabilidade de requisitos
@@ -161,3 +162,4 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
 
 - SAYÃO, LEITE, Rastreabilidade de Requisitos. PUC Rio, 2005.
 - HOWARD, Andrew Monk. Steve."The Rich Picture: A Tool for Reasoning About Work Context." Interactions.
+</div>
