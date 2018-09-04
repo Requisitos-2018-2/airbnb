@@ -78,6 +78,10 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
     </li>
   </ul>
 
+#### Escolha de Termo
+
+<img src="ultima_versao/decisao_termo.png" class="responsive-img">
+
 #### Anfitrião que já trabalha na área
 
 <img src="ultima_versao/argumentacao_anfitriao_v1.png" class="responsive-img">
