@@ -1,71 +1,102 @@
-<div style="background-color:white;">
 
 # Pré-rastreabilidade
 
 ## Rastreabilidade de requisitos
 
-A rastreabilidade de requisitos é uma técnica utilizada para prover um relacionamento entre os requisitos levantados, a arquitetura do sistema até sua implementação final, possibilitando assim uma compreensão adequada do contexto no qual o software foi construído. A rastreabilidade é identificada como um fator de qualidade, sendo essa uma das características não funcionais do sistema. A rastrebilidade deve possibilitar acompanhar e relatar a vida de um requisito.
+<div style="background-color:white;">
 
-Esse módulo tem como foco a etapa de **Pré-Rastreabilidade**, que é definida como o estudo do universo de onde são levantados os requisitos.
+  A rastreabilidade de requisitos é uma técnica utilizada para prover um relacionamento entre os requisitos levantados, a arquitetura do sistema até sua implementação final, possibilitando assim uma compreensão adequada do contexto no qual o software foi construído. A rastreabilidade é identificada como um fator de qualidade, sendo essa uma das características não funcionais do sistema. A rastrebilidade deve possibilitar acompanhar e relatar a vida de um requisito.
+
+  Esse módulo tem como foco a etapa de **Pré-Rastreabilidade**, que é definida como o estudo do universo de onde são levantados os requisitos.
+</div>
 
 ## Rich Picture
 
-Rich Picture é uma ferramenta para expressar ideias com o objetivo de resolver um problema, geralmente construídos durante uma entrevista com o cliente impactado pela solução. Ao desenvolver um Rich Picture o engenheiro de requisitos conhece melhor os problemas do cliente, e de forma iterativa refina o processo no qual sua aplicação trabalhará.
+<div style="background-color:white;">
+  Rich Picture é uma ferramenta para expressar ideias com o objetivo de resolver um problema, geralmente construídos durante uma entrevista com o cliente impactado pela solução. Ao desenvolver um Rich Picture o engenheiro de requisitos conhece melhor os problemas do cliente, e de forma iterativa refina o processo no qual sua aplicação trabalhará.
+</div>
 
 
 #### Visão Geral 1.0
 
-<img src="ultima_versao/a_visao_geral_v1.png" class="responsive-img">
+<div style="background-color:white;">
+  <img src="ultima_versao/a_visao_geral_v1.png" class="responsive-img">
+</div>
 
 #### Hóspede 3.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/hospede_v3.png" class="responsive-img">
+</div>
 
 #### Anfitrião 3.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/anfitriao_v3.png" class="responsive-img">
+</div>
 
 #### Restaurante 1.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/restaurante_v1.png" class="responsive-img">
+</div>
 
 #### Pesquisa de Experiência 1.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/experiencia_v1.png" class="responsive-img">
+</div>
 
 #### Questões Regionais 1.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/relacoes_regionais_v1.png" class="responsive-img">
+</div>
 
 #### Relações Entre Usuários 1.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/relacoes_dos_usuarios_v1.png" class="responsive-img">
+</div>
 
 #### Monetário 1.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/money_v1.png" class="responsive-img">
+</div>
 
 #### Boas Experiências 1.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/boa_experiencia_v1.png" class="responsive-img">
+</div>
 
 #### Central de Resoluções 1.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/resolutions_v1.png" class="responsive-img">
+</div>
 
 #### Segurança 1.0
 
+<div style="background-color:white;">
 <img src="ultima_versao/security_v1.png" class="responsive-img">
+</div>
 
 ## Argumentação
 
+<div style="background-color:white;">
 O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneiras de modelar e racionar sobre os requisitos discutidos durante uma reunião com os stakeholders, com o objetivo de verificar a validação dos artefatos da solução. O ACE disponibiliza uma vocabulário para representar as informações e decisões levantadas durante a discussão.
+</div>
 
 #### Escolha de ferramenta de desenho
 
+<div style="background-color:white;">
 <img src="ultima_versao/decisão_ferramenta_richpic_v1.png" class="responsive-img">
+</div>
 
-<ul>
+<div style="background-color:white;">
+  <ul>
     <li>
       <b>p0</b> - É necessário usar uma ferramenta de desenho unificada para haver padrão de linguagem nos diagramas de rich picture.
     </li>
@@ -79,16 +110,22 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
       <b>p3</b> - draw io pode ser usado apartir do browser e  tem compatibilidade com o google drive.
     </li>
   </ul>
+</div>
 
 #### Escolha de Termo
 
+<div style="background-color:white;">
 <img src="ultima_versao/decisao_termo.png" class="responsive-img">
+</div>
 
 #### Anfitrião que já trabalha na área
 
+<div style="background-color:white;">
 <img src="ultima_versao/argumentacao_anfitriao_v1.png" class="responsive-img">
+</div>
 
-<ul>
+<div style="background-color:white;">
+  <ul>
     <li>
       <b>p0</b> - Usuário possui bom fluxo de clientes e não busca por novos clientes
     </li>
@@ -102,15 +139,19 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
       <b>p3</b> - Através do Airbnb é possível buscar novos clientes a um investimento muito baixo.
     </li>
   </ul>
+</div>
 
 #### Preocupação do anfitrião
-
+<div style="background-color:white;">
 <img src="ultima_versao/preocupacao_v1.png" class="responsive-img">
+</div>
 
 #### Vale a pena pagar a taxa de 3% do anfitrião
-
+<div style="background-color:white;">
 <img src="ultima_versao/arg_vale_a_pena.png" class="responsive-img">
+</div>
 
+<div style="background-color:white;">
  <ul>
     <li>
       <b>p0</b> - Alugar a acomodação ou o serviço pelo aplicativo, pagando suas taxas, porque traz uma maior segurança para o consumidor e o prestador de servico
@@ -132,13 +173,16 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
       alcancar outras pessoas com o aplicativo AIRBNB
     </li>
   </ul>
+</div>
 
 #### Alugar um quarto pode ser um incômodo
-
-<img src="ultima_versao/argumentacao_quarto_v0.png" class="responsive-img">
+<div style="background-color:white;">
+  <img src="ultima_versao/argumentacao_quarto_v0.png" class="responsive-img">
+</div>
 
 #### Representação do pagamento no Rich Picture monetário
-<img src="ultima_versao/arg_monetario_v0.png" class="responsive-img">
+<div style="background-color:white;">
+  <img src="ultima_versao/arg_monetario_v0.png" class="responsive-img">
 <ul>
    <li>
      <b>p0</b> - Ao se hospedar em uma acomodação o anfitrião recebe o dinheiro do hospede.
@@ -156,11 +200,12 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
      <b>p4</b> - O pagamento deve ser representado ligado ao Airbnb diretamente e posteriormente sendo repassado ao anfitrião.
    </li>
  </ul>
-
 <h5><a href="versao_antiga/index">Versões anteriores</a></h5>
+</div>
 
 ## Referências
 
-- SAYÃO, LEITE, Rastreabilidade de Requisitos. PUC Rio, 2005.
-- HOWARD, Andrew Monk. Steve."The Rich Picture: A Tool for Reasoning About Work Context." Interactions.
+<div style="background-color:white;">
+  - SAYÃO, LEITE, Rastreabilidade de Requisitos. PUC Rio, 2005.
+  - HOWARD, Andrew Monk. Steve."The Rich Picture: A Tool for Reasoning About Work Context." Interactions.
 </div>
