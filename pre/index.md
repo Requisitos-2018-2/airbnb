@@ -3,19 +3,14 @@
 
 ## Rastreabilidade de requisitos
 
-<div style="background-color:white;">
 
   A rastreabilidade de requisitos é uma técnica utilizada para prover um relacionamento entre os requisitos levantados, a arquitetura do sistema até sua implementação final, possibilitando assim uma compreensão adequada do contexto no qual o software foi construído. A rastreabilidade é identificada como um fator de qualidade, sendo essa uma das características não funcionais do sistema. A rastrebilidade deve possibilitar acompanhar e relatar a vida de um requisito.
 
   Esse módulo tem como foco a etapa de **Pré-Rastreabilidade**, que é definida como o estudo do universo de onde são levantados os requisitos.
-</div>
 
 ## Rich Picture
 
-<div style="background-color:white;">
   Rich Picture é uma ferramenta para expressar ideias com o objetivo de resolver um problema, geralmente construídos durante uma entrevista com o cliente impactado pela solução. Ao desenvolver um Rich Picture o engenheiro de requisitos conhece melhor os problemas do cliente, e de forma iterativa refina o processo no qual sua aplicação trabalhará.
-</div>
-
 
 #### Visão Geral 1.0
 
@@ -200,12 +195,15 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
      <b>p4</b> - O pagamento deve ser representado ligado ao Airbnb diretamente e posteriormente sendo repassado ao anfitrião.
    </li>
  </ul>
-<h5><a href="versao_antiga/index">Versões anteriores</a></h5>
 </div>
+
+<h4><a href="versao_antiga/index">Versões anteriores</a></h4>
 
 ## Referências
 
-<div style="background-color:white;">
-  - SAYÃO, LEITE, Rastreabilidade de Requisitos. PUC Rio, 2005.
-  - HOWARD, Andrew Monk. Steve."The Rich Picture: A Tool for Reasoning About Work Context." Interactions.
+<div>
+    <ul>
+      <li>SAYÃO, LEITE, Rastreabilidade de Requisitos. PUC Rio, 2005.</li>
+      <li>HOWARD, Andrew Monk. Steve."The Rich Picture: A Tool for Reasoning About Work Context." Interactions.</li>
+    </ul>
 </div>
