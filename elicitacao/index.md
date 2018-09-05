@@ -18,6 +18,10 @@ Conclusão: A partir da primeira história foi possível elicitar um requisíto 
 
  O brainstorming também foi usado nas reuniões para levantar os requisitos do airbnb. Exemplo de Brainstorm da equipe
 
+Exemplo de Brainstorm utilizado pela equipe: 
+
+<img src="images/brainstorm.png" width="100%">
+
 ## **Introspecção**
 
 A introspecção é uma é uma técnica muito utilizada na etapa de elicitação. Ela consiste em entender as funcionalidades importantes de um sistema, de forma que ele funcione.
