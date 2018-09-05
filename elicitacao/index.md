@@ -32,5 +32,12 @@ A equipe utilizou a introspecção na etapa de levantamento de requisitos. Os in
 Resultado: | Número | Requisito                                                                              |
 |--------|----------------------------------------------------------------------------------------|
 | 1      | O usuário deve ser capaz de cancelar uma reserva.	                                             |
-| 2      | O anfitrião deve ser capaz de cancelar uma reserva.
-|                       
+| 2      | O anfitrião deve ser capaz de cancelar uma reserva.												 | 
+| 3      | O anfitrião deve ser capaz de inserir fotos da sua acomodação									 |
+| 4      | A Airbnb deve promover anúncios de acomodações, restaurantes e esperiências						 |
+| 5      | A Airbnb deve oferecer segurança aos usuários													 |
+| 6      | O anfitrião deve definir a localização da acomodação											     |
+| 7      | O anfitrião deve pagar taxas para a Airbnb  														 |
+| 8      | O hóspede deve poder realizar o pagamento com PayPal												 |
+| 9      | O hóspede deve poder realizar o pagamento com depósito bancário									 |
+| 10     | A Airbnb deve verificar antecedentes dos usuários												 |
