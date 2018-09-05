@@ -197,6 +197,31 @@ O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneir
  </ul>
 </div>
 
+### Usuário deve ou não se cadastrar?
+<div style="background-color:white;">
+  <img src="ultima_versao/ArugmentacaoJp2.png" class="responsive-img">
+<ul>
+   <li>
+     <b>p0</b> - Argumento 1 - Para realizar uma reserva o usuário necessita estar cadastrado.
+   </li>
+   <li>
+     <b>p1</b> -  Argumento 2 - O usuário precisa apenas ativar sua localização e passar dados para realizar a reserva.
+   </li>
+   <li>
+     <b>p2</b> -  Argumento 3 - O usuário poderá favoritar e selecionar suas hospedagens favoritas
+   </li>
+   <li>
+     <b>p3</b> - Argumento 4 - O usuário deverá estar logado para poder  favoritar e selecionar suas hospedagens favoritas para que seus dados sejam salvos
+   </li>
+   <li>
+     <b>p4</b> - Argumento 5 - O usuário cadastrado terá funcionalidades a mais do que aqueles não cadastrados
+   </li>  
+    <li>
+     <b>p5</b> - Argumento 6 - O usuário cadastrado poderá realizar reservas com segurança proporcionada pelo app.
+   </li>
+ </ul>
+</div>
+
 <h4><a href="versao_antiga/index">Versões anteriores</a></h4>
 
 ## Referências
