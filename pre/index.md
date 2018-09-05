@@ -54,10 +54,10 @@
 <img src="ultima_versao/relacoes_dos_usuarios_v1.png" class="responsive-img">
 </div>
 
-#### Monetário 1.0
+#### Monetário 2.0
 
 <div style="background-color:white;">
-<img src="ultima_versao/money_v1.png" class="responsive-img">
+<img src="ultima_versao/richPictureJP.png" class="responsive-img">
 </div>
 
 #### Boas Experiências 1.0
