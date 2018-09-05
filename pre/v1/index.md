@@ -21,7 +21,7 @@
   <img src="../ultima_versao/anfitriao_v3.png" width="100%">
 
   <h3>Monetário</h3>
-  <img src="../ultima_versao/money_v1.png" width="100%">
+  <img src="../ultima_versao/richPictureJP.png" width="100%">
 
   <h3>Boas Experiências</h3>
   <img src="../ultima_versao/boa_experiencia_v1.png" width="100%">
