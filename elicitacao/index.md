@@ -6,9 +6,17 @@ O Storytelling foi utilizado na elicitação de requisitos de maneira a forçar 
 
 História 1
 
-Uma vez ao realizar uma hospedagem no airbnb me deparei com mais de 10 gatos na casa do anfitrião. O que foi péssimo pois eu tenho alergia a gatos e isso não estava especificado na descrição.
+Uma vez devido ao fato de necessitar de uma hospedagem mais barata na cidade de pirenópolis, estava no meu computador e acabei chegando ao airbnb. Selecionei meu destino e a data que gostaria de me hospedar, li as informações da acomodação e mandei as fotos para minha amiga. Quando chegamos ao local a anfitriã foi bastante simpática e nos mostrou a acomodação, porém ficamos muito surpresos ao nos deparar com vários gatos (mais de 10) o que não estava avisado na descrição do anúncio. Foi muito constrangedor pelo motivo de ter alergia aos gatos, o que acabou interferindo na minha experiência. Mesmo com os contratempos e problemas que tivemos gostamos bastante do local, bastante organizado e avaliamos bem a anfitriã (o aplicativo possui uma aba para avaliar quando a hospedagem acaba.
 
-Conclusão: A partir da primeira história foi possível elicitar um requisíto não funcional onde o anfitrião deveria ter uma opção obrigatória onde deveria informar animais de estimação caso tenha.
+
+Resultados storytelling: | Número | Requisito                                                                              |
+|--------|----------------------------------------------------------------------------------------|
+| 1      | O usuário deve ser capaz de selecionar seu destino                                             |
+| 2      | O usuário deve ser capaz de selecionar a data que queira ir 												 | 
+| 3      | O anfitrião deve ser capaz de inserir fotos da sua acomodação									 |
+| 4      | A Airbnb deve promover anúncios de acomodações.						 |
+| 5      | A Airbnb deve oferecer transparência aos usuários														 |
+| 6      | Deixar explicito animais de estimação caso tenha.										     |
 
 
 ## **Brainstorm**
