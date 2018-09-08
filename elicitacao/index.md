@@ -28,7 +28,7 @@ Resultados storytelling: | Número | Requisito                                  
 
 Exemplo de Brainstorm utilizado pela equipe: 
 
-<img src="images/brainstorm.png" width="100%">
+<img src="images/wordcloud_airbnb.png" width="100%">
 
 ## **Introspecção**
 
