@@ -67,3 +67,8 @@ Protótipo de baixa fidelidade da tela home do aplicativo.
 Protótipo de baixa fidelidade da tela que lista as acomodações.
 
 <img src="images/prot-acod.jpg" class="responsive-img" width="100%">
+
+### Detalhe de uma acomodação 
+Protótipo de baixa fidelidade da tela que fornece os detalhes de uma acomodação selecionada. 
+
+<img src="images/prot-detalhe-acod.jpg" class="responsive-img" width="100%">
