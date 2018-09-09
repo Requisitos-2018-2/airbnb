@@ -62,3 +62,8 @@ Resultado: | Número | Requisito                                                
 Protótipo de baixa fidelidade da tela home do aplicativo.
 
 <img src="images/prot-home.jpg" class="responsive-img" width="100%">
+
+### Listagem de acomodações 
+Protótipo de baixa fidelidade da tela que lista as acomodações.
+
+<img src="images/prot-acod.jpg" class="responsive-img" width="100%">
