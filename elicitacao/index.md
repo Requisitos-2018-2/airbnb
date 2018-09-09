@@ -54,3 +54,11 @@ Resultado: | Número | Requisito                                                
 | 8      | O hóspede deve poder realizar o pagamento com PayPal												 |
 | 9      | O hóspede deve poder realizar o pagamento com depósito bancário									 |
 | 10     | A Airbnb deve verificar antecedentes dos usuários												 |
+
+
+## Prototipação
+
+### Página inicial do app
+Protótipo de baixa fidelidade da tela home do aplicativo.
+
+<img src="images/prot-home.jpg" class="responsive-img" width="100%">
