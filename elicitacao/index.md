@@ -72,3 +72,8 @@ Protótipo de baixa fidelidade da tela que lista as acomodações.
 Protótipo de baixa fidelidade da tela que fornece os detalhes de uma acomodação selecionada. 
 
 <img src="images/prot-detalhe-acod.jpg" class="responsive-img" width="100%">
+
+### Listagem de experiências 
+Protótipo de baixa fidelidade da tela que lista as experiências. 
+
+<img src="images/prot-exp.jpg" class="responsive-img" width="100%">
