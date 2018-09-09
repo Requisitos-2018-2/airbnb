@@ -61,19 +61,28 @@ Resultado: | Número | Requisito                                                
 ### Página inicial do app
 Protótipo de baixa fidelidade da tela home do aplicativo.
 
-<img src="images/prot-home.jpg" class="responsive-img" width="100%">
+<img src="images/prot-home.jpg" class="responsive-img" width="50%">
 
 ### Listagem de acomodações 
 Protótipo de baixa fidelidade da tela que lista as acomodações.
 
-<img src="images/prot-acod.jpg" class="responsive-img" width="100%">
+<img src="images/prot-acod.jpg" class="responsive-img" width="50%">
 
 ### Detalhe de uma acomodação 
 Protótipo de baixa fidelidade da tela que fornece os detalhes de uma acomodação selecionada. 
 
-<img src="images/prot-detalhe-acod.jpg" class="responsive-img" width="100%">
+<img src="images/prot-detalhe-acod.jpg" class="responsive-img" width="50%">
 
 ### Listagem de experiências 
 Protótipo de baixa fidelidade da tela que lista as experiências. 
 
-<img src="images/prot-exp.jpg" class="responsive-img" width="100%">
+<img src="images/prot-exp.jpg" class="responsive-img" width="50%">
+
+
+# Priorização
+
+## First things First
+
+Listagem dos requisitos priorizados utilizando a técnica First things First, a lista está ordenada de acordo com a prioridade para realização dos requisitos.
+
+<img src="images/firstthingsfirst.png" class="responsive-img" width="100%">
