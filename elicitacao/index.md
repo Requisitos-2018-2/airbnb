@@ -103,3 +103,9 @@ Protótipo de baixa fidelidade da tela que lista as experiências.
 Listagem dos requisitos priorizados utilizando a técnica First things First, a lista está ordenada de acordo com a prioridade para realização dos requisitos.
 
 <img src="images/firstthingsfirst.png" class="responsive-img" width="100%">
+
+## Moscow
+
+Listagem dos requisitos usando a análise Moscow para priorização de requisitos.
+
+<img src="images/moscow.png" class="responsive-img" width="100%">
