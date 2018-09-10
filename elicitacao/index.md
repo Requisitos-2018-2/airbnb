@@ -121,6 +121,18 @@ Resultado: | Número | Requisito                                                
 
 ## Prototipação
 
+### Visão Genérica Web Site
+Protótipo de baixa fidelidade que expressa a ideia geral do layout do software.
+
+#### Página Inicial
+<img src="images/prot_web_site_home.jpeg" class="responsive-img" width="50%">
+
+#### Página de uma Categoria Selecionada
+<img src="images/prot_web_site_categ.jpeg" class="responsive-img" width="50%">
+
+#### Página de um Serviço Selecionado
+<img src="images/prot_web_site_servico.jpeg" class="responsive-img" width="50%">
+
 ### Página inicial do app
 Protótipo de baixa fidelidade da tela home do aplicativo.
 
