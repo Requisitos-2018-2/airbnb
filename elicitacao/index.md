@@ -36,6 +36,8 @@ A introspecção é uma é uma técnica muito utilizada na etapa de elicitação
 
 A equipe utilizou a introspecção na etapa de levantamento de requisitos. Os integrates fizeram uma atividade que consistia em se colocavam no lugar de um usuário realizando dada funcionalidade. Essa etapa foi feita sem usar o sistema, somente com o que os integrantes se lembravam e conheciam do mesmo. Isso facilitou a elicitação dos requisitos funcionais.
 
+Imaginamos entrando pelo computador no site do airbnb procurando por uma hospedagem no rio de janeiro de um quarto, deve ser possivel se cadastrar para que os dados fiquem seguros e salvos, deve ter uma parte para pesquisar por localização onde vou procurar pela minha hospedagem no Rio de Janeiro. Ao achar uma hospedagem que me agrade deve ter uma parte onde estão as fotos e regras sobre o local, incluindo uma pequena descrição do anfitrião caso tenha. Depois de realizar a reserva escolhendo a data de saida e data de entrada o usuário deve ter a opção de cancelar caso tenha um contratempo, caso contrário ele deve prosseguir para o pagamento, devem ter possibilidades de pagamentos como cartão de crédito, paypal, boleto bancário ou transferência. É importante lembrar que a segurança é um fator muito importante para que o usuário se sinta confortavel.
+
 
 Resultado: | Número | Requisito                                                                              |
 |--------|----------------------------------------------------------------------------------------|
