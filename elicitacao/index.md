@@ -141,6 +141,13 @@ Protótipo de baixa fidelidade da tela que lista as experiências.
 
 <img src="images/prot-exp.jpg" class="responsive-img" width="50%">
 
+## Análise de protocolo
+
+Análise de protocolo é uma forma de levantamento de requisitos no qual o analista analisa as partes interessadas quando estão envolvidas em algum tipo de tarefas.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LXiydo15qCw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
 # Priorização
 
