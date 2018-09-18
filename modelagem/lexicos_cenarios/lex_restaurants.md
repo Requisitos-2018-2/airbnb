@@ -30,7 +30,7 @@ Objeto
 Objeto
 
 ***
-## Anfitriões recomendam <a name="RECOMENDACAO_ANFITRIAO")</a>
+## Anfitriões recomendam <a name="RECOMENDACAO_ANFITRIAO"></a>
 
 #### Noção:
 - Recomendações dos [anfitriões](#ANFITRIAO) sobre determinado restaurante
@@ -43,7 +43,7 @@ Objeto
 Objeto
 
 ***
-## Restaurantes parecidos por perto <a name="RESTAURANTES_PARECIDOS")</a>
+## Restaurantes parecidos por perto <a name="RESTAURANTES_PARECIDOS"></a>
 
 #### Noção:
 - Restaurantes parecidos e com a localização relativamente parecida com a opção escolhida pelo [usuário](lex_geral.md#USUARIO)
@@ -56,7 +56,7 @@ Objeto
 Objeto
 
 ***
-## Faixa de preço <a name="FAIXA_PREÇO")</a>
+## Faixa de preço <a name="FAIXA_PREÇO"></a>
 
 #### Noção:
 - faixa de preço calculada baseada nos itens disponiveis pelos restaurantes 
@@ -67,6 +67,34 @@ Objeto
 
 #### Classificação:
 Objeto
+
+***
+## Salvar restaurante <a name="RESTAURANTES_PARECIDOS"></a>
+
+#### Noção:
+- Restaurantes parecidos e com a localização relativamente parecida com a opção escolhida pelo [usuário](lex_geral.md#USUARIO)
+
+#### Impacto
+- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com o seu clique
+- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com a sua localização
+
+#### Classificação:
+Objeto
+
+***
+## Faixa de preço <a name="FAIXA_PREÇO"></a>
+
+#### Noção:
+- faixa de preço calculada baseada nos itens disponiveis pelos restaurantes 
+
+#### Impacto
+- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com o seu clique
+- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com a sua localização
+
+#### Classificação:
+Objeto
+
+
 
 
 
