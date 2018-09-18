@@ -2,11 +2,14 @@
 
 ***
 ## Airbnb <a name="AIRBNB"></a>
+
 #### Noção:
 - Aplicativo que promove a intermediação entre prestadores de serviço [Anfitrião](#ANFITRIAO) e consumidores de serviço [Hospede](lex_geral.md#HOSPEDE).
+
 #### Impacto
 - [Hospede](lex_geral.md#HOSPEDE) podem contratar serviços.
 - [Anfitrião](#ANFITRIAO) podem ofertar e vender serviços.
+
 #### Classificação:
 Objeto
 
@@ -24,13 +27,13 @@ Objeto
 #### Impacto
 - O usuário podera utilizar so serviços do [Airbnb](lex_geral.md#AIRBNB)
 - O usuário poderá se cadastrar no [Airbnb](lex_geral.md#AIRBNB)
-- O usuário pode realizar [Anúncio] para divulgar a sua [acomodação](lex_geral.md#ACOMODACAO) no airbnb
+- O usuário pode realizar [Anúncio](lex_geral.md#ANUNCIO) para divulgar a sua [acomodação](lex_geral.md#ACOMODACAO) no airbnb
 
 #### Classificação:
 Objeto
 
 ***
-## Acomodação <a name=ACOMODACAO></a>
+## Acomodação <a name="ACOMODACAO"></a>
 
 #### Sinônimos:
 - aposentos
@@ -41,17 +44,18 @@ Objeto
 - Local que o [Anfitrião](lex_geral.md#ANFITRIAO) disponibiliza para locação
 
 #### Impacto
-- [Anfitrião](lex_geral.md#ANFITRIAO) disponibiliza através de [Anúncio] para que os [hóspedes](lex_geral.md#HOSPEDE) possa alugar.
+- [Anfitrião](lex_geral.md#ANFITRIAO) disponibiliza através de [Anúncio](lex_geral.md#ANUNCIO) para que os [hóspedes](lex_geral.md#HOSPEDE) possa alugar.
 
 ####Classificação:
 Objeto
 
 ***
+
 ##Anúncio <a name=ANUNCIO"></a>
 
 #### Sinônimos:
--propaganda
--publicidade
+- propaganda
+- publicidade
 
 #### Noção:
 - Notícia ou aviso por meio do qual se divulga algo ao público.
@@ -76,6 +80,7 @@ Objeto
 
 #### Impacto
 - [Hospedes](lex_geral.md#HOSPEDE) poderão usufruir do serviço, após realizar o [Pagamento](lex_geral.md#PAGAMENTO).
+
 #### Classificação:
 Objeto
 
