@@ -1,5 +1,19 @@
 ***
-## Restaurantes Favoritos <a name="USUARIO"></a>
+## Restaurantes <a name="RESTAURANTES"></a>
+
+#### Noção:
+- Local de comer que pode ser reservado pelo aplicativo[airbnb](lex_geral.md#AIRBNB)
+
+- Pode ser diferenciado em : [Hospede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
+
+#### Impacto
+- Descubra os melhores restaurantes perto de você. Leia dicas e [avaliações](lex_geral.md#AVALIACAO) de moradores locais e descubra os melhores lugares para comer.
+
+#### Classificação:
+Objeto
+
+***
+## Restaurantes Favoritos <a name="RESTAURANTES_FAVORITOS"></a>
 #### Sinônimos:
 - preferido
 - interesses
@@ -27,3 +41,33 @@ Objeto
 
 #### Classificação:
 Objeto
+
+***
+## Restaurantes parecidos por perto <a name="RESTAURANTES_PARECIDOS")</a>
+
+#### Noção:
+- Restaurantes parecidos e com a localização relativamente parecida com a opção escolhida pelo [usuário](lex_geral.md#USUARIO)
+
+#### Impacto
+- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com o seu clique
+- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com a sua localização
+
+#### Classificação:
+Objeto
+
+***
+## Faixa de preço <a name="FAIXA_PREÇO")</a>
+
+#### Noção:
+- faixa de preço calculada baseada nos itens disponiveis pelos restaurantes 
+
+#### Impacto
+- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com o seu clique
+- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com a sua localização
+
+#### Classificação:
+Objeto
+
+
+
+
