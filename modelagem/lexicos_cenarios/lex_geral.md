@@ -25,7 +25,7 @@ Objeto
 - Pode ser diferenciado em : [Hospede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
 
 #### Impacto
-- O usuário podera utilizar so serviços do [Airbnb](lex_geral.md#AIRBNB)
+- O usuário podera utilizar os [serviços](lex_geral.md#SERVICO) do [Airbnb](lex_geral.md#AIRBNB)
 - O usuário poderá se cadastrar no [Airbnb](lex_geral.md#AIRBNB)
 - O usuário pode realizar [Anúncio](lex_geral.md#ANUNCIO) para divulgar a sua [acomodação](lex_geral.md#ACOMODACAO) no airbnb
 
@@ -50,7 +50,6 @@ Objeto
 Objeto
 
 ***
-
 ##Anúncio <a name=ANUNCIO"></a>
 
 #### Sinônimos:
@@ -67,11 +66,11 @@ Objeto
 #### Classificação:
 Objeto
 
-
 ***
 ## Anfitrião <a name="ANFITRIAO"></a>
 #### Sinônimos:
 - host
+- dono da casa
 
 #### Noção:
 - Um usuário que anuncia algum [Serviço](lex_geral.md#SERVICO) atravez do [Airbnb](lex_geral.md#AIRBNB).
@@ -88,6 +87,7 @@ Objeto
 ## Hospede <a name="HOSPEDE"></a>
 #### Sinônimos:
 - guest
+- visitas
 
 #### Noção:
 - Um usuário que contrata um anuncia algum [Serviço](lex_geral.md#SERVICO) oferecido por um [Anfitriao](lex_geral.md#ANFITRIAO).
@@ -103,6 +103,8 @@ Objeto
 ## Serviço <a name="SERVICO"></a>
 #### Sinônimos:
 - service
+- emprego
+- função
 
 #### Noção:
 - Atividade oferecida por um [Anfitriao](lex_geral.md#ANFITRIAO).
