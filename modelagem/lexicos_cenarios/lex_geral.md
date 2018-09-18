@@ -31,18 +31,19 @@ Objeto
 
 ***
 ## Acomodação <a name=ACOMODACAO></a>
-### Sinônimos:
+
+#### Sinônimos:
 - aposentos
 - local residencial
 
-## Noção:
+#### Noção:
 - Divisão, compartimento, cômodo  onde as pessoas se instalam, moram, se hospedam.
 - Local que o [Anfitrião](lex_geral.md#ANFITRIAO) disponibiliza para locação
 
-## Impacto
+#### Impacto
 - [Anfitrião](lex_geral.md#ANFITRIAO) disponibiliza através de [Anúncio] para que os [hóspedes](lex_geral.md#HOSPEDE) possa alugar.
 
-##Classificação:
+####Classificação:
 Objeto
 
 ***
