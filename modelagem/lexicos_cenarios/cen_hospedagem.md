@@ -87,6 +87,8 @@ Se a acomodação não possuir a característica reserva instantânea, o usuári
 #### Restrições:
  A acomodação deve estar disponível nas datas desejadas.<br>
  Há limites de quantidade de hóspedes por acomodaçao, portanto a quantidade de hóspedes deve estar nos limites da acomodação.
+#### Pós condição:
+O usuário possui uma [reserva](lex_hospedagem.md#RESERVA) em uma [acomodação](lex_hospedagem.md#ACOMODACAO).
 ***
 ## Cadastrar uma acomodação<a name="CADASTRAR-ACOMODACAO"></a>
 #### Objetivo:
