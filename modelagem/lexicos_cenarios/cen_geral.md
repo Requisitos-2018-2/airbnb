@@ -11,10 +11,10 @@ Computador ou [smartphone](lex_geral.md#SMARTPHONE), acesso à [internet](lex_ge
 #### Pré Condição:
 Não estar logado no [Airbnb](lex_geral.md#AIRBNB).
 #### Episódios:
-[Usuário](lex_geral.md#USUARIO) entra na aplicação.</br>
-Se [Usuário](lex_geral.md#USUARIO) seleciona "Entrar com facebook" ele é direcionado à uma página para que insira email e senha do facebook.</br>
-Se [Usuário](lex_geral.md#USUARIO) seleciona "Entrar com google" ele é direcionado à uma página para que insira email e senha de sua conta google.</br>
-Se tiver sucesso, [Usuário](lex_geral.md#USUARIO) é logado.</br>
+[Usuário](lex_geral.md#USUARIO) entra na aplicação.<br>
+Se [Usuário](lex_geral.md#USUARIO) seleciona "Entrar com facebook" ele é direcionado à uma página para que insira email e senha do facebook.<br>
+Se [Usuário](lex_geral.md#USUARIO) seleciona "Entrar com google" ele é direcionado à uma página para que insira email e senha de sua conta google.<br>
+Se tiver sucesso, [Usuário](lex_geral.md#USUARIO) é logado.<br>
 #### Restrições:
 [Usuário](lex_geral.md#USUARIO) deve ter cadastro na aplicação.
 #### Pós condição:

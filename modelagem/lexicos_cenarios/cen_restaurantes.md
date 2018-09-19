@@ -84,8 +84,8 @@ Selecionar horário da reserva de [restaurante](lex_restaurantes.md#RESTAURANTE)
 #### Exceção:
 Não estar conectado à [internet](lex_geral.md#INTERNET)
 Não pussir um [smartphone](lex_geral.md#SMARTPHONE)
-***
 
+***
 ## Revisar reserva<a name="REVISAR-RESERVA"></a>
 #### Objetivo:
 Confirmar o [horário](lex_restaurantes.md#HORARIO), local e quantidade de [hóspedes](lex_geral.md#HOSPEDE) da reserva de um [restaurante](lex_restaurantes.md#RESTAURANTE) através do aplicativo [Airbnb](lex_geral.md#AIRBNB)
@@ -168,7 +168,6 @@ Não estar conectado à [internet](lex_geral.md#INTERNET)
 Não pussir um [smartphone](lex_geral.md#SMARTPHONE)
 
 ***
-
 ## Registrar restaurante<a name="REGISTRAR-RESTAURANTE"></a>
 #### Objetivo:
 Registrar um restaurante no [Airbnb](lex_geral.md#RESTAURANTE)
@@ -177,7 +176,7 @@ Registrar um restaurante no [Airbnb](lex_geral.md#RESTAURANTE)
 **Local** - Local com acesso a [internet](lex_geral.md#INTERNET)
 **Tempo** - Qualquer horário
 **Pré-condição** - Possuir um [smartphone](lex_geral.md#SMARTPHONE) ou computador conectado à [internet](lex_geral.md#INTERNET) 
-**Pós-condição** - Pedido de inclusão enviado para equipe do [Airbnb](lex_geral.md#AIRBNB) 
+**Pós-condição** - Pedido de inclusão enviado para equipe do [Airbnb](lex_geral.md#AIRBNB) e [Resy](lex_restaurantes.md#RESY) 
 #### Atores:
 [Responsável do restaurante](lex_restaurantes.md)
 #### Recursos:
@@ -192,5 +191,5 @@ Registrar um restaurante no [Airbnb](lex_geral.md#RESTAURANTE)
 #### Exceção:
 Não estar conectado à [internet](lex_geral.md#INTERNET)
 Não pussir um [smartphone](lex_geral.md#SMARTPHONE)
-***
 
+***
