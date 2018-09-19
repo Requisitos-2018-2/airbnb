@@ -103,3 +103,13 @@ Objeto
 - O usuário [anfitrião](lex_geral.md#ANFITRIAO) pode definir o tipo de reserva como sendo instantânea ao [cadastrar sua acomodação](cen_hospedagem.md#CADASTRAR-ACOMODACAO).
 #### Classificação:
 Estado
+***
+## Reserva <a name="RESERVA"></a>
+#### Sinônimos:
+- Booking
+#### Noção:
+Vínculo entre o [hóspede](lex_geral.md#HOSPEDE) e o [anfitriao](lex_geral.md#ANFITRIAO) que garante acesso a uma [acomodação](#ACOMODACAO) nas datas definidas ao [efetuar uma reserva](cen_hospedagem.md#EFETUAR-RESERVA).
+#### Impacto:
+- O usuário [hóspede](lex_geral.md#HOSPEDE) [efetua uma reserva](cen_hospedagem.md#EFETUAR-RESERVA).
+#### Classificação:
+Objeto
