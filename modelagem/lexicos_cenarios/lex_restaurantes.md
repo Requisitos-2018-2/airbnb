@@ -9,7 +9,7 @@
 
 #### Impacto
 - Restaurantes podem ser [buscados](lex_geral.md#BUSCA) através do aplicativo [Airbnb](lex_geral.md#AIRBNB)
-- Restaurantes podem ser [reservados](lex_restaurantes.md#RESERVA)
+- Restaurantes podem ser [reservados](lex_restaurantes.md#RESERVAR)
 - Restaurantes podem ser [avaliados](lex_geral.md#AVALIAR)
 
 #### Classificação:
