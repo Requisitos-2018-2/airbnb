@@ -37,3 +37,21 @@ Computador ou [smartphone](lex_geral.md#SMARTPHONE), acesso à [internet](lex_ge
 [Usuário](lex_geral.md#USUARIO) deve ter cadastro na aplicação.
 #### Pós condição:
 [Usuário](lex_geral.md#USUARIO) recebe email com intruções para realizar a redefinição de senha.
+
+***
+## Fazer logout <a name="LOGOUT"></a>
+#### Objetivo:
+Sair do [Airbnb](lex_geral.md#AIRBNB).
+#### Contexto:
+[Usuário](lex_geral.md#USUARIO) está logado no [Airbnb](lex_geral.md#AIRBNB), mas deseja sair.
+#### Atores: [usuário hospede](lex_geral.md#HOSPEDE), [usuário visitante](lex_geral.md#VISITANTE) ou [usuário anfitrião](lex_geral.md#ANFITRIAO)
+#### Recursos:
+Computador ou [smartphone](lex_geral.md#SMARTPHONE), acesso à [internet](lex_geral.md#INTERNET), navegador web.
+#### Pré Condição:
+[Usuário](lex_geral.md#USUARIO) esta logado no [Airbnb](lex_geral.md#AIRBNB).
+#### Episódios:
+[Usuário](lex_geral.md#USUARIO) clica em opção de sair.
+#### Restrições:
+[Usuário](lex_geral.md#USUARIO) deve estar logado.
+#### Pós condição:
+[Usuário](lex_geral.md#USUARIO) não está mais logado no [Airbnb](lex_geral.md#AIRBNB).
