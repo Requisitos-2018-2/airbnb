@@ -1,4 +1,4 @@
-<h1>Modelagem</h1>  
+<h1>Modelagem</h1>
 
 <div class="row">
   <div class="col s12 m3 center-align">
@@ -35,12 +35,12 @@
 
 <div class="row">
   <div class="col s12 m3 center-align">
-    <a href="modelagem/index" class="module-link">
+    <a href="modelagem/cen_geral" class="module-link">
       <h4 class="promo-heading">
        Cenário Geral
       </h4>
     </a>
-  </div>  
+  </div>
   <div class="col s12 m3 center-align">
     <a href="lexicos_cenarios/cen_restaurantes" class="module-link">
       <h4 class="promo-heading">
@@ -54,7 +54,7 @@
        Cenário Acomodação
       </h4>
     </a>
-  </div>  
+  </div>
   <div class="col s12 m3 center-align">
     <a href="lexicos_cenarios/cen_experiencia" class="module-link">
       <h4 class="promo-heading">
