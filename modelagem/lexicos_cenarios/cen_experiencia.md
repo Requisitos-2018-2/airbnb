@@ -23,18 +23,27 @@ Experiencia é muito cara
 #### Objetivo:
 Usuário [Hospede](lex_geral.md#HOSPEDE) deseja encontrar uma experiencia
 #### Contexto:
-Quem? - [Hospede](lex_geral.md#HOSPEDE)
-Porque? - Usuário deseja buscar uma nova experiência.
+Quem? - [Hospede](lex_geral.md#HOSPEDE)  
+Porque? - Usuário deseja buscar uma nova experiência.   
+
+Ao ser acessada a aplicação do [Airbnb](lex_geral.md#AIRBNB) aparecerá para o usuário um formulário aonde ele poderá
+inserir os [Quesitos de Busca](). Sendo eles [Onde](), [Check-in](), [Checkout]() e [Hóspede]()(quantidade de hópedes)
 #### Atores:
-[Hospede](lex_geral.md#HOSPEDE)
+[Hospede](lex_geral.md#HOSPEDE)  
 [Experiencia](lex_experiencia.md#EXPERIENCIA)
 #### Recursos:
+Ter acessado a aplicação do [Airbnb](lex_geral.md#AIRBNB)
 #### Episódios:
+O usuário insere os [Quesitos de Busca]().  
+É retornado o(s) resultado(s) da busca do usuário.
 #### Restrição:
-Valor da experiêcia deve ser razol para o [Hospede](lex_geral.md#HOSPEDE).
-Experiencia deve ter bons comentários.
+Valor da experiêcia deve ser razoável para o [Hospede](lex_geral.md#HOSPEDE).
 #### Exceção:
-Experiencia não é do interesse.
+Caso não haja nenhuma experiência que atenda os [Quesitos de Busca]() do usuário será
+retornada uma mensagem que sua busca não obteve resultados.  
+
+Caso não seja inserido “Onde” a busca retornará resultados de qualquer lugar que se enquadre
+nos demais [Quesitos de Busca]().
 
 ***
 ## Usuário Contrata Experiência <a name="CONTRATA-EXPERIENCIA"></a>
