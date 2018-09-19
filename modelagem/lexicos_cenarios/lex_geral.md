@@ -219,6 +219,7 @@ Objeto
 Objeto
 
 ***
+
 ## Smartphone<a name="SMARTPHONE"></a>
 #### Sinônimos:
 - celular
@@ -234,3 +235,68 @@ Objeto
 Objeto
 
 ***
+
+## Quesitos de Busca <a name="QUESITOS"></a>
+#### Sinônimos:
+- quesitos
+- aributos de busca
+
+#### Noção:
+- Atributos utilizados para que o [usuário](lex_geral.md#USUARIO) possa buscar um [Serviço](lex_geral.md#SERVICO)
+- São eles: "[Onde](lex_geral.md#ONDE)", "[Check-in](lex_geral.md#CHECKIN)", "[Checkout](lex_geral.md#CHECKOUT)" e "[Hóspede](lex_geral.md#HOSPEDE)"(quantidade de hóspedes).
+
+#### Impacto
+- O [usuário](lex_geral.md#USUARIO) realiza uma busca por um [Serviço](lex_geral.md#SERVICO) por meio de algum desees quesitos.
+
+#### Classificação:
+Objeto
+
+***
+
+## Onde <a name="ONDE"></a>
+#### Sinônimos:
+- localização
+- local
+- endereço
+
+#### Noção:
+- Localização geográfica ou endereço de onde se encontra o serviço.
+
+#### Impacto
+- O [usuário](lex_geral.md#USUARIO) realiza uma busca por um [Serviço](lex_geral.md#SERVICO) por meio de sua [Localização](lex_geral.md#ONDE)
+- [Serviço](lex_geral.md#SERVICO) se encontra em uma [Localização](lex_geral.md#ONDE)
+
+#### Classificação:
+Objeto
+
+***
+
+##  Check-in <a name="CHECKIN"></a>
+#### Sinônimos:
+- dar entrada
+- apresentar-se
+
+#### Noção:
+- Data inicio, na qual o [Serviço](lex_geral.md#SERVICO) [será reservado](lex_geral.md#RESERVADA).
+
+#### Impacto
+- A apartir desse dia o [Serviço](lex_geral.md#SERVICO) reservado ficará indisponível para outro [Hospede](lex_geral.md#HOSPEDE) até o [Checkout](lex_geral.md#CHECKOUT).  
+
+#### Classificação:
+Verbo
+
+***
+
+##  Checkout <a name="CHECKOUT"></a>
+#### Sinônimos:
+- dar saída
+- encerrar reserva
+
+#### Noção:
+- Data final, na qual o [Serviço](lex_geral.md#SERVICO) [será reservado](lex_geral.md#RESERVADA).
+
+#### Impacto
+- A apartir desse dia o [Serviço](lex_geral.md#SERVICO) reservado volta a estar disponível para outro [Hospede](lex_geral.md#HOSPEDE).  
+
+#### Classificação:
+Verbo
