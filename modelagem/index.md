@@ -27,7 +27,7 @@
   <div class="col s12 m3 center-align">
   <a href="lexicos_cenarios/lex_hospedagem" class="module-link">
     <h4 class="promo-heading">
-     Léxico Acomodação
+     Léxico Hospedagem
     </h4>
   </a>
   </div>
@@ -51,7 +51,7 @@
   <div class="col s12 m3 center-align">
     <a href="lexicos_cenarios/cen_hospedagem" class="module-link">
       <h4 class="promo-heading">
-       Cenário Acomodação
+       Cenário Hospedagem
       </h4>
     </a>
   </div>
