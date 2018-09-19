@@ -50,7 +50,7 @@ Objeto
 Objeto
 
 ***
-## Anúncio <a name=ANUNCIO"></a>
+## Anúncio <a name="ANUNCIO"></a>
 
 #### Sinônimos:
 - propaganda
@@ -118,6 +118,24 @@ Objeto
 Objeto
 
 ***
+
+## Vagas <a name="VAGAS"></a>
+#### Sinônimos:
+- vacancies
+- vaga
+- disponíveis
+
+#### Noção:
+- Um [Serviço](lex_geral.md#SEVICO) que não [Foi Reservado](lex_geral.md#RESERVADA)
+
+#### Impacto
+- [Serviços](lex_geral.md#SEVICO) que não [Foi Reservado](lex_geral.md#RESERVADA) estarão disponíveis.  
+
+#### Classificação:
+Estado
+
+***
+
 ## Faz Pagamento <a name="PAGAMENTO"></a>
 #### Sinônimos:
 - do payment
@@ -146,6 +164,24 @@ Verbo
 Verbo
 
 ***
+
+##  Ser Reservada <a name="RESERVADA"></a>
+#### Sinônimos:
+- be reserved
+- ser locada
+- foi reservada
+
+#### Noção:
+- Atividade realizada pelo [Hospede](lex_geral.md#HOSPEDE) no momento em que se confirma a locação do [Serviço](lex_geral.md#SERVICO) desejado com o [Anfrião](lex_geral#ANFITRIAO).
+
+#### Impacto
+- O [Serviço](lex_geral.md#SERVICO) fica indisponível para outro [Hospede](lex_geral.md#HOSPEDE) no período que ele foi reservado.  
+
+#### Classificação:
+Verbo
+
+***
+
 ## Avaliação<a name="AVALIACAO"></a>
 #### Sinônimos:
 - opinião
