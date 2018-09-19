@@ -35,7 +35,7 @@
 
 <div class="row">
   <div class="col s12 m3 center-align">
-    <a href="modelagem/cen_geral" class="module-link">
+    <a href="lexicos_cenarios/cen_geral" class="module-link">
       <h4 class="promo-heading">
        Cenário Geral
       </h4>
