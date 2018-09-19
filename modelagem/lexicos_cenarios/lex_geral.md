@@ -4,10 +4,10 @@
 ## Airbnb <a name="AIRBNB"></a>
 
 #### Noção:
-- Aplicativo que promove a intermediação entre prestadores de serviço [Anfitrião](#ANFITRIAO) e consumidores de serviço [Hospede](lex_geral.md#HOSPEDE).
+- Aplicativo que promove a intermediação entre prestadores de serviço [Anfitrião](#ANFITRIAO) e consumidores de serviço [Hóspede](lex_geral.md#HOSPEDE).
 
 #### Impacto
-- [Hospede](lex_geral.md#HOSPEDE) podem contratar serviços.
+- [Hóspede](lex_geral.md#HOSPEDE) podem contratar serviços.
 - [Anfitrião](#ANFITRIAO) podem ofertar e vender serviços.
 
 #### Classificação:
@@ -22,7 +22,7 @@ Objeto
 
 #### Noção:
 - Qualquer tipo de pessoa cadastrada no sistema.
-- Pode ser diferenciado em : [Hospede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
+- Pode ser diferenciado em : [Hóspede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
 
 #### Impacto
 - O usuário podera utilizar os [serviços](lex_geral.md#SERVICO) do [Airbnb](lex_geral.md#AIRBNB)
@@ -46,11 +46,11 @@ Objeto
 #### Impacto
 - [Anfitrião](lex_geral.md#ANFITRIAO) disponibiliza através de [Anúncio](lex_geral.md#ANUNCIO) para que os [hóspedes](lex_geral.md#HOSPEDE) possa alugar.
 
-####Classificação:
+#### Classificação:
 Objeto
 
 ***
-## Anúncio <a name="ANUNCIO"></a>
+## Anúncio <a name=ANUNCIO"></a>
 
 #### Sinônimos:
 - propaganda
@@ -78,13 +78,13 @@ Objeto
 - É divido em [Anfrião de Experiencia](lex_experiencia.md#ANFITRIAO-EXPERIENCIA), [Anfitrião de Hospedagem](#) e [Anfitrião de Restaurante](#)
 
 #### Impacto
-- [Hospedes](lex_geral.md#HOSPEDE) poderão usufruir do serviço, após realizar o [Pagamento](lex_geral.md#PAGAMENTO).
+- [Hóspedes](lex_geral.md#HOSPEDE) poderão usufruir do serviço, após realizar o [Pagamento](lex_geral.md#PAGAMENTO).
 
 #### Classificação:
 Objeto
 
 ***
-## Hospede <a name="HOSPEDE"></a>
+## Hóspede <a name="HOSPEDE"></a>
 #### Sinônimos:
 - guest
 - visitas
@@ -108,11 +108,11 @@ Objeto
 
 #### Noção:
 - Atividade oferecida por um [Anfitriao](lex_geral.md#ANFITRIAO).
-- [Hospede](lex_geral.md#HOSPEDE) [Faz Pagamento](lex_geral.md#PAGAMENTO) por utiliza-lo.
+- [Hóspede](lex_geral.md#HOSPEDE) [Faz Pagamento](lex_geral.md#PAGAMENTO) por utiliza-lo.
 - Pode ser divido em [Experiencia](lex_experiencia.md#EXPERIENCIA), Restaurante e Hospedagem.
 
 #### Impacto
-- [Hospede](lex_geral.md#HOSPEDE) o utiliza.  
+- [Hóspede](lex_geral.md#HOSPEDE) o utiliza.  
 
 #### Classificação:
 Objeto
@@ -123,10 +123,10 @@ Objeto
 - do payment
 
 #### Noção:
-- Atividade realizada pelo [Hospede](lex_geral.md#HOSPEDE) no momento em que contrata o serviço oferecido pelo [Anfrião](lex_geral#ANFITRIAO)
+- Atividade realizada pelo [Hóspede](lex_geral.md#HOSPEDE) no momento em que contrata o serviço oferecido pelo [Anfrião](lex_geral#ANFITRIAO)
 
 #### Impacto
-- [Hospede](lex_geral.md#HOSPEDE) [Recebe Remuneração](lex_geral.md#REMUNERACAO) pelo [Serviço](lex_geral.md#SEVICO).  
+- [Hóspede](lex_geral.md#HOSPEDE) [Recebe Remuneração](lex_geral.md#REMUNERACAO) pelo [Serviço](lex_geral.md#SEVICO).  
 
 #### Classificação:
 Verbo
@@ -140,9 +140,61 @@ Verbo
 - [Anfrião](lex_geral#ANFITRIAO) atravéz do [Airbnb](lex_geral.md#AIRBNB) o pagamento pela prestação do [Serviço](lex_geral.md#SERVICO).
 
 #### Impacto
-- [Airbnb](lex_geral.md#AIRBNB) faz a intermediação e recebe por centagem
+- [Airbnb](lex_geral.md#AIRBNB) faz a intermediação e recebe porcentagem
 
 #### Classificação:
 Verbo
+
+***
+## Avaliação<a name="AVALIACAO"></a>
+#### Sinônimos:
+- opinião
+- julgamento
+- análise
+- nota
+
+#### Noção:
+- Nota atribuida à alguma pessoa, [anfitrião](lex_geral.md#ANFITRIAO) ou [hóspede](lex_geral.md#HOSPEDE)); à um lugar, [acomodação](lex_geral.md#ACOMODACAO)  ou [restaurante](lex_restaurantes.md#RESTAURANTE); à uma [experiência](lex_experiencia.md#EXPERIENCIA)
+
+#### Impacto
+- O [hóspede](lex_geral.md#HOSPEDE) visualiza a avaliação
+- O [hóspede](lex_geral.md#HOSPEDE) dá uma avaliação
+- O [anfitrião](lex_geral.md#ANFITRIAO) visualiz a avaliação
+- O [anfitrião](lex_geral.md#ANFITRIAO) dá uma avaliação
+- O [Airbnb](lex_geral.md#AIRBNB) ordena por avaliação
+
+#### Classificação:
+Objeto
+
+***
+## Internet<a name="INTERNET"></a>
+#### Sinônimos:
+- web
+- rede
+
+#### Noção:
+- Rede mundial que, pela troca virtual de dados e mensagens, une computadores particulares, smartphones, organizações de pesquisa, institutos de cultura, institutos militares, bibliotecas, corporações de todos os tamanhos; rede mundial de computadores.
+
+#### Impacto
+- O [usuário](lex_geral.md#USUARIO) conecta-se a internet para obter informações do [Airbnb](lex_geral.md#AIRBNB)
+- O [usuário](lex_geral.md#USUARIO) conecta-se a internet para submeter informações parao [AIrbnb](lex_geral.md#AIRBNB)
+
+#### Classificação:
+Objeto
+
+***
+## Smartphone<a name="SMARTPHONE"></a>
+#### Sinônimos:
+- celular
+- smartphone
+
+#### Noção:
+- Telefone inteligente com um sistema operacional configurável
+
+#### Impacto
+- O [usuário](lex_geral.md#USUARIO) realiza as interações com o [Airbnb](lex_geral.md#AIRBNB) através do smartphone
+
+#### Classificação:
+Objeto
 
 ***
