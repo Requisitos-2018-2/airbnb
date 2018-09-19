@@ -1,4 +1,4 @@
-#Cenários de Hospedagem
+# Cenários de Hospedagem
 
 ***
 
@@ -37,9 +37,9 @@ Se o usuário está na página inicial ele deve clicar em alguma dos [anúncios]
 O usuário está na página de detalhes da acomodação.
 
 ***
-## Filtrar resultados de busca por Acomodação
+## Filtrar resultados de busca por Acomodação<a name="FILTRAR-ACOMODACAO"></a>
 #### Objetivo:
-Descrever o processo para filtrar os resultados de uma busca
+Descrever o processo para filtrar os resultados de uma busca por [acomodação](lex_hospedagem.md#ACOMODACAO).
 #### Contexto:
 O usuário pode estar ou não logado e efetuou uma [busca por acomodação](#BUSCAR-ACOMODACAO)
 #### Atores:
@@ -57,7 +57,7 @@ O usuário seleciona um ou n dentre os seguintes filtros: <br>
 * Host and Booking
 * Quantidade de quartos e camas
 * Tipo de viagem
-* Comodidades
+* [Comodidades](lex_hospedagem.md#COMODIDADES)
 * Instalações
 * Regras da casa
 * Acessibilidade
@@ -70,9 +70,9 @@ Os resultados da busca são filtrados conforme os filtros selecionados.
 
 ***
 
-## Efetuar reserva
+## Efetuar reserva<a name="EFETUAR-RESERVA"></a>
 #### Objetivo:
-Descrever o processo para o usuário logado efetuar reserva.
+Descrever o processo para o usuário logado efetuar reserva de [acomodação](lex_hospedagem.md#ACOMODACAO).
 #### Contexto:
 O [usuário hóspede](lex_geral.md#HOSPEDE) [acessou a página de detalhes da acomodação](#DETALHES-ACOMODACAO).
 #### Atores:
@@ -88,9 +88,9 @@ Se a acomodação não possuir a característica reserva instantânea, o usuári
  A acomodação deve estar disponível nas datas desejadas.<br>
  Há limites de quantidade de hóspedes por acomodaçao, portanto a quantidade de hóspedes deve estar nos limites da acomodação.
 ***
-## Cadastrar uma acomodação
+## Cadastrar uma acomodação<a name="CADASTRAR-ACOMODACAO"></a>
 #### Objetivo:
-O [usuário anfitrião](lex_geral.md#ANFITRIAO) deseja cadastrar sua acomodação.
+O [usuário anfitrião](lex_geral.md#ANFITRIAO) deseja cadastrar sua [acomodação](lex_hospedagem.md#ACOMODACAO).
 #### Contexto:
 O anfitrião está logado.
 #### Atores:
