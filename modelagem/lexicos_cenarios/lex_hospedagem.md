@@ -53,3 +53,42 @@ Exemplo de regras:
 - O usuário [hóspede](lex_geral.md#HOSPEDE) pode [filtrar a busca por acomodação](cen_hospedagem.md#FILTRAR-ACOMODACAO) baseado nas regras.
 #### Classificação:
 Objeto
+***
+## Tipo de Propriedade<a name="TIPO-RESIDENCIA"></a>
+#### Sinônimos:
+- Tipo de residência.
+#### Noção:
+- É o tipo de residência na qual a [acomodação](#ACOMODACAO) é ofertada pelo [anfitrião](lex_geral.md#ANFITRIAO).
+- Alguns exemplos de tipo de residência:
+* casa
+* apartamento
+* bangalô
+* pousada
+* hotel
+* loft
+* resort
+* vila
+#### Impacto:
+- O usuário [anfitrião](lex_geral.md#ANFITRIAO) define as regras ao [cadastrar sua acomodação](cen_hospedagem.md#CADASTRAR-ACOMODACAO).
+- O usuário [hóspede](lex_geral.md#HOSPEDE) pode [filtrar a busca por acomodação](cen_hospedagem.md#FILTRAR-ACOMODACAO) baseado nos tipos de acomodação.
+#### Classificação:
+Objeto
+***
+## Formas de Pagamento<a name="FORMA-PAGAMENTO"></a>
+#### Sinônimos:
+- Tipos de pagamento
+- Métodos de pagamento
+#### Noção:
+- São as formas de pagamento através das quais o [hóspede](lex_geral.md#HOSPEDE) pode efetuar o pagamento de uma reserva[acomodação](#ACOMODACAO).
+- Alguns exemplos de tipos de pagamento:
+* Boleto bancário(disponível apenas no Brasil)
+* Cartão de crédito(Visa, MasterCard, Amex, Discover e JCB)
+* Cartão de débito
+* Paypal(apenas para alguns países)
+* Alipal(apenas para China)
+* Google Play(apenas para usuários do aplicativo para Android)
+* Apple Play(somente para usuários do aplicativo para iOS)
+#### Impacto:
+- O usuário [hóspede](lex_geral.md#HOSPEDE) define a forma de pagamento ao [efetuar uma reserva](cen_hospedagem.md#EFETUAR-RESERVA) baseado nas regras.
+#### Classificação:
+Objeto

@@ -61,7 +61,7 @@ O usuário seleciona um ou n dentre os seguintes filtros: <br>
 * [Instalações](lex_hospedagem.md#INSTALACOES)
 * [Regras da casa](lex_hospedagem.md$#REGRAS)
 * Acessibilidade
-* Tipo de propriedade
+* [Tipo de propriedade](lex_hospedagem.md#TIPO-RESIDENCIA)
 * Acomodações únicas
 * Idioma do Anfitrião
 
@@ -82,8 +82,8 @@ computador ou smartfone, acesso à internet, navegador web.
 #### Episódios:
 O usuário define as datas desejadas e a quantidade de hóspedes que ficarão com ele na acomodação.<br>
 O usuário clica em continuar. <br>
-Se a acomodação possuir a característica reserva instantânea, o usuário deve selecionar a forma de pagamento desejada e inserir as informações de pagamento respectivas.<br>
-Se a acomodação não possuir a característica reserva instantânea, o usuário deve aguardar a confirmação de reserva do anfitriã para selecionar a forma de pagamento desejada e inserir as informações de pagamento respectivas.
+Se a acomodação possuir a característica reserva instantânea, o usuário deve selecionar a [forma de pagamento desejada](lex_hospedagem.md#FORMA-PAGAMENTO) e inserir as informações de pagamento respectivas.<br>
+Se a acomodação não possuir a característica reserva instantânea, o usuário deve aguardar a confirmação de reserva do anfitriã para selecionar [forma de pagamento desejada](lex_hospedagem.md#FORMA-PAGAMENTO) desejada e inserir as informações de pagamento respectivas.
 #### Restrições:
  A acomodação deve estar disponível nas datas desejadas.<br>
  Há limites de quantidade de hóspedes por acomodaçao, portanto a quantidade de hóspedes deve estar nos limites da acomodação.
