@@ -58,8 +58,8 @@ O usuário seleciona um ou n dentre os seguintes filtros: <br>
 * Quantidade de quartos e camas
 * Tipo de viagem
 * [Comodidades](lex_hospedagem.md#COMODIDADES)
-* Instalações
-* Regras da casa
+* [Instalações](lex_hospedagem.md#INSTALACOES)
+* [Regras da casa](lex_hospedagem.md$#REGRAS)
 * Acessibilidade
 * Tipo de propriedade
 * Acomodações únicas
