@@ -269,11 +269,11 @@ Registrar um restaurante no [Airbnb](lex_geral.md#RESTAURANTE)
 
 [internet](lex_geral.md#INTERNET)
 #### Episódios:
-[Responsável pelo restaurante][Responsável pelo restaurante](lex_restaurantes.md#RESPONSAVEL-RESTAURANTE) acessa o [site para registro](https://os.resy.com/airbnb-partnership/)
+[Responsável pelo restaurante](lex_restaurantes.md#RESPONSAVEL-RESTAURANTE) acessa o [site para registro](https://os.resy.com/airbnb-partnership/)
 
-[Responsável pelo restaurante][Responsável pelo restaurante](lex_restaurantes.md#RESPONSAVEL-RESTAURANTE) deve preencher o formulário
+[Responsável pelo restaurante](lex_restaurantes.md#RESPONSAVEL-RESTAURANTE) deve preencher o formulário
 #### Restrição:
-[Responsável pelo restaurante][Responsável pelo restaurante](lex_restaurantes.md#RESPONSAVEL-RESTAURANTE) deve preencher todos os campos do formulário 
+[Responsável pelo restaurante](lex_restaurantes.md#RESPONSAVEL-RESTAURANTE) deve preencher todos os campos do formulário 
 
 #### Exceção:
 Não estar conectado à [internet](lex_geral.md#INTERNET)
