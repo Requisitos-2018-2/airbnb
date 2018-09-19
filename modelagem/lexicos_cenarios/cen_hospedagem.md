@@ -105,7 +105,7 @@ O usuário adiciona as informações da acomodação(e camas, banheiros, comodid
 O usuário clica em continuar.<br>
 Na segunda etapa o usuário adiciona fotos, resumo e o título da acomodação.<br>
 O usuário clica em continuar.<br>
-O usuário adiciona adiciona as informações de preço, calendário e configurações de reserva(quantidade de hóspedes, reserva instantânea, horários de check-in).
+O usuário adiciona adiciona as informações de preço, calendário e configurações de reserva(quantidade de hóspedes, [reserva instantânea](lex_hospedagem.md#RESERVA-INSTANTANEA), horários de check-in).
 #### Restrições:
 
 #### Pós condição:

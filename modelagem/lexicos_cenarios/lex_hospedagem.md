@@ -92,3 +92,14 @@ Objeto
 - O usuário [hóspede](lex_geral.md#HOSPEDE) define a forma de pagamento ao [efetuar uma reserva](cen_hospedagem.md#EFETUAR-RESERVA) baseado nas regras.
 #### Classificação:
 Objeto
+***
+## Reserva Instantânea<a name="RESERVA-INSTANTANEA"></a>
+#### Sinônimos:
+- Reserva direta
+#### Noção:
+- Tipo de reserva que não requer aprovação do [anfitrião](lex_geral.md#ANFITRIAO).
+#### Impacto:
+- O usuário [hóspede](lex_geral.md#HOSPEDE) [efetua reserva](lex_hospedagem.md#EFETUAR-RESERVA) sem depender da aprovação do [anfitriao](lex_geral.md#ANFITRIAO)
+- O usuário [anfitrião](lex_geral.md#ANFITRIAO) pode definir o tipo de reserva como sendo instantânea ao [cadastrar sua acomodação](cen_hospedagem.md#CADASTRAR-ACOMODACAO).
+#### Classificação:
+Estado
