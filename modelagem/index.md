@@ -25,7 +25,7 @@
   </a>
   </div>
   <div class="col s12 m3 center-align">
-  <a href="lexicos_cenarios/lex_acomodacao" class="module-link">
+  <a href="lexicos_cenarios/lex_hospedagem" class="module-link">
     <h4 class="promo-heading">
      Léxico Acomodação
     </h4>
