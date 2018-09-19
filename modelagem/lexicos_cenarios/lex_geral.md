@@ -21,8 +21,8 @@ Objeto
 - utilizador
 
 #### Noção:
-- Qualquer tipo de pessoa cadastrada no sistema.
-- Pode ser diferenciado em : [Hóspede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
+- Qualquer tipo de pessoa cadastrada ou não no sistema.
+- Pode ser diferenciado em : [Hóspede](lex_geral.md#HOSPEDE), [Anfitrião](#ANFITRIAO) e [Visitante](#VISITANTE)
 
 #### Impacto
 - O usuário podera utilizar os [serviços](lex_geral.md#SERVICO) do [Airbnb](lex_geral.md#AIRBNB)
@@ -83,6 +83,18 @@ Objeto
 #### Classificação:
 Objeto
 
+***
+## Visitante <a name="VISITANTE"></a>
+#### Sinônimos:
+- usuário não cadastrado
+
+#### Noção:
+- Um usuário que acessa o [Airbnb](#AIRBNB) sem estar logado.
+#### Impacto:
+- Visitante pode efetuar [busca por acomodação](#cen_hospedagem.md#BUSCAR-ACOMODACAO)
+- Visitante pode acessar detalhes de acomodação.
+#### Classificação:
+- Objeto
 ***
 ## Hóspede <a name="HOSPEDE"></a>
 #### Sinônimos:
