@@ -202,3 +202,18 @@ Objeto
 #### Classificação:
 Verbo
 
+***
+## Responsável pelo restaurante<a name="RESPONSAVEL-RESTAURANTE"></a>
+#### Sinônimos:
+- dono do restaurante 
+- empresário
+
+#### Noção:
+- Pessoa responsável por um [restaurante](lex_restaurantes#RESTAURANTE) 
+
+#### Impacto
+- O responsável pelo restaurante pode [resgistrar um restaurante](cen_restaurantes#REGISTRAR-RESTAURANTE) 
+
+#### Classificação:
+Sujeito
+
