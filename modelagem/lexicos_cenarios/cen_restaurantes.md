@@ -116,3 +116,28 @@ Não estar conectado à [internet](lex_geral.md#INTERNET)
 Não pussir um [smartphone](lex_geral.md#SMARTPHONE)
 
 ***
+## Enviar feedback <a name="ENVIAR-FEEDBACK"></a>
+#### Objetivo:
+Enviar uma sugestão de alteração ou relatar um problema 
+#### Contexto:
+**Quem?** - [Usuário](lex_geral.md#USUARIO)
+**Local** - Local com acesso a [internet](lex_geral.md#INTERNET)
+**Tempo** - Qualquer horário
+**Pré-condição** - Possuir um [smartphone](lex_geral.md#SMARTPHONE) conectado à [internet](lex_geral.md#INTERNET) e estar [autenticado](lex_geral.md#LOGADO) no aplicativo [Airbnb](lex_geral.md#AIRBNB)
+**Pós-condição** - Sugestão ou problema relatado para a equipe do [Airbnb](lex_geral.md#AIRBNB) 
+#### Atores:
+[Usuário](lex_geral.md#USUARIO)
+#### Recursos:
+[smartphone](lex_geral.md#SMARTPHONE)
+[internet](lex_geral.md#INTERNET)
+#### Episódios:
+[Usuário](lex_geral.md#USUARIO) abre o [Airbnb](lex_geral.md#AIRBNB)
+[Usuário](lex_geral.md#USUARIO) seleciona a opção [restaurantes](lex_geral.md#RESTAURANTE)
+[Usuário](lex_geral.md#USUARIO) seleciona um [restaurante](lex_geral.md#RESTAURANTE)
+[Usuário](lex_geral.md#USUARIO) seleciona a opção enviar feedback
+#### Restrição:
+[Usuário](lex_geral.md#USUARIO) deve possuir o [Airbnb](lex_geral.dm#AIRBNB) instalado em seu [smartphone](lex_geral#SMARTPHONE)
+#### Exceção:
+Não estar conectado à [internet](lex_geral.md#INTERNET)
+Não pussir um [smartphone](lex_geral.md#SMARTPHONE)
+***
