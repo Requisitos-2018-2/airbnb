@@ -1,5 +1,8 @@
+
 #Cenários de Restaurantes 
+
 ***
+
 ## Buscar restaurante <a name="BUSCAR-RESTAURANTE"></a>
 #### Objetivo:
 Encontrar um [restaurante](lex_restaurantes.md#RESTAURANTE) através da busca no [Airbnb](lex_geral.md#AIRBNB)

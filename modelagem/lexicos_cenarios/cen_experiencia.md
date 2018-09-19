@@ -1,5 +1,7 @@
 #Cenários de Experiência
+
 ***
+
 ## Usuário Reserva Experiencia <a name="RESERVA-EXPERIENCIA"></a>
 #### Objetivo:
 Usuário [Hospede](lex_geral.md#HOSPEDE) deseja participar de uma experiencia

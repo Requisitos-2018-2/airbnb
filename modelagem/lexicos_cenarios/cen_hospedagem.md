@@ -1,5 +1,7 @@
 #Cenários de Hospedagem
+
 ***
+
 ## Busca por acomodação<a name="BUSCAR-ACOMODACAO"></a>
 #### Objetivo:
 Descrever a busca da acomodação
