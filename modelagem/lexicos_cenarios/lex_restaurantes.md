@@ -1,13 +1,16 @@
 ***
 ## Restaurantes <a name="RESTAURANTES"></a>
+#### Sinônimos:
+- lanchonete
 
 #### Noção:
-- Local de comer que pode ser reservado pelo aplicativo[airbnb](lex_geral.md#AIRBNB)
-
-- Pode ser diferenciado em : [Hospede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
+- Local de comer que pode ser reservado pelo aplicativo [Airbnb](lex_geral.md#AIRBNB)
+- Pode ser diferenciado em: [Hospede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
 
 #### Impacto
-- Descubra os melhores restaurantes perto de você. Leia dicas e [avaliações](lex_geral.md#AVALIACAO) de moradores locais e descubra os melhores lugares para comer.
+- Restaurantes podem ser [buscados](lex_geral.md#BUSCA) através do aplicativo [Airbnb](lex_geral.md#AIRBNB)
+- Restaurantes podem ser [reservados](lex_restaurantes.md#RESERVA)
+- Restaurantes podem ser [avaliados](lex_geral.md#AVALIAR)
 
 #### Classificação:
 Objeto
@@ -20,7 +23,7 @@ Objeto
 
 #### Noção:
 - Lista de restaurantes preferidos de acordo com as preferências do [hóspede](lex_geral.md#HOSPEDE)
-- Pode ser diferenciado em : [Hospede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
+- Pode ser diferenciado em: [Hospede](lex_geral.md#HOSPEDE) e [Anfitrião](#ANFITRIAO)
 
 #### Impacto
 - O [usuario](lex_geral.md#USUARIO) visualiza uma lista de restaurantes favoritos no [Airbnb](lex_geral.md#AIRBNB)
@@ -31,9 +34,12 @@ Objeto
 
 ***
 ## Anfitriões recomendam <a name="RECOMENDACAO_ANFITRIAO"></a>
+#### Sinônimos:
+- indicar 
+- aconselhar
 
 #### Noção:
-- Recomendações dos [anfitriões](#ANFITRIAO) sobre determinado restaurante
+- Indicação dos [anfitriões](#ANFITRIAO) sobre determinado restaurante
 
 #### Impacto
 - O usuário pode visualizar a quantidade de [anfitriões](lex_geral.md#ANFITRIAO) que recomendam os restaurantes
@@ -44,6 +50,8 @@ Objeto
 
 ***
 ## Restaurantes parecidos por perto <a name="RESTAURANTES_PARECIDOS"></a>
+#### Sinônimos:
+- similares próximos 
 
 #### Noção:
 - Restaurantes parecidos e com a localização relativamente parecida com a opção escolhida pelo [usuário](lex_geral.md#USUARIO)
@@ -57,45 +65,45 @@ Objeto
 
 ***
 ## Faixa de preço <a name="FAIXA_PREÇO"></a>
+#### Sinônimos:
+- valor médio 
+- custo médio
 
 #### Noção:
-- faixa de preço calculada baseada nos itens disponiveis pelos restaurantes 
+- Valor médio cobrado pelo restaurante, calculado com base nos itens disponiveis pelos restaurantes 
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com o seu clique
-- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com a sua localização
+- O [usuário](lex_geral.md#USUARIO) pode visualizar a faixa de preço dos [restaurantes](lex_restaurantes.md#RESTAURANTE) 
 
 #### Classificação:
 Objeto
 
 ***
-## Salvar restaurante <a name="RESTAURANTES_PARECIDOS"></a>
+## Salvar restaurante <a name="SALVAR_RESTAURANTE"></a>
+#### Sinônimos:
+- favorito
 
 #### Noção:
-- Restaurantes parecidos e com a localização relativamente parecida com a opção escolhida pelo [usuário](lex_geral.md#USUARIO)
+- Restaurantes selecionados pelo [usuário](lex_geral.md#USUARIO) que serão listados em uma aba específica do aplicativo [Airbnb](lex_geral.md#Airbnb)
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com o seu clique
-- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com a sua localização
+- O [usuário](lex_geral.md#USUARIO) pode visualizar a lista dos restaurantes salvos 
+- O [usuário](lex_geral.md#USUARIO) pode salvar um restaurante 
 
 #### Classificação:
 Objeto
 
 ***
-## Faixa de preço <a name="FAIXA_PREÇO"></a>
+## Horário <a name="HORARIO"></a>
+#### Sinônimos:
+- turno 
+- tempo
 
 #### Noção:
-- faixa de preço calculada baseada nos itens disponiveis pelos restaurantes 
+- Turno em que o [usuário](lex_geral.md#USUARIO) realizará sua refeição  
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com o seu clique
-- O [usuário](lex_geral.md#USUARIO) pode visualizar os restaurantes relacionados de acordo com a sua localização
+- O [usuário](lex_geral.md#USUARIO) pode filtrar por horário 
 
 #### Classificação:
 Objeto
-
-
-
-
-
-
