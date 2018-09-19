@@ -1,6 +1,6 @@
 
 
-<p align="center"><a href="http://www.nubank.com.br" target="_blank"><img width="300"src="images/logo/airbnb.png"></a></p>
+<p align="center"><a href="https://www.airbnb.com.br" target="_blank"><img width="300"src="images/logo/airbnb.png"></a></p>
 
 <h1> Requisitos de Software - Airbnb</h1>
 
