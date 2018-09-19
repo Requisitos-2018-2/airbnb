@@ -2,8 +2,6 @@
 
 
 ## Anfitrião de Experiencia <a name="ANFITRIAO-EXPERIENCIA"></a>
-#### Sinônimos:
-- service
 #### Noção:
 - Usuário [Anfitriao](lex_geral.md#ANFITRIAO) oferta [Experiencia](lex_experiencia.md#EXPERIENCIA).
 - Pode [Ser Reservada]() caso ainda haja [Vagas]()
