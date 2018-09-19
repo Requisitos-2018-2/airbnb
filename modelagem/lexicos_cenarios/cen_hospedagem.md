@@ -1,4 +1,4 @@
-#Cenários de Hospedagem
+# Cenários de Hospedagem
 
 ***
 
@@ -83,7 +83,7 @@ O [usuário hóspede](lex_geral.md#HOSPEDE) [acessou a página de detalhes da ac
 #### Recursos:
 computador ou smartfone, acesso à internet, navegador web.
 #### Episódios:
-O usuário define as datas desejadas e a quantidade de hóspedes que ficarão com ele na acomodação.<br>
+O usuário define as datas desejadas e a quantidade de [hóspedes convidados](lex_hospedagem.md#HOSPEDE-CONVIDADO) que ficarão com ele na acomodação.<br>
 O usuário clica em continuar. <br>
 Se a acomodação possuir a característica reserva instantânea, o usuário deve selecionar a [forma de pagamento desejada](lex_hospedagem.md#FORMA-PAGAMENTO) e inserir as informações de pagamento respectivas.<br>
 Se a acomodação não possuir a característica reserva instantânea, o usuário deve aguardar a confirmação de reserva do anfitriã para selecionar [forma de pagamento desejada](lex_hospedagem.md#FORMA-PAGAMENTO) desejada e inserir as informações de pagamento respectivas.
@@ -116,7 +116,7 @@ O usuário adiciona adiciona as informações de preço, calendário e configura
 #### Pós condição:
 A acomodação do usuário estará cadastrada no Airbnb e será listada nos resultados da [busca por acomodação](#BUSCAR-ACOMODACAO) pela cidade da acomodação.
 ***
-## Comentar acomodação.
+## Comentar acomodação
 #### Objetivo:
 Descrever o processo para comentar em uma acomodação em que o usuário se hospedou.
 #### Contexto:
@@ -132,4 +132,3 @@ O usuário [acessa a página de detalhes da acomodação](#DETALHES-ACOMODACAO).
 O usuário efetua um comentário nos detalhes da acomodação acerca de sua estadia.
 #### Restrição:
 O comentário deve ser feito em até 14 dias após o checkout.
->>>>>>> abcb526f2e579e0f284e8831175f38c4557ac8c7

@@ -113,3 +113,16 @@ Vínculo entre o [hóspede](lex_geral.md#HOSPEDE) e o [anfitriao](lex_geral.md#A
 - O usuário [hóspede](lex_geral.md#HOSPEDE) [efetua uma reserva](cen_hospedagem.md#EFETUAR-RESERVA).
 #### Classificação:
 Objeto
+
+## Hóspede convidado<a name="HOSPEDE-CONVIDADO"></a>
+#### Sinônimos:
+- Colega de viagem
+- Parceiro de viagem
+#### Noção:
+Pessoa que se hospeda juntamente com o [hóspede](lex_geral.md#HOSPEDE) cadastrado.
+Não precisa possuir conta, apenas se especifica o número de hóspedes convidados na [reserva](#RESERVA).
+#### Impacto:
+- O usuário [hóspede](lex_geral.md#HOSPEDE) define a quantidade de hóspedes convidados.
+- O [anfitrião](lex_geral.md#ANFITRIAO) define a quantidade máxima de hóspedes.
+#### Classificação:
+Objeto
