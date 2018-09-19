@@ -14,6 +14,7 @@
 Objeto
 
 ***
+
 ## Usuário <a name="USUARIO"></a>
 #### Sinônimos:
 - user
@@ -33,6 +34,7 @@ Objeto
 Objeto
 
 ***
+
 ## Acomodação <a name="ACOMODACAO"></a>
 
 #### Sinônimos:
@@ -50,6 +52,7 @@ Objeto
 Objeto
 
 ***
+
 ## Anúncio <a name="ANUNCIO"></a>
 
 #### Sinônimos:
@@ -67,6 +70,7 @@ Objeto
 Objeto
 
 ***
+
 ## Anfitrião <a name="ANFITRIAO"></a>
 #### Sinônimos:
 - host
@@ -84,6 +88,7 @@ Objeto
 Objeto
 
 ***
+
 ## Visitante <a name="VISITANTE"></a>
 #### Sinônimos:
 - usuário não cadastrado
@@ -95,7 +100,9 @@ Objeto
 - Visitante pode acessar detalhes de acomodação.
 #### Classificação:
 - Objeto
+
 ***
+
 ## Hóspede <a name="HOSPEDE"></a>
 #### Sinônimos:
 - guest
@@ -112,6 +119,7 @@ Objeto
 Objeto
 
 ***
+
 ## Serviço <a name="SERVICO"></a>
 #### Sinônimos:
 - service
@@ -162,6 +170,7 @@ Estado
 Verbo
 
 ***
+
 ## Recebe Remuneração <a name="REMUNERACAO"></a>
 #### Sinônimos:
 - get payment
@@ -215,6 +224,7 @@ Verbo
 Objeto
 
 ***
+
 ## Internet<a name="INTERNET"></a>
 #### Sinônimos:
 - web
