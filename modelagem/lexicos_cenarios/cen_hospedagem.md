@@ -110,3 +110,20 @@ O usuário adiciona adiciona as informações de preço, calendário e configura
 
 #### Pós condição:
 A acomodação do usuário estará cadastrada no Airbnb e será listada nos resultados da [busca por acomodação](#BUSCAR-ACOMODACAO) pela cidade da acomodação.
+***
+## Comentar acomodação.
+#### Objetivo:
+Descrever o processo para comentar em uma acomodação em que o usuário se hospedou.
+#### Contexto:
+O usuário efetuou uma reserva, após a reserva ele pode comentar na acomodação.
+#### Atores:
+Usuário [hospede](lex_geral.md#HOSPEDE)
+#### Recursos:  
+computador ou smartphone, acesso a internet, conta na AirBnb, navegador web.
+#### Pré Condição:
+O usuário [efetuou uma reserva](#EFETUAR-RESERVA) e já efetuou o [checkout](lex_geral.md#CHECKOUT)
+#### Episódios:
+O usuário [acessa a página de detalhes da acomodação](#DETALHES-ACOMODACAO).<br>
+O usuário efetua um comentário nos detalhes da acomodação acerca de sua estadia.
+#### Restrição:
+O comentário deve ser feito em até 14 dias após o checkout.
