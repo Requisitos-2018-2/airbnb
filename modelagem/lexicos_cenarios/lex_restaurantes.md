@@ -217,3 +217,18 @@ Verbo
 #### Classificação:
 Sujeito
 
+***
+## Resy<a name="RESY"></a>
+#### Sinônimos:
+- Não pussui sinônimos
+
+#### Noção:
+- Aplicação para registrar restaurantes e fazer a gestão de reservas 
+
+#### Impacto
+- Resy é responsável por avaliar os [restaurantes](lex_restaurantes.md#RESTAURANTES) que serão registrados
+- Resy cuida das reservas nos [restaurantes](lex_restaurantes.md#RESTAURANTES)
+
+#### Classificação:
+Objeto
+
