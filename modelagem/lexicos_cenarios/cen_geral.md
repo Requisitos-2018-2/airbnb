@@ -4,7 +4,8 @@
 [Usuário](lex_geral.md#USUARIO) fazer login
 #### Contexto:
 O [Usuário](lex_geral.md#USUARIO) entra na aplicação, porém não está logado
-#### Atores: [usuário hospede](lex_geral.md#HOSPEDE), [usuário visitante](lex_geral.md#VISITANTE) ou [usuário anfitrião](lex_geral.md#ANFITRIAO)
+#### Atores:
+[usuário hospede](lex_geral.md#HOSPEDE), [usuário visitante](lex_geral.md#VISITANTE) ou [usuário anfitrião](lex_geral.md#ANFITRIAO)
 #### Recursos:
 Computador ou [smartphone](lex_geral.md#SMARTPHONE), acesso à [internet](lex_geral.md#INTERNET), navegador web.
 #### Pré Condição:
@@ -25,7 +26,8 @@ Se tiver sucesso, [Usuário](lex_geral.md#USUARIO) é logado.</br>
 Recuperar senha perdida/esquecida pelo [Usuário](lex_geral.md#USUARIO)
 #### Contexto:
 [Usuário](lex_geral.md#USUARIO) deseja entrar na aplicação, porém perdeu/esqueceu sua senha
-#### Atores: [usuário hospede](lex_geral.md#HOSPEDE), [usuário visitante](lex_geral.md#VISITANTE) ou [usuário anfitrião](lex_geral.md#ANFITRIAO)
+#### Atores:
+[usuário hospede](lex_geral.md#HOSPEDE), [usuário visitante](lex_geral.md#VISITANTE) ou [usuário anfitrião](lex_geral.md#ANFITRIAO)
 #### Recursos:
 Computador ou [smartphone](lex_geral.md#SMARTPHONE), acesso à [internet](lex_geral.md#INTERNET), navegador web.
 #### Pré Condição:
@@ -44,7 +46,8 @@ Computador ou [smartphone](lex_geral.md#SMARTPHONE), acesso à [internet](lex_ge
 Sair do [Airbnb](lex_geral.md#AIRBNB).
 #### Contexto:
 [Usuário](lex_geral.md#USUARIO) está logado no [Airbnb](lex_geral.md#AIRBNB), mas deseja sair.
-#### Atores: [usuário hospede](lex_geral.md#HOSPEDE), [usuário visitante](lex_geral.md#VISITANTE) ou [usuário anfitrião](lex_geral.md#ANFITRIAO)
+#### Atores:
+[usuário hospede](lex_geral.md#HOSPEDE), [usuário visitante](lex_geral.md#VISITANTE) ou [usuário anfitrião](lex_geral.md#ANFITRIAO)
 #### Recursos:
 Computador ou [smartphone](lex_geral.md#SMARTPHONE), acesso à [internet](lex_geral.md#INTERNET), navegador web.
 #### Pré Condição:
