@@ -1,19 +1,40 @@
-#Cenários Desktop
+
+#Cenários no ambiente Web
 
 ***
 
-## Criar uma conta Airbnb<a name="CRIAR-CONTA"></a>
-#### Objetivo:
-Utilizar os serviços da Airbnb
-#### Contexto:
-Conectado à internet
-#### Atores: [usuário hospede](lex_geral.md#HOSPEDE), [usuário visitante](lex_geral.md#VISITANTE) ou [usuário anfitrião](lex_geral.md#ANFITRIAO).
-#### Recursos:
-computador, acesso à internet, navegador web.
-#### Episódios:
-Acessar airbnb.com.br e clicar em Cadastre-se.
-O cadastro pode ser feito usando um endereço de email, uma conta do Facebook ou Google ou Amex
-Depois de se cadastrar, preencher todas as informações (Nome completo, Endereço de email, Número de telefone, Uma mensagem de apresentação, Aceitação das regras da casa, Informações de pagamento) da sua conta antes de fazer uma reserva
+<table>
+  <thead>
+    <tr>
+        <th colspan="2>Criar uma conta Airbnb<a name="CRIAR-CONTA"></a></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Objetivo:</td>
+      <td>Utilizar os serviços da Airbnb</td>
+    </tr>
+    <tr>
+      <td>Contexto:</td>
+      <td>Conectado à internet</td>
+    </tr>
+    <tr>
+      <td>Atores:</td>
+      <td>[usuário hospede](lex_geral.md#HOSPEDE)<br>[usuário visitante](lex_geral.md#VISITANTE)<br>[usuário anfitrião](lex_geral.md#ANFITRIAO)</td>
+    </tr>
+    <tr>
+      <td>Recursos:</td>
+      <td>computador<br>acesso à internet<br>navegador web.</td>
+    </tr>
+    <tr>
+      <td>Episódios:</td>
+      <td>Acessar airbnb.com.br e clicar em Cadastre-se <br>
+      O cadastro pode ser feito usando um endereço de email, uma conta do Facebook ou Google ou Amex<br>
+      Depois de se cadastrar, preencher todas as informações (Nome completo, Endereço de email, Número de telefone, Uma mensagem de apresentação, Aceitação das regras da casa, Informações de pagamento) da sua conta antes de fazer uma reserva</td>
+    </tr>
+  </tbody>
+</table>
 
 ***
 ## Conectar conta Airbnb à do Facebook<a name="CONECTAR-FACEBOOK"></a>
@@ -49,7 +70,7 @@ Confirmar o desativamento da conta
 ***
 ## Buscar uma acomodação
 #### Objetivo:
-Encontrar uma acomodação para o(s) hóspede(s) ficar 
+Encontrar uma acomodação para o(s) hóspede(s) ficar
 #### Contexto:
 Conectado à internet
 #### Atores:
@@ -166,7 +187,7 @@ computador, acesso à internet, navegador web
 #### Episódios:
 Acessar airbnb.com.br e clicar em Salvas no topo da página
 Clicar em Visualizar Wish Lists e selecionar a lista que deseja remover
-Ao lado do nome da lista na parte superior, clicar no ícone do lápis 
+Ao lado do nome da lista na parte superior, clicar no ícone do lápis
 No canto inferior da página, clicar em Excluir esta Wish List no final da página
 Confirmar que você deseja excluir a Wish List
 
