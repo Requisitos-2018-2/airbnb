@@ -1,5 +1,5 @@
 
-#Cenários no ambiente Web
+# Cenários no ambiente Web
 
 ***
 
@@ -21,7 +21,11 @@
     </tr>
     <tr>
       <td>Atores:</td>
-      <td>[usuário hospede](lex_geral.md#HOSPEDE)<br>[usuário visitante](lex_geral.md#VISITANTE)<br>[usuário anfitrião](lex_geral.md#ANFITRIAO)</td>
+      <td>
+        [usuário hospede](lex_geral.md#HOSPEDE)
+        [usuário visitante](lex_geral.md#VISITANTE)
+        [usuário anfitrião](lex_geral.md#ANFITRIAO)
+      </td>
     </tr>
     <tr>
       <td>Recursos:</td>
