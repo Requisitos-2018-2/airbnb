@@ -3,10 +3,10 @@
 
 ***
 
-<table>
+<table class="highlight responsive-table">
   <thead>
     <tr>
-        <th colspan="2>Criar uma conta Airbnb<a name="CRIAR-CONTA"></a></th>
+        <th colspan="2">Criar uma conta Airbnb<a name="CRIAR-CONTA"></a></th>
     </tr>
   </thead>
 

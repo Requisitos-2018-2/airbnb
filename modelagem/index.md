@@ -62,7 +62,7 @@
       </h4>
     </a>
   </div>
-  <div class="col s12 m3 offset-m3" center-align">
+  <div class="col s12 m3 offset-m3 center-align">
     <a href="lexicos_cenarios/cen_web" class="module-link">
       <h4 class="promo-heading">
        Cenários Web
