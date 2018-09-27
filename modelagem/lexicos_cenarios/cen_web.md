@@ -59,7 +59,7 @@
 ***
 #### Salvar acomodação favorita
 
-**Objetivo:** | Para que o [hóspede](lex_geral.md#HOSPEDE) não se esquece das [acomodações](lex_hospedagem.md#ACOMODACAO) que ele mais gosta.
+**Objetivo:** | Para que o [hóspede](lex_geral.md#HOSPEDE) não se esqueça das [acomodações](lex_hospedagem.md#ACOMODACAO) que ele mais gosta.
 **Contexto:** | conectado à internet<br>[logado na conta](cen_geral.md#FAZ-LOGIN)
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
 **Recursos:** | computador<br>acesso à internet<br>navegador web
