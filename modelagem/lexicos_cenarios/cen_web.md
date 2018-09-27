@@ -4,6 +4,7 @@
 ***
 
 #### Criar uma conta Airbnb<a name="CRIAR-CONTA"></a>
+
 **Objetivo:** | Utilizar os serviços da Airbnb.
 **Contexto:** | conectado à internet
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)<br>[usuário visitante](lex_geral.md#VISITANTE)<br>[usuário anfitrião](lex_geral.md#ANFITRIAO)
@@ -12,6 +13,7 @@
 
 ***
 #### Conectar conta Airbnb à do Facebook<a name="CONECTAR-FACEBOOK"></a>
+
 **Objetivo:** | Conectar a conta Airbnb à conta facebook para encontar amigos em comum e compartilhar atividades ou informações do Airbnb para os amigos do Facebook como lugares recentes que você visitou.
 **Contexto:** | conectado à internet<br>possuir conta no Facebook
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)<br>[usuário visitante](lex_geral.md#VISITANTE)<br>[usuário anfitrião](lex_geral.md#ANFITRIAO)
@@ -20,6 +22,7 @@
 
 ***
 #### Desativar uma conta Airbnb
+
 **Objetivo:** | Não utilizar mais uma conta da Airbnb.
 **Contexto:** | conectado à internet
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)<br>[usuário visitante](lex_geral.md#VISITANTE)<br>[usuário anfitrião](lex_geral.md#ANFITRIAO)
@@ -28,6 +31,7 @@
 
 ***
 #### Buscar uma acomodação
+
 **Objetivo:** | Encontrar uma [acomodação](lex_hospedagem.md#ACOMODACAO) para o(s) [hóspede(s)](lex_geral.md#HOSPEDE) ficar.
 **Contexto:** | conectado à internet
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
@@ -36,6 +40,7 @@
 
 ***
 #### Usar os filtros de busca
+
 **Objetivo:** | Para refinar ainda mais suas opções durante a busca por uma [acomodação](lex_hospedagem.md#ACOMODACAO), o [hóspede](lex_geral.md#HOSPEDE) pode usar os filtros de busca.
 **Contexto:** | conectado à internet
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
@@ -44,6 +49,7 @@
 
 ***
 #### Fazer uma busca por bairro
+
 **Objetivo:** | Fazer uma busca por bairro em diversas cidades para ajudar o hóspede a decidir onde ficar.
 **Contexto:** | conectado à internet
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
@@ -52,6 +58,7 @@
 
 ***
 #### Salvar acomodação favorita
+
 **Objetivo:** | Para que o [hóspede](lex_geral.md#HOSPEDE) não se esquece das [acomodações](lex_hospedagem.md#ACOMODACAO) que ele mais gosta.
 **Contexto:** | conectado à internet<br>[logado na conta](cen_geral.md#FAZ-LOGIN)
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
@@ -60,6 +67,7 @@
 
 ***
 #### Compartilhando uma Lista salva
+
 **Objetivo:** | Compartilhar uma lista com as pessoas com quem deseja viajar, podendo inclusive permitir que elas adicionem anúncios e observações à lista.
 **Contexto:** | conectado à internet<br>[logado na conta](cen_geral.md#FAZ-LOGIN)<br>pelo menos uma *Wish List* criada
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
@@ -68,6 +76,7 @@
 
 ***
 #### Removendo um anúncio de uma lista
+
 **Objetivo:** | Remover um anúncio de uma *Wish List*.
 **Contexto:** | conectado à internet<br>[logado na conta](cen_geral.md#FAZ-LOGIN)<br>pelo menos uma *Wish List* criada
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
@@ -76,6 +85,7 @@
 
 ***
 #### Excluindo uma Lista salva
+
 **Objetivo:** | Excluir uma *Wish List* criada anteriormente.
 **Contexto:** | conectado à internet<br>[logado na conta](cen_geral.md#FAZ-LOGIN)<br>pelo menos uma *Wish List* criada
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
@@ -84,6 +94,7 @@
 
 ***
 #### Fazer um pedido de reserva
+
 **Objetivo:** | Enviar um pedido ao [anfitrião](lex_geral.md#ANFITRIAO) para fazer uma [reserva](lex_hospedagem.md#RESERVA) para o(s) [hóspede(s)](lex_geral.md#HOSPEDE).
 **Contexto:** | conectado à internet<br>[logado na conta](cen_geral.md#FAZ-LOGIN)
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
@@ -92,6 +103,7 @@
 
 ***
 #### Alterar uma [reserva](lex_hospedagem.md#RESERVA)
+
 **Objetivo:** | Se o [hóspede](lex_geral.md#HOSPEDE) precisar fazer uma alteração em uma [reserva](lex_hospedagem.md#RESERVA) confirmada.
 **Contexto:** | conectado à internet<br>[logado na conta](cen_geral.md#FAZ-LOGIN)<br>[reserva](lex_hospedagem.md#RESERVA) feita
 **Atores:** | [usuário hospede](lex_geral.md#HOSPEDE)
