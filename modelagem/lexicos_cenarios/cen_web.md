@@ -22,7 +22,7 @@
     <tr>
       <td>Atores:</td>
       <td>
-        [usuário hospede](lex_geral.md#HOSPEDE)
+        <a href="lex_geral.md#HOSPEDE">usuário hospede</a>
         [usuário visitante](lex_geral.md#VISITANTE)
         [usuário anfitrião](lex_geral.md#ANFITRIAO)
       </td>
