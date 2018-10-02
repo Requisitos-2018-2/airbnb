@@ -29,7 +29,6 @@ Acessar diretamente o site do Resy
 | Campo                  | Formato | Obrigatoriedade | Valor                           |
 |------------------------|---------|-----------------|---------------------------------|
 | Data |   01/10      | Sim             | Restaurante deve estar disponivel |
-
 | Horário |   09:30am     | Sim             | Restaurante deve estar disponivel |
 
 

@@ -27,7 +27,7 @@ Buscar diretamente pela barra de pesquisa.
 | Campo                  | Formato | Obrigatoriedade | Valor                           |
 |------------------------|---------|-----------------|---------------------------------|
 | Conexão com a internet |         | Sim             | Conexão com bom pacote de dados |
-| Nome válido |         | Sim             | Nome coerente com o restaurante que deseja encontrar |
+| Nome válido 			 |         | Sim             | Nome coerente com o restaurante que deseja encontrar |
 
 
 
