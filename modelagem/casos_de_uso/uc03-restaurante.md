@@ -26,7 +26,6 @@ Acessar diretamente o site do Resy
 | Campo                  | Formato | Obrigatoriedade | Valor                           |
 |------------------------|---------|-----------------|---------------------------------|
 | Horário |    09:30am     | Sim             | Horário da reserva deve estar disponivel |
-
 | Disponibilidade |         | Sim             | Horário da reserva deve estar disponivel |
 
 
