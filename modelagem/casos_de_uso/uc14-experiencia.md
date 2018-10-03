@@ -48,4 +48,4 @@ Reserva instantânea
 4. O sistema retorna uma mensagem de erro que algum dado está incoerente ou algum campo obrigatório não está preenchido.
 
 #### Pós-condição: 
-Aparecem resultados relacionados ao restaurante ou similares.
+Usuário recebe a confirmação da reserva.
