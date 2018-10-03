@@ -1,6 +1,6 @@
 # Casos de uso - Restaurantes
 
-<a href="casos_de_uso/uc01-restaurante" class="module-link">
+<a href="caso_de_uso/uc01-restaurante" class="module-link">
 
 ## UC01 - Cadastrar Restaurante
 
