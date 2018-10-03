@@ -1,18 +1,12 @@
 # Casos de uso - Restaurantes
 
-<a href="caso_de_uso/uc01-restaurante" class="module-link">
-
-## UC01 - Cadastrar Restaurante
-
-</a>
-
-## UC02 - Buscar Restaurante
+### [UC01 - Buscar Restaurante](uc01-restaurante.md)
  
-## UC03 - Reservar Restaurante 
+### [UC02 - Reservar Restaurante](uc02-restaurante.md) 
 
-## UC04 - Selecionar Horário
+### [UC03 - Selecionar Horário](uc03-restaurante.md)
 
-## UC05 - Revisar Reserva
+### [UC04 - Revisar Reserva](uc04-restaurante.md)
 
 
 
