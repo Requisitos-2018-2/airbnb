@@ -1,48 +1,52 @@
 ## Usuário Procura Experiência 
 
 ### Descrição: 
-Este caso de uso permite ao usuário buscar experiências na aplicação. Essa busca pode ser feita filtrando por localização, checkin, checkout e quantidade de hóspedes.
+Este caso de uso permite ao usuário buscar experiências na aplicação. Essa busca pode ser feita por meio da localização ou o nome da experiência.
 
 Ator principal: Usuário - Hóspede. 
 
-Pré-requisitos: Conexão com a internet. 
+Pré-requisitos: Acessar a página inicial do Airbnb. 
 
 ####  Fluxo Principal: 
-1. O usuário acessa o airbnb. 
-2. Aparece três opções na tela principal, uma para buscar acomodações, outra para experiência e uma para buscar restaurantes.
-3. O usuário seleciona a opção Experiências
-4. O usuário preenche um formulário de busca com os quesitos, "onde", que é a localidade, pelo período de disponibilidade entre o "check-in" e "checkout", ou pela disponibilidade de acomodar certa quantidade de "hópedes" na experiência.
-5. Aparecem os resultados esperados relacionados a restaurantes.
+- FP00. O usuário acessa a página inicial do Airbnb
+- FP01. O usuário seleciona a opção experiências. 
+- FP02. O sistema retorna categorias de experiências e as experiências em destaque de qualquer lugar.
+- FP03. O usuário seleciona uma experiência
 
-#### Fluxo Alternativo 01: 
-Buscar diretamente pela barra de pesquisa. 
-1. O usuário acessa o airbnb.
-2. O usuário vai até a barra de pesquisa principal. 
-3. Sem selecionar qualquer categoria o usuário digita o nome ou local da experiência. 
-4. Aparecem resultados referentes a todas as categorias.
 
+#### Fluxo Alternativo 01 - Buscar diretamente pela barra de pesquisa por nome:
+- FA0100. Este fluxo parte de FP00 
+- FA0101. O usuário pesquisa o nome da experiência diretamente na barra de pesquisa.
+- FA0102. O sistema retorna a experiência buscada e/ou algumas experiências semelhantes
+- FA0103. Este fluxo retorna em FP03
+
+#### Fluxo Alternativo 02 - Buscar experiência em categorias.
+- FA0200. Este fluxo parte de FP02: 
+- FA0201. O usuário seleciona uma categoria de experiências.
+- FA0202. O sistema retorna as experiências relacionadas a categoria selecionada. 
+- FA0203. Este fluxo retorna em FP03
+
+#### Fluxo Alternativo 03 - Buscar diretamente pela barra de pesquisa por localidade:
+- FA0300. Este fluxo parte de FP00
+- FA0301. O usuário pesquisa a localidade da experiência diretamente na barra de pesquisa.
+- FA0302. O sistema retorna as experiência naquela localidade 
+- FA0303. Este fluxo retorna em FP03
 
 #### Regras de Negócio 01:
 
-| Campo                  | Formato | Obrigatoriedade | Valor                           |
-|------------------------|---------|-----------------|---------------------------------|
-| Conexão com a internet |         | Sim             | Conexão com bom pacote de dados |
-| Nome válido 			 |         | Sim             | Nome coerente com o restaurante que deseja encontrar |
-
-
+| Campo             | Formato                                                  | Obrigatoriedade | Valor                           |
+|-------------------|-----|--------------------|-------------------------|
+| Barra de pesquisa | Experiência em "nome da localidade" ou nome da Experiência | Não             | Caracteres Alfanuméricos |
 
 #### Fluxo de Exceção 01: Nome não encontrado 
-1. O usuário acessa o airbnb
-2. O usuário digita na barra de pesquisa principal um nome inválido de restaurante. 
-3. Não é encontrado nenhum resultado relacionado a experiência.
+- FE0100. Este fluxo parte de FA0101
+- FE0101. O sistema não encontra nenhuma experiênica relacionada com o nome da busca.
+- FE0102. Este fluxo finaliza retornando uma mensagem de que nenhum resultado foi encontrado
 
-#### Fluxo de Exceção 02: Quesitos de busca não encontrados 
-1. O usuário acessa o airbnb. 
-2. Aparece três opções na tela principal, uma para buscar acomodações, outra para experiência e uma para buscar restaurantes.
-3. O usuário seleciona a opção Experiências
-4. O usuário preenche um formulário de busca com os quesitos, "onde", que é a localidade, ou pelo período de disponibilidade entre o "check-in" e "checkout", ou pela disponibilidade de acomodar certa quantidade de "hópedes" na experiência.
-5. O sistema não encontra nenhuma experiência ligada a esses quesitos de busca
-6. O sistema retorna que nenhum resultado foi encontrado
+#### Fluxo de Exceção 02: Localidade não encontrada 
+- FE0200. Este fluxo parte de FA0301
+- FE0201. O sistema não encontra nenhuma experiênica relacionada com a localidade da busca.
+- FE0202. Este fluxo finaliza retornando uma mensagem de que nenhum resultado foi encontrado
 
 #### Pós-condição: 
-Aparecem resultados relacionados ao restaurante ou similares.
+O sistema retorna os detalhes da experiência selecionada pelo usuário.
