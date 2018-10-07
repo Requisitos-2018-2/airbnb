@@ -50,3 +50,8 @@ Pré-requisitos: Acessar a página inicial do Airbnb.
 
 #### Pós-condição: 
 O sistema retorna os detalhes da experiência selecionada pelo usuário.
+
+
+## Diagrama de Caso de Uso 
+
+<img src="img/Use Case Diagram 13.png" width="100%">
