@@ -16,3 +16,12 @@
 
 <img src="diagramas/escalabilidade1.png" width="100%">
 
+
+### Disponibilidade
+
+<img src="diagramas/disponibilidade.png" width="100%">
+
+### Legislação
+
+<img src="diagramas/legislacao.png" width="100%">
+
