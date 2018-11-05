@@ -1,4 +1,4 @@
-## Verificação iStar SR - Pesquisar Acomodação
+## Verificação do Protótipo
 
 ### Verificação com inspeções
 
