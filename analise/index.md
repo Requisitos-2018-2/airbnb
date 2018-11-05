@@ -1,6 +1,6 @@
 ### [1. Verificação da Análise de Protocolo](inspecao_de_analise_de_protocolo/index)
 
-### [2. Verificação i* SR - Pesquisar acomodação](verifica-istar/index)
+### [2. Verificação i* SR ](inspecao_SR/index)
 
 ### [3. Verificação de Protótipo](verifica-prototipo/index)
 
