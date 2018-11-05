@@ -17,27 +17,31 @@
  No protótipo é demonstrado os conceitos de requisitos não funcionais?
 
 - Portabilidade
-    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em plataformas desktop. 
-    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em plataformas mobile.
+    - Através do protótipo é possível demonstrar que a aplicação pode ser executada em plataformas desktop. 
+    - Através do protótipo é possível demonstrar que a aplicação pode ser executada em plataformas mobile.
 - Compatibilidade
-    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em diversos browsers diferentes. 
+    - Através do protótipo é possível demonstrar que a aplicação pode ser executada em diversos browsers diferentes. 
 - Usabilidade
-    - [ ] Através do protótipo é possível demonstrar que a aplicação é fácil de se usar.
-    - [ ] Através do protótipo é possível demonstrar que a aplicação é fácil de se aprender a usar.
-    - [ ] Através do protótipo é possível demonstrar que a aplicação tem uma interface que expressa bem suas funcionalidades.
-    - [ ] Através do protótipo é possível demonstrar que a aplicação tem uma linguagem simplista que auxilia o usuário a utilizá-la.
-    - [ ] Através do protótipo é possível demonstrar que a aplicação tem um tratamento de erros que traz feedbacks para o usuário.
+    - Através do protótipo é possível demonstrar que a aplicação é fácil de se usar.
+    - Através do protótipo é possível demonstrar que a aplicação é fácil de se aprender a usar.
+    - Através do protótipo é possível demonstrar que a aplicação tem uma interface que expressa bem suas funcionalidades.
+    - Através do protótipo é possível demonstrar que a aplicação tem uma linguagem simplista que auxilia o usuário a utilizá-la.
+    - Através do protótipo é possível demonstrar que a aplicação tem um tratamento de erros que traz feedbacks para o usuário.
 - Responsividade 
-    - [x] Através do protótipo é possível demonstrar que a aplicação se adequa e responde bem dentro de plataformas desktop. 
-    - [x] Através do protótipo é possível demonstrar que a aplicação se adequa e responde bem dentro de plataformas mobile.
+    - Através do protótipo é possível demonstrar que a aplicação se adequa e responde bem dentro de plataformas desktop. 
+    - Através do protótipo é possível demonstrar que a aplicação se adequa e responde bem dentro de plataformas mobile.
+
+    [Link do checklist ](https://docs.google.com/spreadsheets/d/1ku1OQFtb5RI7DFvSetPZanzWeZSjR3Zl7wcrH7ud65g/edit#gid=0)
 
 #### Correção e Acompanhamento
 Através da inspeção realizada pode-se identificar estes requisitos não-funcionais:
 
 - [x]Portabilidade
-- [x]Compatibilidade
+- [x]Compatibilidade 
 - [ ]Usabilidade
 - [x]Responsividade
+
+A Compatibilidade demonstrada pelo protótipo não expressa fielmente se a aplicação é suportada por browsers diferentes.  
 
 Para que se possa demonstrar a Usabilidade da aplicação através do protótipo a solução seria a criação de um protótipo de alta fidelidade, onde os fluxos e iterações na aplicação seriam melhor expressados.
 
