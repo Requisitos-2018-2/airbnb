@@ -1,4 +1,4 @@
-### [1. Verificação da Análise de Protocolo](verifica-analise-protocolo/index)
+### [1. Verificação da Análise de Protocolo](inspecao_de_analise_de_protocolo/index)
 
 ### [2. Verificação i* SR - Pesquisar acomodação](verifica-istar/index)
 
@@ -6,4 +6,6 @@
 
 ### [4. Verificação de Léxicos](inspeção_de_lexicos/index)
 
-### [5. Verificação de Léxicos](verifica-prototipo/index)
+### [5. Verificação de Casos de uso](verifica-prototipo/index)
+
+### [6. Verificação de Story-Telling](inspecao_de_story_telling/index)
