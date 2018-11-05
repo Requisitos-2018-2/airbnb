@@ -31,7 +31,7 @@
     - Através do protótipo é possível demonstrar que a aplicação se adequa e responde bem dentro de plataformas desktop. 
     - Através do protótipo é possível demonstrar que a aplicação se adequa e responde bem dentro de plataformas mobile.
 
-    [Link do checklist ](https://docs.google.com/spreadsheets/d/1ku1OQFtb5RI7DFvSetPZanzWeZSjR3Zl7wcrH7ud65g/edit#gid=0)
+    [Link do checklist ](https://docs.google.com/spreadsheets/d/1ku1OQFtb5RI7DFvSetPZanzWeZSjR3Zl7wcrH7ud65g/edit?usp=sharing)
 
 #### Correção e Acompanhamento
 Através da inspeção realizada pode-se identificar estes requisitos não-funcionais:
