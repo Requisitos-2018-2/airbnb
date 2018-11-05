@@ -1,7 +1,7 @@
 # Léxicos Gerais
 
 ***
-## Airbnb <a name="AIRBNB"></a>
+## LG01 - Airbnb <a name="AIRBNB"></a>
 
 #### Noção:
 - Aplicativo que promove a intermediação entre prestadores de serviço [Anfitrião](#ANFITRIAO) e consumidores de serviço [Hóspede](lex_geral.md#HOSPEDE).
@@ -15,7 +15,7 @@ Objeto
 
 ***
 
-## Usuário <a name="USUARIO"></a>
+## LG02 - Usuário <a name="USUARIO"></a>
 #### Sinônimos:
 - user
 - cliente
@@ -35,7 +35,7 @@ Objeto
 
 ***
 
-## Acomodação <a name="ACOMODACAO"></a>
+##  LG03 - Acomodação <a name="ACOMODACAO"></a>
 
 #### Sinônimos:
 - aposentos
@@ -53,7 +53,7 @@ Objeto
 
 ***
 
-## Anúncio <a name="ANUNCIO"></a>
+## LG04 - Anúncio <a name="ANUNCIO"></a>
 
 #### Sinônimos:
 - propaganda
@@ -71,7 +71,7 @@ Objeto
 
 ***
 
-## Anfitrião <a name="ANFITRIAO"></a>
+##  LG05 -  Anfitrião <a name="ANFITRIAO"></a>
 #### Sinônimos:
 - host
 - dono da casa
@@ -89,7 +89,7 @@ Objeto
 
 ***
 
-## Visitante <a name="VISITANTE"></a>
+## LG06 - Visitante <a name="VISITANTE"></a>
 #### Sinônimos:
 - usuário não cadastrado
 
@@ -103,7 +103,7 @@ Objeto
 
 ***
 
-## Hóspede <a name="HOSPEDE"></a>
+## LG07 - Hóspede <a name="HOSPEDE"></a>
 #### Sinônimos:
 - guest
 - visitas
@@ -120,7 +120,7 @@ Objeto
 
 ***
 
-## Serviço <a name="SERVICO"></a>
+## LG08 - Serviço <a name="SERVICO"></a>
 #### Sinônimos:
 - service
 - emprego
@@ -139,7 +139,7 @@ Objeto
 
 ***
 
-## Vagas <a name="VAGAS"></a>
+##  LG09 - Vagas <a name="VAGAS"></a>
 #### Sinônimos:
 - vacancies
 - vaga
@@ -156,7 +156,7 @@ Estado
 
 ***
 
-## Faz Pagamento <a name="PAGAMENTO"></a>
+## LG10 - Faz Pagamento <a name="PAGAMENTO"></a>
 #### Sinônimos:
 - do payment
 
@@ -171,7 +171,7 @@ Verbo
 
 ***
 
-## Recebe Remuneração <a name="REMUNERACAO"></a>
+## LG11 - Recebe Remuneração <a name="REMUNERACAO"></a>
 #### Sinônimos:
 - get payment
 
@@ -186,7 +186,7 @@ Verbo
 
 ***
 
-##  Ser Reservada <a name="RESERVADA"></a>
+## LG12 - Ser Reservada <a name="RESERVADA"></a>
 #### Sinônimos:
 - be reserved
 - ser locada
@@ -203,7 +203,7 @@ Verbo
 
 ***
 
-## Avaliação<a name="AVALIACAO"></a>
+## LG13 - Avaliação<a name="AVALIACAO"></a>
 #### Sinônimos:
 - opinião
 - julgamento
@@ -225,7 +225,7 @@ Objeto
 
 ***
 
-## Internet<a name="INTERNET"></a>
+## LG14 - Internet<a name="INTERNET"></a>
 #### Sinônimos:
 - web
 - rede
@@ -242,7 +242,7 @@ Objeto
 
 ***
 
-## Smartphone<a name="SMARTPHONE"></a>
+## LG15 - Smartphone<a name="SMARTPHONE"></a>
 #### Sinônimos:
 - celular
 - smartphone
@@ -258,7 +258,7 @@ Objeto
 
 ***
 
-## Quesitos de Busca <a name="QUESITOS"></a>
+## LG16 - Quesitos de Busca <a name="QUESITOS"></a>
 #### Sinônimos:
 - quesitos
 - aributos de busca
@@ -275,7 +275,7 @@ Objeto
 
 ***
 
-## Onde <a name="ONDE"></a>
+## LG17 - Onde <a name="ONDE"></a>
 #### Sinônimos:
 - localização
 - local
@@ -293,7 +293,7 @@ Objeto
 
 ***
 
-##  Check-in <a name="CHECKIN"></a>
+## LG18 - Check-in <a name="CHECKIN"></a>
 #### Sinônimos:
 - dar entrada
 - apresentar-se
@@ -309,7 +309,7 @@ Verbo
 
 ***
 
-##  Checkout <a name="CHECKOUT"></a>
+## LG20 - Checkout <a name="CHECKOUT"></a>
 #### Sinônimos:
 - dar saída
 - encerrar reserva
