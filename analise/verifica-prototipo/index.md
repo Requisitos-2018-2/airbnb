@@ -14,12 +14,13 @@
 [Link para entender a técnica de prototipação](https://aprender.ead.unb.br/pluginfile.php/348648/mod_resource/content/3/Requisitos%20-%20Aula%2007.pdf)
 
 #### Inspeção
- No protótipo é demonstrado o conceito de requisito não funcional de:
+ No protótipo é demonstrado os conceitos de requisitos não funcionais?
 
 - Portabilidade
-    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em deiversas plataformas. 
+    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em plataformas desktop. 
+    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em plataformas mobile.
 - Compatibilidade
-    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em deiversos browsers diferentes. 
+    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em diversos browsers diferentes. 
 - Usabilidade
     - [ ] Através do protótipo é possível demonstrar que a aplicação é fácil de se usar.
     - [ ] Através do protótipo é possível demonstrar que a aplicação é fácil de se aprender a usar.
@@ -27,21 +28,18 @@
     - [ ] Através do protótipo é possível demonstrar que a aplicação tem uma linguagem simplista que auxilia o usuário a utilizá-la.
     - [ ] Através do protótipo é possível demonstrar que a aplicação tem um tratamento de erros que traz feedbacks para o usuário.
 - Responsividade 
-    - [x] Através do protótipo é possível demonstrar que a aplicação pode ser executada em deiversas plataformas. 
-
-[Link do checklist ](https://docs.google.com/spreadsheets/d/1txC-AwSKGjeYF4GbrHQia8s5SYEOqFTDtYb_QE_Q_f4/edit#gid=108503159)
+    - [x] Através do protótipo é possível demonstrar que a aplicação se adequa e responde bem dentro de plataformas desktop. 
+    - [x] Através do protótipo é possível demonstrar que a aplicação se adequa e responde bem dentro de plataformas mobile.
 
 #### Correção e Acompanhamento
+Através da inspeção realizada pode-se identificar estes requisitos não-funcionais:
 
-Léxicos importantes identificados:
+- [x]Portabilidade
+- [x]Compatibilidade
+- [ ]Usabilidade
+- [x]Responsividade
 
-- Explorar [x]
-- Hospedagem [x]
-- Hóspede [x]
-- Acomodação [x]
-- Check-in [x]
-- Check-out [x]
-
+Para que se possa demonstrar a Usabilidade da aplicação através do protótipo a solução seria a criação de um protótipo de alta fidelidade, onde os fluxos e iterações na aplicação seriam melhor expressados.
 
 
 
