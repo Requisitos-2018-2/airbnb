@@ -6,6 +6,6 @@
 
 ### [4. Verificação de Léxicos](inspeção_de_lexicos/index)
 
-### [5. Verificação de Casos de uso](verifica-prototipo/index)
+### [5. Verificação de Casos de uso](inspecao_de_casos_de_uso/index)
 
 ### [6. Verificação de Story-Telling](inspecao_de_story_telling/index)
