@@ -1,5 +1,5 @@
 ***
-## Restaurantes <a name="RESTAURANTES"></a>
+## LR01 - Restaurantes <a name="RESTAURANTES"></a>
 #### Sinônimos:
 - lanchonete
 
@@ -16,7 +16,7 @@
 Objeto
 
 ***
-## Restaurantes Favoritos <a name="RESTAURANTES_FAVORITOS"></a>
+## LR02 - Restaurantes Favoritos <a name="RESTAURANTES_FAVORITOS"></a>
 #### Sinônimos:
 - preferido
 - interesses
@@ -33,9 +33,9 @@ Objeto
 Objeto
 
 ***
-## Anfitriões recomendam <a name="RECOMENDACAO_ANFITRIAO"></a>
+## LR03 - Anfitriões recomendam <a name="RECOMENDACAO_ANFITRIAO"></a>
 #### Sinônimos:
-- indicar 
+- indicar
 - aconselhar
 
 #### Noção:
@@ -49,9 +49,9 @@ Objeto
 Objeto
 
 ***
-## Restaurantes parecidos por perto <a name="RESTAURANTES_PARECIDOS"></a>
+## LR04 - Restaurantes parecidos por perto <a name="RESTAURANTES_PARECIDOS"></a>
 #### Sinônimos:
-- similares próximos 
+- similares próximos
 
 #### Noção:
 - Restaurantes parecidos e com a localização relativamente parecida com a opção escolhida pelo [usuário](lex_geral.md#USUARIO)
@@ -64,22 +64,22 @@ Objeto
 Objeto
 
 ***
-## Faixa de preço <a name="FAIXA_PREÇO"></a>
+## LR05 - Faixa de preço <a name="FAIXA_PREÇO"></a>
 #### Sinônimos:
-- valor médio 
+- valor médio
 - custo médio
 
 #### Noção:
-- Valor médio cobrado pelo restaurante, calculado com base nos itens disponiveis pelos restaurantes 
+- Valor médio cobrado pelo restaurante, calculado com base nos itens disponiveis pelos restaurantes
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode visualizar a faixa de preço dos [restaurantes](lex_restaurantes.md#RESTAURANTE) 
+- O [usuário](lex_geral.md#USUARIO) pode visualizar a faixa de preço dos [restaurantes](lex_restaurantes.md#RESTAURANTE)
 
 #### Classificação:
 Objeto
 
 ***
-## Salvar restaurante <a name="SALVAR_RESTAURANTE"></a>
+## LR06 - Salvar restaurante <a name="SALVAR_RESTAURANTE"></a>
 #### Sinônimos:
 - favorito
 
@@ -87,55 +87,55 @@ Objeto
 - Restaurantes selecionados pelo [usuário](lex_geral.md#USUARIO) que serão listados em uma aba específica do aplicativo [Airbnb](lex_geral.md#Airbnb)
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode visualizar a lista dos restaurantes salvos 
-- O [usuário](lex_geral.md#USUARIO) pode salvar um restaurante 
+- O [usuário](lex_geral.md#USUARIO) pode visualizar a lista dos restaurantes salvos
+- O [usuário](lex_geral.md#USUARIO) pode salvar um restaurante
 
 #### Classificação:
 Objeto
 
 ***
-## Horário <a name="HORARIO"></a>
+## LR07 - Horário <a name="HORARIO"></a>
 #### Sinônimos:
-- turno 
+- turno
 - tempo
 
 #### Noção:
 - Turno em que o [usuário](lex_geral.md#USUARIO) realizará sua refeição  
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode filtrar por horário 
+- O [usuário](lex_geral.md#USUARIO) pode filtrar por horário
 
 #### Classificação:
 Objeto
 
 ***
-## Culinárias<a name="CULINARIAS"></a>
+## LR08 - Culinárias<a name="CULINARIAS"></a>
 #### Sinônimos:
-- culinária 
-- cozinha 
+- culinária
+- cozinha
 - gastronomia
 
 #### Noção:
 - Etnia que deu origem aos pratos servidos pelo [restaurante](lex_restaurantes.md#RESTAURANTE)   
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode filtrar por culinária 
+- O [usuário](lex_geral.md#USUARIO) pode filtrar por culinária
 
 #### Classificação:
 Objeto
 
 ***
-## Reservar<a name="RESERVAR"></a>
+## LR09 - Reservar<a name="RESERVAR"></a>
 #### Sinônimos:
-- solicitação 
-- pedido 
+- solicitação
+- pedido
 
 #### Noção:
-- Ato de solicitar o armazenamento de um horário para o [usuario](lex_geral.md#USUARIO) 
+- Ato de solicitar o armazenamento de um horário para o [usuario](lex_geral.md#USUARIO)
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode fazer a reserva 
-- O [usuário](lex_geral.md#USUARIO) pode visualizar suas reservas 
+- O [usuário](lex_geral.md#USUARIO) pode fazer a reserva
+- O [usuário](lex_geral.md#USUARIO) pode visualizar suas reservas
 - O [usuário](lex_geral.md#USUARIO) pode cancelar sua reserva
 - Ao realizar uma reserva o [restaurante](lex_restaurantes.md#RESTAURANTE) armazenará um lugar no [horário](lex_restaurantes.md#HORARIO) escolhido pelo [usuário](lex_geral.md#USUARIO)
 
@@ -143,38 +143,38 @@ Objeto
 Verbo
 
 ***
-## Dicas dos anfitriões<a name="DICAS_ANFITRIOES"></a>
+## LR10 - Dicas dos anfitriões<a name="DICAS_ANFITRIOES"></a>
 #### Sinônimos:
 - conselhos dos [anfitriões](lex_geral.md#ANFITRIAO)
 
 #### Noção:
-- Mensagens deixadas pelos [anfitriões](lex_geral.md#ANFITRIAO) sobre um [restaurante](lex_restaurantes.md#RESTAURANTE) 
+- Mensagens deixadas pelos [anfitriões](lex_geral.md#ANFITRIAO) sobre um [restaurante](lex_restaurantes.md#RESTAURANTE)
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode ler as dicas dos anfitriões 
-- O [anfitrião](lex_geral.md#ANFITRIAO) pode deixar uma dica sobre um [restaurante](lex_restaurantes.md#RESTAURANTE) 
-- O [anfitrião](lex_geral.md#ANFITRIAO) pode deletar uma dica sobre um [restaurante](lex_restaurantes.md#RESTAURANTE) 
+- O [usuário](lex_geral.md#USUARIO) pode ler as dicas dos anfitriões
+- O [anfitrião](lex_geral.md#ANFITRIAO) pode deixar uma dica sobre um [restaurante](lex_restaurantes.md#RESTAURANTE)
+- O [anfitrião](lex_geral.md#ANFITRIAO) pode deletar uma dica sobre um [restaurante](lex_restaurantes.md#RESTAURANTE)
 
 #### Classificação:
 Objeto
 
 ***
-## Destaques do restaurante<a name="DICAS_ANFITRIOES"></a>
+## LR11 - Destaques do restaurante<a name="DICAS_ANFITRIOES"></a>
 #### Sinônimos:
-- diferenciais do [restaurante](lex_restaurantes.md#RESTAURANTE) 
+- diferenciais do [restaurante](lex_restaurantes.md#RESTAURANTE)
 
 #### Noção:
 - Serviços ou características que diferenciam um [restaurante](lex_restaurantes.md#RESTAURANTE)
 
 #### Impacto
-- O [usuário](lex_geral.md#USUARIO) pode ler os destaques do restaurante 
+- O [usuário](lex_geral.md#USUARIO) pode ler os destaques do restaurante
 - O [Airbnb](lex_geral#AIRBNB) usa o [Foursquare](lex_restaurantes.md#FOURSQUARE) para buscar as informações sobre os destaques dos restaurantes
 
 #### Classificação:
 Objeto
 
 ***
-## Foursquare<a name="FOURSQUARE"></a>
+## LR12 - Foursquare<a name="FOURSQUARE"></a>
 #### Sinônimos:
 - Não existem sinônimos
 
@@ -188,9 +188,9 @@ Objeto
 Objeto
 
 ***
-## Leia o Menu<a name="LEIA_MENU"></a>
+## LR13 - Leia o Menu<a name="LEIA_MENU"></a>
 #### Sinônimos:
-- Leia o cardápio 
+- Leia o cardápio
 
 #### Noção:
 - Apresenta o cardápio do [restaurante](lex_restaurantes.md#RESTAURANTE) para o [usuário](lex_geral.md#USUARIO) após selecionar um [restaurante](lex_restaurantes.md#RESTAURANTE)
@@ -203,27 +203,27 @@ Objeto
 Verbo
 
 ***
-## Responsável pelo restaurante<a name="RESPONSAVEL-RESTAURANTE"></a>
+## LR14 -  Responsável pelo restaurante<a name="RESPONSAVEL-RESTAURANTE"></a>
 #### Sinônimos:
-- dono do restaurante 
+- dono do restaurante
 - empresário
 
 #### Noção:
-- Pessoa responsável por um [restaurante](lex_restaurantes#RESTAURANTE) 
+- Pessoa responsável por um [restaurante](lex_restaurantes#RESTAURANTE)
 
 #### Impacto
-- O responsável pelo restaurante pode [resgistrar um restaurante](cen_restaurantes#REGISTRAR-RESTAURANTE) 
+- O responsável pelo restaurante pode [resgistrar um restaurante](cen_restaurantes#REGISTRAR-RESTAURANTE)
 
 #### Classificação:
 Sujeito
 
 ***
-## Resy<a name="RESY"></a>
+## LR15 -  Resy<a name="RESY"></a>
 #### Sinônimos:
 - Não pussui sinônimos
 
 #### Noção:
-- Aplicação para registrar restaurantes e fazer a gestão de reservas 
+- Aplicação para registrar restaurantes e fazer a gestão de reservas
 
 #### Impacto
 - Resy é responsável por avaliar os [restaurantes](lex_restaurantes.md#RESTAURANTES) que serão registrados
@@ -231,4 +231,3 @@ Sujeito
 
 #### Classificação:
 Objeto
-

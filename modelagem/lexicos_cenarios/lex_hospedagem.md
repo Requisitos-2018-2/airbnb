@@ -1,6 +1,6 @@
 # Léxicos de Hospedagem
 ***
-## Acomodação<a name="ACOMODACAO"></a>
+## LH01 - Acomodação<a name="ACOMODACAO"></a>
 #### Sinônimos:
 #### Noção:
 Espaço anunciado pelo [anfitrião](lex_geral.md#ANFITRIAO).
@@ -12,7 +12,7 @@ Pode ser classificado em: [lugar inteiro](#LUGAR-INTEIRO), [quarto privado](#QUA
 Objeto
 ***
 
-## Comodidades<a name="COMODIDADES"></a>
+## LH02 - Comodidades<a name="COMODIDADES"></a>
 #### Sinônimos:
 Regalias
 #### Noção:
@@ -23,7 +23,7 @@ São regalias presentes na [acomodação](#ACOMODACAO) oferecidas pelo [anfitri�
 #### Classificação:
 Objeto
 ***
-## Instalações<a name="INSTALACOES"></a>
+## LH03 - Instalações<a name="INSTALACOES"></a>
 #### Sinônimos:
 #### Noção:
 São as instalações disponíveis na [acomodação](#ACOMODACAO) oferecidas pelo [anfitrião](lex_geral.md#ANFITRIAO) para uso do [hóspede](lex_geral.md#HOSPEDE).
@@ -38,7 +38,7 @@ Exemplo de instalações:
 #### Classificação:
 Objeto
 ***
-## Regras da Casa<a name="REGRAS"></a>
+## LH04 - Regras da Casa<a name="REGRAS"></a>
 #### Sinônimos:
 - Regras de Convivência.
 - Regras.
@@ -54,7 +54,7 @@ Exemplo de regras:
 #### Classificação:
 Objeto
 ***
-## Tipo de Propriedade<a name="TIPO-RESIDENCIA"></a>
+## LH05 - Tipo de Propriedade<a name="TIPO-RESIDENCIA"></a>
 #### Sinônimos:
 - Tipo de residência.
 #### Noção:
@@ -74,7 +74,7 @@ Objeto
 #### Classificação:
 Objeto
 ***
-## Formas de Pagamento<a name="FORMA-PAGAMENTO"></a>
+## LH05 - Formas de Pagamento<a name="FORMA-PAGAMENTO"></a>
 #### Sinônimos:
 - Tipos de pagamento
 - Métodos de pagamento
@@ -93,7 +93,7 @@ Objeto
 #### Classificação:
 Objeto
 ***
-## Reserva Instantânea<a name="RESERVA-INSTANTANEA"></a>
+## LH06 - Reserva Instantânea<a name="RESERVA-INSTANTANEA"></a>
 #### Sinônimos:
 - Reserva direta
 #### Noção:
@@ -104,7 +104,7 @@ Objeto
 #### Classificação:
 Estado
 ***
-## Reserva <a name="RESERVA"></a>
+## LH07 - Reserva <a name="RESERVA"></a>
 #### Sinônimos:
 - Booking
 #### Noção:
@@ -114,7 +114,7 @@ Vínculo entre o [hóspede](lex_geral.md#HOSPEDE) e o [anfitriao](lex_geral.md#A
 #### Classificação:
 Objeto
 
-## Hóspede convidado<a name="HOSPEDE-CONVIDADO"></a>
+## LH08 - Hóspede convidado<a name="HOSPEDE-CONVIDADO"></a>
 #### Sinônimos:
 - Colega de viagem
 - Parceiro de viagem

@@ -25,3 +25,7 @@
 
 <img src="diagramas/legislacao.png" width="100%">
 
+### Interoperabilidade
+
+<img src="diagramas/intero.png" width="100%">
+
