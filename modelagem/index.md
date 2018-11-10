@@ -62,15 +62,15 @@
       </h4>
     </a>
   </div>
-  <div class="col s12 m3 offset-m3 center-align">
+</div>
+<div class="row">
+    <div class="col s12 m3 offset-m3 center-align">
     <a href="lexicos_cenarios/cen_web" class="module-link">
       <h4 class="promo-heading">
        Cenário Web
       </h4>
     </a>
   </div>
-</div>
-<div class="row">
   <div class="col s12 m3 center-align">
     <a href="casos_de_uso/index" class="module-link">
       <h4 class="promo-heading">
