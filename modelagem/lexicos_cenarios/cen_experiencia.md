@@ -65,7 +65,7 @@ Porque? - Usuário deseja participar de uma experiência.
 [Usuário Procura Experiência](#PROCURA-EXPERIENCIA)
 [Usuário Reserva Experiência](#RESERVA-EXPERIENCIA)
 #### Restrição:
-[Hospede](lex_geral.md#HOSPEDE) deve conseguir achar o local.
+[Hospede](lex_geral.md#HOSPEDE) deve possuir fundos para o pagamento
 #### Exceção:
 [Hospede](lex_geral.md#HOSPEDE) não acha o local.
 

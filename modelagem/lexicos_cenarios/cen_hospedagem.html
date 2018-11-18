@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/shared.css">
+  <style type="text/css">
+   th{
+     border:1px; border-style:solid; border-color:black;
+   }
+   .iten{
+      border:1px; border-style:solid; border-color:black;
+   }
+  </style>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+          <span class="fa fa-hotel"></span> Airbnb
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+ <section id="main">
+    <div class="container center-align">
+      <div class="row valign-wrapper">
+        <div class="col s12 center-align">
+         <h2> <span class="fa fa-bookmark"></span> Cenários - Hospedagem</h2>
+         <p>2018.2</p>
+        </div>
+      </div>
+  </section>
+
+  <div id="BUSCAR-ACOMODACAO" class="container ">
+    <h4>CH01 - Busca por acomodação</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Descrever a busca da acomodação
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          O <a href="lex_geral.html#USARIO"> Usuário</a> entra na aplicação, podendo estar logado, ou não, e busca por acomodações.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,
+          <a href="lex_geral.html#ANFITRIAO">Usuário anfitrião</a>,
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> entra na aplicação.</br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> define quais serãos os <a href="lex_geral.html#QUESITOS">Quesitos de Busca</a>.<br>
+          Se tiver sucesso, <a href="lex_geral.html#HOSPEDE"> Hospede</a> recebe as acomodações que se encaixam.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#QUESITOS">Quesitos de Busca</a> devem retornar acomodação valida.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> recebe as acomodações que se encaixam.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div id="DETALHES-ACOMODACAO" class="container ">
+    <h4>CH02 - Acessar detalhes da acomodação</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Descrever o acesso aos detalhes da <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          O <a href="lex_geral.html#USUARIO"> Usuário</a> pode estar, ou não logado.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,<br>
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,<br>
+          <a href="lex_geral.html#ANFITRIAO">Usuário anfitrião</a>,<br>
+          <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a><br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> perdeu/esqueceu senha para <a href="cen_geral.md#FAZ-LOGIN"> realizar o login</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> entra na aplicação.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> seleciona uma <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>.
+          <a href="lex_geral.html#USUARIO"> Usuário</a> é direcionado à página da <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> é direcionado para a pagina de detalhes da <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>.
+        </th>
+      </tr>
+    </table>
+  </div>
+
+  <br>
+  <hr>
+  <br>
+
+  <div id="FILTRAR-ACOMODACAO" class="container ">
+    <h4>CH03 - Filtrar resultados de busca por Acomodação</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Descrever o processo para filtrar os resultados de uma busca por <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          O usuário pode estar ou não logado e efetuou uma <a href="#BUSCAR-ACOMODACAO"> busca por acomodações</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,<br>
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,<br>
+          <a href="lex_geral.html#ANFITRIAO">Usuário anfitrião</a>,<br>
+          <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+          O usuário pode estar ou não logado e efetuou uma <a href="#BUSCAR-ACOMODACAO"> busca por acomodações</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> entra na aplicação.</br>
+          O <a href="lex_geral.html#USUARIO"> Usuário</a> seleciona um ou n dentre os seguintes filtros: <br>
+          <ul>
+            <li>
+                - Datas de check-in e checkout
+            </li>
+            <li>
+                - Quantidade de hóspedes
+            </li>
+            <li>
+                - Faixa de preço
+            </li>
+            <li>
+                - Tipos de Acomodação
+            </li>
+            <li>
+                - Host and Booking
+            </li>
+            <li>
+                - Quantidade de quartos e camas
+            </li>
+            <li>
+                - Tipo de viagem
+            </li>
+            <li>
+                - <a href="lex_hospedagem.html#COMODIDADES">Comodidades</a>
+            </li>
+            <li>
+                - <a href="lex_hospedagem.html#INSTALACOES">Instalações</a>
+            </li>
+            <li>
+                - <a href="lex_hospedagem.html$#REGRAS">Regras da casa</a>
+            </li>
+            <li>
+                - Acessibilidade
+            </li>
+            <li>
+                - <a href="lex_hospedagem.md#TIPO-RESIDENCIA">Tipo de propriedade</a>
+            </li>
+            <li>
+                - Acomodações únicas
+            </li>
+            <li>
+                - Idioma do Anfitrião
+            </li>
+          </ul>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> clica em "buscar"
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          Os resultados da busca são filtrados conforme os filtros selecionados.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+
+  <div id="FILTRAR-ACOMODACAO" class="container ">
+    <h4>CH04 - Efetuar reserva</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Descrever o processo para o usuário logado efetuar reserva de uma <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          O usuário efetuou uma <a href="#BUSCAR-ACOMODACAO"> busca por acomodações</a> e acessou os <a href="#DETALHES-ACOMODACAO"> detalhes da acomodação</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,<br>
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,<br>
+          <a href="lex_geral.html#ANFITRIAO">Usuário anfitrião</a>,<br>
+          <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.<br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+          O usuário deve logado, efetuou uma <a href="#BUSCAR-ACOMODACAO"> busca por acomodações</a> ou não e acessou os <a href="#DETALHES-ACOMODACAO"> detalhes da acomodação</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          O usuário define as datas desejadas e a quantidade de <a href="#lex_hospedagem.html#HOSPEDE-CONVIDADO">hóspedes convidados</a> que ficarão com ele na acomodação.<br>
+          O usuário clica em continuar. <br>
+          Se a acomodação possuir a característica reserva instantânea, o usuário deve selecionar a <a href="#lex_hospedagem.html#FORMA-PAGAMENTO">forma de pagamento desejada</a> e inserir as informações de pagamento respectivas.<br>
+          Se a acomodação não possuir a característica reserva instantânea, o usuário deve aguardar a confirmação de reserva do anfitriã para selecionar <a href="lex_hospedagem.html#FORMA-PAGAMENTO">forma de pagamento desejada</a> desejada e inserir as informações de pagamento respectivas.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          A acomodação deve estar disponível nas datas desejadas.<br>
+          Há limites de quantidade de hóspedes por acomodaçao, portanto a quantidade de hóspedes deve estar nos limites da acomodação.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          O usuário possui uma <a href="lex_hospedagem.html#RESERVA">reserva</a> em uma <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+
+
+  <div id="CADASTRAR-ACOMODACAO" class="container ">
+    <h4>CH05 - Cadastrar uma acomodação</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          O <a href="lex_geral.html#ANFITRIAO">usuário anfitrião</a> deseja cadastrar sua <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          O anfitrião está logado.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#ANFITRIAO">Usuário anfitrião</a>,<br>
+          <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web,<br>
+          Conta no <a href="lex_geral.html#AIRBNB">Airbnb</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+          O usuário acessou o aplicativo ou a página inicial do site.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          O usuário clica na aba torne-se um anfitrião.<br>
+          O usuário adiciona as informações da acomodação(e camas, banheiros, comodidades, espaços comuns e define o tipo de residência e endereço).<br>
+          O usuário clica em continuar.<br>
+          Na segunda etapa o usuário adiciona fotos, resumo e o título da acomodação.<br>
+          O usuário clica em continuar.<br>
+          O usuário adiciona adiciona as informações de preço, calendário e configurações de reserva(quantidade de hóspedes, <a href="lex_hospedagem.html#RESERVA-INSTANTANEA">reserva instantânea</a>, horários de check-in).
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+        A acomodação do usuário estará cadastrada no Airbnb e será listada nos resultados da  <a href="#BUSCAR-ACOMODACAO"buscar acomodação></a> pela cidade da acomodação.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+
+
+
+  <div id="AVALIAR-ACOMODACAO" class="container ">
+    <h4>CH06 - Avaliar uma acomodação</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Descrever o processo para comentar em uma  <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a> e o <a href="lex_geral.html#ANFITRIAO">usuário anfitrião</a> que o usuário se hospedou.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          O anfitrião está logado, e já se hospe na  <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,<br>
+          <a href="lex_geral.html#ANFITRIAO">Usuário anfitrião</a>,<br>
+          <a href="lex_hospedagem.html#ACOMODACAO"> Acomodação</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web,<br>
+          Conta no <a href="lex_geral.html#AIRBNB">Airbnb</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+          O usuário acessou o aplicativo ou a página inicial do site.
+        </th>
+      </tr>
+      <tr>
+      <th class="th">
+        Episódios
+      </th>
+      <th>
+        <a href="lex_geral.html#HOSPEDE">Usuário hospede</a> seleciona hospedagem,
+        clica em "fazer comentário"
+      </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          O usuário [efetuou uma reserva]<a href="#EFETUAR-RESERVA"> efetuou uma reserva</a> e já efetuou o <a href="lex_geral.html#CHECKOUT">checkout</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          O comentário deve ser feito em até 14 dias após o checkout.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+
+
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+        <span class="site-footer-credits">Requisitos de Software
+        <a href="https://pages.github.com">airbnb</a>.
+      </span>
+    </div>
+  </footer>
+</body>
