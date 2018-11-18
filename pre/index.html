@@ -8,214 +8,243 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="../css/shared.css">
 </head>
 
 <body>
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
-        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
-          <span class="fa fa-hotel"></span> Airbnb
-        </a>
-        <ul class="right">
-          <li>
-            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
-              GitHub
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+            <span class="fa fa-hotel"></span> Airbnb
+          </a>
+          <ul class="right">
+            <li>
+              <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
 
-
-
-  <section id="promo2">
-    <div class="container center-align">
+  <div class="container center-align">
+    <section id="promo2">
       <div class="row valign-wrapper">
         <div class="col s12 center-align">
-         <h2> <span class="fa fa-bookmark"></span> Pré-rastreabilidade</h2>
+         <h1><span class="fa fa-bookmark"></span>Pré-rastreabilidade</h1>
          <p>2018.2</p>
-         <a href="#argumentacao">Argumentações</a> |
-         <a href="#richPicture">Rich Pictures</a>
         </div>
       </div>
+    </section>
+  </div>
 
-      <div class="row promo-row">
-        <div class="col s12 m12 center-align">
-          <h2>   Rastreabilidade de requisitos</h2>
+  <div class="container"><!-- CONTAINER -->
+    <div class="row" id="offsetBox"><!-- ROW -->
+      <div class="col m10 center-align"><!--COL M10 -->
+        <div id="restreabilidadeRequisitos" class="section scrollspy">
+          <h3>Rastreabilidade de Requisitos</h3>
           <p>A rastreabilidade de requisitos é uma técnica utilizada para prover um relacionamento entre os requisitos levantados, a arquitetura do sistema até sua implementação final, possibilitando assim uma compreensão adequada do contexto no qual o software foi construído. A rastreabilidade é identificada como um fator de qualidade, sendo essa uma das características não funcionais do sistema. A rastrebilidade deve possibilitar acompanhar e relatar a vida de um requisito.
-
+          <br><br>
           Esse módulo tem como foco a etapa de <b>Pré-Rastreabilidade</b>, que é definida como o estudo do universo de onde são levantados os requisitos.
           </p>
-          <hr>
-            <h4 id="richPicture">Rich Pictures</h4>
-          <p>
-            Rich Picture é uma ferramenta para expressar ideias com o objetivo de resolver um problema, geralmente construídos durante uma entrevista com o cliente impactado pela solução. Ao desenvolver um Rich picture o engenheiro de requisitos conhece melhor os problemas do cliente, e de forma iterativa refina o processo no qual sua aplicação trabalhará.
-          </p>
         </div>
 
-  </section>
+        <!-- Richpictures -->
+        <div id="richPicture" class="section scrollspy">
+          <div class="row">
+            <div class="col m12">
+              <div class="center-align">
+                <h3>Rich Pictures</h3>
+                <p>
+                  Rich Picture é uma ferramenta para expressar ideias com o objetivo de resolver um problema, geralmente construídos durante uma entrevista com o cliente impactado pela solução. Ao desenvolver um Rich picture o engenheiro de requisitos conhece melhor os problemas do cliente, e de forma iterativa refina o processo no qual sua aplicação trabalhará.
+                </p>
+              </div>
+            </div>
+            <!-- Visão Geral 1.0 -->
+            <div class="col s12 m6">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>RP01 - Visão Geral 1.0</h5>
+                </div>
+                <div class="card-image">
+                  <img id="richVisaoGeral" class="materialboxed" data-caption="RP01 - Visão Geral 1.0" src="ultima_versao/a_visao_geral_v1.png">
+                </div>
+              </div>
+            </div>
+            <!-- Hóspede 3.0 -->
+            <div class="col s12 m6">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>RP02 - Hóspede 3.0</h5>
+                </div>
+                <div class="card-image">
+                  <img id="richHospede" class="materialboxed" data-caption="RP02 - Hóspede 3.0" src="ultima_versao/hospede_v3.png">
+                </div>
+              </div>
+            </div>
 
-  <div class="row">
+            <!-- Anfitrião 3.0 -->
+            <div class="col s12 m6">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>RP03 - Anfitrião 3.0</h5>
+                </div>
+                <div class="card-image">
+                  <img id="richAnfitriao" class="materialboxed" data-caption="RP03 - Anfitrião 3.0" src="ultima_versao/anfitriao_v3.png">
+                </div>
+              </div>
+            </div>
 
-    <!-- Visão Geral 1.0 -->
-    <div class="col s12 center-align">
-          <h2>RP01 - Visão Geral</h2>
-          <div style="background-color:white;">
-            <img id="richVisaoGeral" src="ultima_versao/a_visao_geral_v1.png" class="responsive-img">
+            <!-- Restaurante 1.0 -->
+            <div class="col s12 m6">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>RP04 - Restaurante 4.0</h5>
+                </div>
+                <div class="card-image">
+                  <img id="richRestaurante" class="materialboxed" data-caption="RP04 - Restaurante 4.0" src="ultima_versao/restaurante_v1.png">
+                </div>
+              </div>
+            </div>
+
+            <!-- Pesquisa de Experiências -->
+            <div class="col s12 center-align">
+              <h2>RP05 - Pesquisa de Experiência</h2>
+                <div style="background-color:white;">
+                  <img id="richPesquisaExperiencia" style="max-height: 50%; max-width: 50%"
+                  src="ultima_versao/experiencia_v1.png" class="responsive-img">
+                </div>
+            </div>
+              <!-- Questões Regionais -->
+            <div class="col s12 center-align">
+              <h2>RP06 - Questões Regionais</h2>
+              <div style="background-color:white;">
+                <img id="richQuestoesRegionais" style="max-height: 50%; max-width: 50%" src="ultima_versao/relacoes_regionais_v1.png" class="responsive-img">
+              </div>
+            </div>
+              <!-- Relações Entre Usuários -->
+            <div class="col s12 center-align">
+              <h2>RP07 - Relações Entre Usuários</h2>
+              <div style="background-color:white;">
+                <img id="richRelacoesEntreUsuarios"src="ultima_versao/relacoes_dos_usuarios_v1.png" class="responsive-img">
+              </div>
+            </div>
+              <!-- Monteário -->
+            <div class="col s12 center-align">
+              <h2>RP08 - Monetário</h2>
+              <div style="background-color:white;">
+                <img style="max-height: 50%; max-width: 50%" id="richMonetario" src="ultima_versao/richPictureJP.png" class="responsive-img">
+              </div>
+            </div>
+              <!-- Boas Experiências -->
+            <div class="col s12 center-align">
+              <h2>RP09 - Boas Experiências</h2>
+              <div style="background-color:white;">
+                <img id="richBoasExperiencias" src="ultima_versao/boa_experiencia_v1.png" class="responsive-img">
+              </div>
+            </div>
+              <!-- Centrao de Resoluções -->
+            <div class="col s12 center-align">
+              <h2>RP10 - Central de Resoluções</h2>
+              <div style="background-color:white;">
+                <img id="richCentralResolucoes" src="ultima_versao/resolutions_v1.png" class="responsive-img">
+              </div>
+            </div>
+                <!-- Segurança -->
+            <div class="col s12 center-align">
+              <h2>RP11 - Segurança</h2>
+              <div style="background-color:white;">
+                <img id="richSeguranca" src="ultima_versao/security_v1.png" class="responsive-img">
+              </div>
+            </div>
           </div>
-    </div>
-    <hr>
-    <!-- Hóspede 3.0 -->
-    <div class="col s12 center-align">
-      <h2>RP02 - Hóspede</h2>
-      <div style="background-color:white;">
-        <img  id="richHospede"src="ultima_versao/hospede_v3.png" style="max-height: 50%; max-width: 50%" class="responsive-img">
-      </div>
-    </div>
+        </div>
+        <!-- Argumentaçoes -->
+        <div id="argumentacao" class="section scrollspy">
+          <div class="row">
+            <div class="col s12 center-align">
+              <h4>Argumentação</h4>
+              <p>
+                O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneiras de modelar e racionar sobre os requisitos discutidos durante uma reunião com os stakeholders, com o objetivo de verificar a validação dos artefatos da solução. O ACE disponibiliza uma vocabulário para representar as informações e decisões levantadas durante a discussão.
+              </p>
+            </div>
+            <!-- Escolha da ferramenta de desenho  Arg - 1-->
+            <div class="col s12 center-align">
+              <h2>AR01 - Escolha da Ferramenta de desenho</h2>
+                <img style="max-height: 50%; max-width: 50%" id="argFerramentaDesenho" src="ultima_versao/decisão_ferramenta_richpic_v1.png" class="responsive-img">
+            </div>
+            <!-- Escolha de termo -->
+            <div class="col s12 center-align">
+              <h2>AR02 - Escolha de Termo</h2>
+              <img id="argEscolhaTermo" src="ultima_versao/decisao_termo.png" class="responsive-img">
+            </div>
+            <!-- Anfitriao que ja trabalha na area -->
+            <div class="col s12 center-align">
+              <h2>AR03 - Anfitrião que já trabalha na área</h2>
+              <img id="argAnfitriaoTrabalha" src="ultima_versao/argumentacao_anfitriao_v1.png" class="responsive-img">
+            </div>
+            <!-- Preocupação do Anfitrião -->
+            <div class="col s12 center-align">
+              <h2>AR04 - Preocupação do anfitrião</h2>
+              <img id="argPreocupacaoAnfitriao" src="ultima_versao/preocupacao_v1.png" class="responsive-img">
+            </div>
+            <!-- Vale a pena pagar a taxa de 3% do Anfitrião -->
+            <div class="col s12 center-align">
+              <h2>Vale a pena pagar a taxa de 3% do Anfitrião</h2>
+              <img id="argTaxaAnfitriao" src="ultima_versao/arg_vale_a_pena.png" class="responsive-img">
+            </div>
+            <!-- Alugar um quarto pode ser um incomodo -->
+            <div class="col s12 center-align">
+              <h2>AR05 - Alugar um quarto pode ser um incômodo</h2>
+                <img id="argAlugarQuarto" src="ultima_versao/argumentacao_quarto_v0.png" class="responsive-img">
+            </div>
+            <!-- Representação do pagamento no Rich Picture monetário -->
+            <div class="col s12 center-align">
+              <h2>AR06 - Representação do pagamento no Rich Picture Monetário</h2>
+                <img id="argPagamentoRichPicture" src="ultima_versao/arg_monetario_v0.png" class="responsive-img">
+            </div>
+            <!-- Usuário deve ou não se cadastrar ? -->
+            <div class="col s12 center-align">
+              <h2>AR07 - Usuário deve ou não se cadastrar ?</h2>
+                <img id="argUsuarioCadastrar" src="ultima_versao/ArugmentacaoJp2.png" class="responsive-img">
+            </div>
+            <h4><a href="versao_antiga/index">Versões anteriores</a></h4>
+            <h5>Referências</h5>
+            <div>
+                <ul>
+                  <li>SAYÃO, LEITE, Rastreabilidade de Requisitos. PUC Rio, 2005.</li>
+                  <li>HOWARD, Andrew Monk. Steve."The Rich Picture: A Tool for Reasoning About Work Context." Interactions.</li>
+                </ul>
+            </div>
+          </div>
+        </div>
 
-    <hr>
-    <!-- Anfitrião 3.0 -->
-  <div class="col s12 center-align ">
-    <h2>RP03 - Anfitrião</h2>
-    <div style="background-color:white;">
-      <img id="richAnfitriao" style="max-height: 50%; max-width: 50%" name="visaoGeral"src="ultima_versao/anfitriao_v3.png" class="responsive-img">
-    </div>
-  </div>
-  <hr>
-    <!-- Restaurante 1.0 -->
-  <div class="col s12 center-align">
-    <h2>RP04 - Restaurante</h2>
-    <div style="background-color:white;">
-      <img style="max-height: 50%; max-width: 50%" id="richRestaurante"  src="ultima_versao/restaurante_v1.png" class="responsive-img">
-    </div>
-  </div>
-  <hr>
-    <!-- Pesquisa de Experiências -->
-  <div class="col s12 center-align">
-    <h2>RP05 - Pesquisa de Experiência</h2>
-      <div style="background-color:white;">
-        <img id="richPesquisaExperiencia" style="max-height: 50%; max-width: 50%"
-        src="ultima_versao/experiencia_v1.png" class="responsive-img">
+      </div><!-- END COL M10 -->
+      
+      <div class="col hide-on-small-only m2">
+        <div class="myPushpin" data-target="offsetBox">
+          <ul class="section table-of-contents">
+            <li><a href="#restreabilidadeRequisitos">Rastreabilidade<br>de Requisitos</a></li>
+            <li><a href="#richPicture">Rich Pictures</a></li>
+            <li><a href="#argumentacao">Argumentações</a></li>
+          </ul>
+        </div>
       </div>
-  </div>
-  <hr>
-    <!-- Questões Regionais -->
-  <div class="col s12 center-align">
-    <h2>RP06 - Questões Regionais</h2>
-    <div style="background-color:white;">
-      <img id="richQuestoesRegionais" style="max-height: 50%; max-width: 50%" src="ultima_versao/relacoes_regionais_v1.png" class="responsive-img">
-    </div>
-  </div>
-  <hr>
-    <!-- Relações Entre Usuários -->
-  <div class="col s12 center-align">
-    <h2>RP07 - Relações Entre Usuários</h2>
-    <div style="background-color:white;">
-      <img id="richRelacoesEntreUsuarios"src="ultima_versao/relacoes_dos_usuarios_v1.png" class="responsive-img">
-    </div>
-  </div>
-  <hr>
-    <!-- Monteário -->
-  <div class="col s12 center-align">
-    <h2>RP08 - Monetário</h2>
-    <div style="background-color:white;">
-      <img style="max-height: 50%; max-width: 50%" id="richMonetario" src="ultima_versao/richPictureJP.png" class="responsive-img">
-    </div>
-  </div>
-  <hr>
-    <!-- Boas Experiências -->
-  <div class="col s12 center-align">
-    <h2>RP09 - Boas Experiências</h2>
-    <div style="background-color:white;">
-      <img id="richBoasExperiencias" src="ultima_versao/boa_experiencia_v1.png" class="responsive-img">
-    </div>
-  </div>
-  <hr>
-    <!-- Centrao de Resoluções -->
-  <div class="col s12 center-align">
-    <h2>RP10 - Central de Resoluções</h2>
-    <div style="background-color:white;">
-      <img id="richCentralResolucoes" src="ultima_versao/resolutions_v1.png" class="responsive-img">
-    </div>
-  </div>
-      <!-- Segurança -->
-    <hr>
-  <div class="col s12 center-align">
-    <h2>RP11 - Segurança</h2>
-    <div style="background-color:white;">
-      <img id="richSeguranca" src="ultima_versao/security_v1.png" class="responsive-img">
-    </div>
-  </div>
-</div>
-  <hr>
-  <!-- Argumentaçoes -->
-<div class="row">
-  <div class="col s12 center-align">
-    <h4><a id="argumentacao"> Argumentação </a></h4>
-    <p>O modelo de argumentação do Framework ACE é uma ferramenta que oferece maneiras de modelar e racionar sobre os requisitos discutidos durante uma reunião com os stakeholders, com o objetivo de verificar a validação dos artefatos da solução. O ACE disponibiliza uma vocabulário para representar as informações e decisões levantadas durante a discussão.
-</p>
-  </div>
-  <!-- Escolha da ferramenta de desenho  Arg - 1-->
-  <div class="col s12 center-align">
-    <h2>AR01 - Escolha da Ferramenta de desenho</h2>
-      <img style="max-height: 50%; max-width: 50%" id="argFerramentaDesenho" src="ultima_versao/decisão_ferramenta_richpic_v1.png" class="responsive-img">
-  </div>
-  <hr>
-  <!-- Escolha de termo -->
-  <div class="col s12 center-align">
-    <h2>AR02 - Escolha de Termo</h2>
-    <img id="argEscolhaTermo" src="ultima_versao/decisao_termo.png" class="responsive-img">
-  </div>
-  <hr>
-  <!-- Anfitriao que ja trabalha na area -->
-  <div class="col s12 center-align">
-    <h2>AR03 - Anfitrião que já trabalha na área</h2>
-    <img id="argAnfitriaoTrabalha" src="ultima_versao/argumentacao_anfitriao_v1.png" class="responsive-img">
-  </div>
-  <hr>
-  <!-- Preocupação do Anfitrião -->
-  <div class="col s12 center-align">
-    <h2>AR04 - Preocupação do anfitrião</h2>
-    <img id="argPreocupacaoAnfitriao" src="ultima_versao/preocupacao_v1.png" class="responsive-img">
-  </div>
-  <!-- Vale a pena pagar a taxa de 3% do Anfitrião -->
-  <div class="col s12 center-align">
-    <h2>Vale a pena pagar a taxa de 3% do Anfitrião</h2>
-    <img id="argTaxaAnfitriao" src="ultima_versao/arg_vale_a_pena.png" class="responsive-img">
-  </div>
-  <!-- Alugar um quarto pode ser um incomodo -->
-  <div class="col s12 center-align">
-    <h2>AR05 - Alugar um quarto pode ser um incômodo</h2>
-      <img id="argAlugarQuarto" src="ultima_versao/argumentacao_quarto_v0.png" class="responsive-img">
-  </div>
-  <!-- Representação do pagamento no Rich Picture monetário -->
-  <div class="col s12 center-align">
-    <h2>AR06 - Representação do pagamento no Rich Picture Monetário</h2>
-      <img id="argPagamentoRichPicture" src="ultima_versao/arg_monetario_v0.png" class="responsive-img">
-  </div>
-  <!-- Usuário deve ou não se cadastrar ? -->
-  <div class="col s12 center-align">
-    <h2>AR07 - Usuário deve ou não se cadastrar ?</h2>
-      <img id="argUsuarioCadastrar" src="ultima_versao/ArugmentacaoJp2.png" class="responsive-img">
-  </div>
-<h4><a href="versao_antiga/index">Versões anteriores</a></h4>
-<h5>Referências</h5>
-<div>
-    <ul>
-      <li>SAYÃO, LEITE, Rastreabilidade de Requisitos. PUC Rio, 2005.</li>
-      <li>HOWARD, Andrew Monk. Steve."The Rich Picture: A Tool for Reasoning About Work Context." Interactions.</li>
-    </ul>
-</div>
-</div>
+
+    </div><!-- END ROW -->
+  </div><!-- END CONTAINER -->
 
 
   <footer class="page-footer grey darken-3">
-    <div class="container">
-        <span class="site-footer-credits">Requisitos de Software
-        <a href="https://pages.github.com">airbnb</a>.
+    <div class="container center-align">
+      <span class="site-footer-credits">
+        <b>Airbnb</b>
+        , Requisitos de Software, 
+        <b> FGA UnB</b>
       </span>
     </div>
   </footer>
@@ -226,17 +255,17 @@
 
   <script>
     $(document).ready(function(){
-      $(".button-collapse").sideNav({
-        menuWidth: 280,
-        draggable: true
+      $('.scrollspy').scrollSpy();
+      $('.myPushpin').each(function() {
+        var $this = $(this);
+        var $target = $('#' + $(this).attr('data-target'));
+        $this.pushpin({
+          top: $target.offset().top,
+          bottom: $target.offset().top + $target.outerHeight() - $this.height()
+        });
       });
-      $(".dropdown-button").dropdown();
+      $('.materialboxed').materialbox();
     });
-
-    $(".button-collapse").sideNav({
-        menuWidth: 250,
-        draggable: true
-      });
   </script>
 </body>
 
