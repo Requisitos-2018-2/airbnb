@@ -34,10 +34,7 @@ O usuário efetuou uma [busca por acomodação](#BUSCAR-ACOMODACAO) ou está na 
 Se o usuário efetuou uma [busca por acomodação](#BUSCA-ACOMODACAO) ele deve clicar em alguma das [acomodações](lex_hospedagem.md#ACOMODACAO) nos resultados.<br>
 Se o usuário está na página inicial ele deve clicar em alguma dos [anúncios](lex_geral.md#ANUNCIO) de [acomodação](lex_hospedagem.md#ACOMODACAO).
 #### Pós condição:
-<<<<<<< HEAD
 O usuário está na página de detalhes da [acomodação](lex_hospedagem.md#ACOMODACAO).
-=======
-O usuário está na página de detalhes da acomodação.
 
 ***
 ## Filtrar resultados de busca por Acomodação<a name="FILTRAR-ACOMODACAO"></a>

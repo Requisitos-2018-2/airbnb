@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/shared.css">
+  <style type="text/css">
+   th{
+     border:1px; border-style:solid; border-color:black;
+   }
+   .iten{
+      border:1px; border-style:solid; border-color:black;
+   }
+  </style>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+          <span class="fa fa-hotel"></span> Airbnb
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+ <section id="main">
+    <div class="container center-align">
+      <div class="row valign-wrapper">
+        <div class="col s12 center-align">
+         <h2> <span class="fa fa-bookmark"></span> Cenários - Experiência</h2>
+         <p>2018.2</p>
+        </div>
+      </div>
+  </section>
+
+  <div id="RESERVA-EXPERIENCIA" class="container ">
+    <h4>CE01 - Reserva Experiência</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Usuário <a href="lex_geral.html#HOSPEDE"> Hospede</a> deseja reservar a vaga pra um experiêcia em determinada data.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          Quem? - <a href="lex_geral.html#HOSPEDE"> Hospede</a><br>
+          Porque? - Para garantir a disponibilidade no dia desejado.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>,
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> estar logado no <a href="lex_geral.html#AIRBNB">Airbnb</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> entra na aplicação.</br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> <a href="#PROCURA-EXPERIENCIA"> procura por experiêcia</a>.<br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> seleciona a data que desejada.<br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> faz a reserva.<br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a>  deve ter cadastro na aplicação.<br>
+          Valor da experiêcia deve ser razoável para o <a href="lex_geral.html#HOSPEDE"> Hospede</a>.<br>
+          A data desejada pelo <a href="lex_geral.html#HOSPEDE"> Hospede</a> deve estar disponível
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> terá a <a href="lex_experiencia.html#EXPERIENCIA"> experiêcia</a> reservada.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div id="PROCURA-EXPERIENCIA" class="container ">
+    <h4>CE02 -  Usuário Procura Experiencia</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Usuário <a href="lex_geral.html#HOSPEDE"> Hospede</a> deseja encontrar uma experiencia
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          Quem? -  <a href="lex_geral.html#HOSPEDE"> Hospede</a><br>
+          Porque? - Usuário deseja buscar uma nova experiência.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,<br>
+          <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>,
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> entra na aplicação.</br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> <a href="#PROCURA-EXPERIENCIA"> procura por experiêcia</a>.<br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> seleciona a data que desejada.<br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> faz a reserva.<br>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          Os <a href="lex_geral.html#QUESITOS">Quesitos de Busca</a> se encaixarem em alguma experiêcia disponível.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> as opções de experiêcia de acordo com os <a href="lex_geral.html#QUESITOS">Quesitos de Busca</a>.
+        </th>
+      </tr>
+    </table>
+  </div>
+
+  <br>
+  <hr>
+  <br>
+  <div id="CONTRATA-EXPERIENCIA" class="container ">
+    <h4>CE03 - Usuário Contrata Experiência</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Usuário <a href="lex_geral.html#HOSPEDE">Usuário hospede</a> contrata o serviço de uma <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          Quem? -  <a href="lex_geral.html#HOSPEDE"> Hospede</a><br>
+          Porque? - Usuário deseja participar de uma <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>,
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Hospede</a> deve conseguir achar o local, data desejada deve esta disponível.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> entra na aplicação.</br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> <a href="#PROCURA-EXPERIENCIA"> procura por experiêcia</a>.<br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> seleciona a data que desejada.<br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> faz a reserva.<br>        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> deve estar logado.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> pagou pelo serviço.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div id="AVALIA-EXPERIENCIA" class="container ">
+    <h4>CE04 - Usuário Avalia Experiência</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Usuário <a href="lex_geral.html#HOSPEDE"> Hospede</a> avalia <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a> que participou, para que outros usuários saibam oque esperar do serviço.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          Quem? -  <a href="lex_geral.html#HOSPEDE"> Hospede</a><br>
+          Porque? - Usuário deseja compartilhar com outros como foi sua <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>,
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+          Recursos
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Hospede</a> deve comprado e participado de uma <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>,.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> entra na aplicação.</br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> <a href="#PROCURA-EXPERIENCIA"> procura por experiêcia</a>.<br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> <a href="#CONTRATA-EXPERIENCIA"> contrata experiêcia</a>.<br>
+          Se <a href="lex_geral.html#HOSPEDE"> Hospede</a> faz a avalia a <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a>.<br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE"> Hospede</a> deve ter participado da experiêcia que ira avaliar.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="lex_experiencia.html#EXPERIENCIA">Experiência</a> possuira uma nova avaliação disponível para outros <a href="lex_geral.html#HOSPEDE"> Hospede</a>.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <br>
+
+
+
+
+
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+        <span class="site-footer-credits">Requisitos de Software
+        <a href="https://pages.github.com">airbnb</a>.
+      </span>
+    </div>
+  </footer>
+</body>
