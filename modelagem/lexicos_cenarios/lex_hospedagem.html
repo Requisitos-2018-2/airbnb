@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/shared.css">
+    <style type="text/css">
+th{
+  border:1px; border-style:solid; border-color:black;
+}
+   .'iten'{
+     border:1px; border-style:solid; border-color:black;
+   }
+    </style>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+          <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+            <span class="fa fa-hotel"></span> Airbnb
+          </a>
+          <ul class="right">
+            <li>
+              <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section id="main">
+      <div class="container center-align">
+        <div class="row valign-wrapper">
+          <div class="col s12 center-align">
+            <h2> <span class="fa fa-bookmark"></span> Léxicos - Hospedagem</h2>
+            <p>2018.2</p>
+          </div>
+        </div>
+    </section>
+
+    <div id="ACOMODACAO" class="container ">
+      <h4>LH01 - Acomodação</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+            Espaço anunciado pelo <a href="lex_geral.html#ANFITRIAO">anfitrião</a>.
+Pode ser classificado em: <a href="lex_hospedagem.html#LUGAR-INTEIRO">lugar inteiro</a>, <a href="lex_hospedagem.html#QUARTO-PRIVADO)">quarto privado</a>, <a href="lex_hospedagem.html#QUARTO-COMPARTILHADO">quarto compartilhado</a>.
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#ANFITRIAO">anfitrião </a> <a href="cen_hospedagem.html#CADASTRAR-ACOMODACAO">cadastra a acomodação</a>.<br>
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a> <a href="cen_hospedagem.html#EFETUAR-RESERVA">efetua reserva</a>.<br>
+          </th>
+
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+  <div id="COMODIDADES" class="container ">
+      <h4>LH02 - Comodidades</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Sinônimos
+          </th>
+          <th class="th">
+            Regalias    
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+            São regalias presentes na <a href="lex_hospedagem.html#ACOMODACAO">acomodação</a> oferecidas pelo <a href="lex_geral.html#ANFITRIAO">anfitrião</a> 
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#ANFITRIAO">anfitrião</a> pode oferecer  comidades ao <a href="cen_hospedagem.html#CADASTRAR-ACOMODACAO">cadastra a acomodação</a>.<br>
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a> pode <a href="cen_hospedagem.html#FILTRAR-ACOMODACAO">filtrar a busca por acomodação</a> baseado nas comodidades oferecidas.<br>
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+  <div id="INSTALACOES" class="container ">
+      <h4>LH03 - Instalações</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+            São as instalações disponíveis na <a href="lex_hospedagem.html#ACOMODACAO">acomodação</a>  oferecidas pelo <a href="lex_geral.html#ANFITRIAO">anfitrião</a> para uso do <a href="lex_geral.html#HOSPEDE">hóspede</a>. Exemplo de instalações:
+            <ul>
+              <li>Estacionamento gratuito</li>
+              <li>Academia</li>
+              <li>Piscina</li>
+              <li>Jacuzzi</li>
+            </ul>
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#ANFITRIAO">anfitrião</a>  seleciona quais instalações disponibilizará ao usuário ao <a href="cen_hospedagem.html#CADASTRAR-ACOMODACAO">cadastra a acomodação</a>. <br>
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a> pode <a href="cen_hospedagem.html#FILTRAR-ACOMODACAO">filtrar a busca por acomodação</a>. <br>
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+     <div id="REGRAS" class="container ">
+      <h4>LH04 - Regras da Casa</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Sinônimos
+          </th>
+          <th class="th">
+            Regras de Convivência. <br>
+            Regras. <br>             
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+           São as regras de convivência na <a href="lex_hospedagem.html#ACOMODACAO">acomodação</a> definidas pelo <a href="lex_geral.html#ANFITRIAO">anfitrião</a>. Exemplo de regras:
+           <ul>
+              <li>Proibido animais</li>
+              <li>Proibido eventos</li>
+              <li>Evitar barulho a noite</li>
+            </ul>  
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#ANFITRIAO">anfitrião</a> define as regras ao <a href="cen_hospedagem.html#CADASTRAR-ACOMODACAO">cadastra a acomodação</a>.
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a> pode <a href="cen_hospedagem.html#FILTRAR-ACOMODACAO">filtrar a busca por acomodação</a> baseado nas regras.
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+  <div id="TIPO-RESIDENCIA" class="container ">
+      <h4>LH05 - Tipo de Propriedade</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Sinônimos
+          </th>
+          <th class="th">
+           Tipo de residência          
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+           É o tipo de residência na qual a <a href="lex_hospedagem.html#ACOMODACAO">acomodação</a> é ofertada pelo <a href="lex_geral.html#ANFITRIAO">anfitrião</a>. Alguns exemplos de tipo de residência:
+           <ul>
+              <li>Casa</li>
+              <li>Bangalô</li>
+              <li>Pousada</li>
+              <li>Hotel</li>
+              <li>Loft</li>
+              <li>Resort</li>
+            </ul>    
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#ANFITRIAO">anfitrião</a>
+ define as regras ao <a href="cen_hospedagem.html#CADASTRAR-ACOMODACAO">cadastra a acomodação</a>
+. <br>
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a>
+ pode <a href="cen_hospedagem.html#FILTRAR-ACOMODACAO">filtrar a busca por acomodação</a> baseado nos tipos de acomodação. <br>   
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+    <div id="FORMA-PAGAMENTO" class="container ">
+      <h4>LH06 - Formas de Pagamento</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Sinônimos
+          </th>
+          <th class="th">
+            Tipos de pagamento <br>
+            Métodos de pagamento  <br>         
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+           São as formas de pagamento através das quais o <a href="lex_geral.html#HOSPEDE">hóspede</a>
+ pode efetuar o pagamento de uma reserva <a href="lex_hospedagem.html#ACOMODACAO">acomodação</a>
+. Alguns exemplos de tipos de pagamento:
+
+           <ul>
+              <li>Boleto bancário(disponível apenas no Brasil)</li>
+              <li>Cartão de crédito(Visa, MasterCard, Amex, Discover e JCB)</li>
+              <li>Cartão de débito</li>
+              <li>Paypal(apenas para alguns países)</li>
+              <li>Alipal(apenas para China)</li>
+              <li>Google Play(apenas para usuários do aplicativo para Android)</li>
+              <li>Apple Play(somente para usuários do aplicativo para iOS)</li>
+            </ul>      
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a> define a forma de pagamento ao <a href="cen_hospedagem.html#EFETUAR-RESERVA">efetua reserva</a> baseado nas regras.      
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+  <div id="RESERVA-INSTANTANEA" class="container ">
+      <h4>LH07 - Reserva Instantânea</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Sinônimos
+          </th>
+          <th class="th">
+           Reserva direta          
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+            Tipo de reserva que não requer aprovação do <a href="lex_geral.html#ANFITRIAO">anfitrião</a>.   
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a> <a href="cen_hospedagem.html#EFETUAR-RESERVA">efetua reserva</a> sem depender da aprovação do <a href="lex_geral.html#ANFITRIAO">anfitrião</a>
+            O usuário <a href="lex_geral.html#ANFITRIAO">anfitrião</a> pode definir o tipo de reserva como sendo instantânea ao <a href="cen_hospedagem.html#CADASTRAR-ACOMODACAO">cadastra a acomodação</a>.
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Estado</th>
+        </tr>
+      </table>
+    </div>
+
+  <div id="RESERVA" class="container ">
+      <h4>LH08 - Reserva</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Sinônimos
+          </th>
+          <th class="th">
+            Booking           
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+           Vínculo entre o <a href="lex_geral.html#HOSPEDE">hóspede</a> e o <a href="lex_geral.html#ANFITRIAO">anfitrião</a>
+ que garante acesso a uma <a href="lex_hospedagem.html#ACOMODACAO">acomodação</a> nas datas definidas ao <a href="cen_hospedagem.html#EFETUAR-RESERVA">efetua reserva</a>.    
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a> <a href="cen_hospedagem.html#EFETUAR-RESERVA">efetua reserva</a>.
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+    <div id="HOSPEDE-CONVIDADO" class="container ">
+      <h4>LH09 - Hóspede convidado</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Sinônimos
+          </th>
+          <th class="th">
+            Colega de viagem <br>
+            Parceiro de viagem  <br>         
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th"> 
+            Pessoa que se hospeda juntamente com o <a href="lex_geral.html#HOSPEDE">hóspede</a>
+ cadastrado. Não precisa possuir conta, apenas se especifica o número de hóspedes convidados na <a href="lex_hospedagem.html#RESERVA">reserva</a>.     
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+            O usuário <a href="lex_geral.html#HOSPEDE">hóspede</a> define a quantidade de hóspedes convidados. <br>
+            O <a href="lex_geral.html#ANFITRIAO">anfitrião</a> define a quantidade máxima de hóspedes. <br>
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+  </body>
