@@ -1,4 +1,4 @@
-# Casos de uso - Hospedagem
+# Casos de uso - Hospedagem - Versão Inicial
 
 ### [UC09 - Buscar Acomodação](uc09-hospedagem.md)
 

@@ -1,4 +1,4 @@
-# Casos de uso - Gerais
+# Casos de uso - Gerais - Versão Inicial
 
 ### [UC05 - Criar cadastro](uc05-geral.md)
 
