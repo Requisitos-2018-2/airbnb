@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/shared.css">
+  <style type="text/css">
+   th{
+     border:1px; border-style:solid; border-color:black;
+   }
+   .iten{
+      border:1px; border-style:solid; border-color:black;
+   }
+  </style>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+          <span class="fa fa-hotel"></span> Airbnb
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+ <section id="main">
+    <div class="container center-align">
+      <div class="row valign-wrapper">
+        <div class="col s12 center-align">
+         <h2> <span class="fa fa-bookmark"></span> Cenários - Resturante</h2>
+         <p>2018.2</p>
+        </div>
+      </div>
+  </section>
+
+  <div id="BUSCAR-RESTAURANTE" class="container ">
+    <h4>CR01 - Buscar Restaurante</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Encontrar um <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> através da busca no <a href="#lex_geral.html#AIRBNB">Airbnb</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          <b>Quem?</b> - <a href="lex_geral.html#USUARIO">Usuário</a><br>
+          <b>Local</b> - Local com acesso a <a href="lex_geral.html#INTERNET">internet</a><br>
+          <b>Tempo</b> - Qualquer horário <br>
+          <b>Pré-condição</b> - Possuir um <a href="lex_geral.html#SMARTPHONE">smartphone</a> conectado à [<a href="lex_geral.html#INTERNET">internet</a> com o aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.<br>
+          <b>Pós-condição</b> - Lista de <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,
+          <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré Condição
+        </th>
+        <th>
+
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO">Usuário</a> abre o <a href="#lex_geral.html#AIRBNB">Airbnb</a>.<br>
+          <a href="lex_geral.html#USUARIO">Usuário</a> seleciona a opção <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a><br>
+          <a href="lex_geral.html#USUARIO">Usuário</a> busca os <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> por localização, data,
+            <a href="(lex_restaurantes.html#HORARIO">horário</a> ou <a href="lex_restaurantes.html#CULINARIA">culinária</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#QUESITOS">Quesitos de Busca</a> devem retornar restaurante valido.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO">Usuário</a> recebe os <a href="lex_restaurantes.html#RESTAURANTE">Restaurantes</a> que se encaixam.
+        </th>
+      </tr>
+    </table>
+  </div>
+
+  <br>
+  <hr>
+  <br>
+
+  <div id="FAZER-RESERVA" class="container ">
+    <h4>CR02 - Fazer Reserva</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Reservar um <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> através do aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          <b>Quem?</b> - <a href="lex_geral.html#USUARIO">Usuário</a><br>
+          <b>Local</b> - Local com acesso a <a href="lex_geral.html#INTERNET">internet</a><br>
+          <b>Tempo</b> - Qualquer horário <br>
+          <b>Pré-condição</b> - Possuir um <a href="lex_geral.html#SMARTPHONE">smartphone</a> conectado à [<a href="lex_geral.html#INTERNET">internet</a> com o aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.<br>
+          <b>Pós-condição</b> - <a href="cen_restaurantes.html#REVISAR-RESERVA">Revisar reserva</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,
+          <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> entra na aplicação.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_geral.html#FAZ-LOGIN">faz login</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#SELECIONAR-RESTAURANTE">seleciona Restaurante</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#SELECIONAR-HORARIO">seleciona Horário</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> seleciona a opção fazer <a href="(lex_geral.html#RESERVAR">Reserva</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> deve fazer <a href="cen_geral.html#FAZ-LOGIN">fazer o login</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> tera a <a href="(lex_geral.html#SERRESERVADA">Reserva</a> feita com sucesso
+        </th>
+      </tr>
+    </table>
+  </div>
+
+  <br>
+  <hr>
+  <br>
+
+  <div id="SELECIONAR-HORARIO" class="container ">
+    <h4>CR03 - Selecionar horário</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Selecionar horário da reserva de <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> através do aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          <b>Quem?</b> - <a href="lex_geral.html#USUARIO">Usuário</a><br>
+          <b>Local</b> - Local com acesso a <a href="lex_geral.html#INTERNET">internet</a><br>
+          <b>Tempo</b> - Qualquer horário <br>
+          <b>Pré-condição</b> - Possuir um <a href="lex_geral.html#SMARTPHONE">smartphone</a> conectado à [<a href="lex_geral.html#INTERNET">internet</a> com o aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.<br>
+          <b>Pós-condição</b> - <a href="cen_restaurantes.html#REVISAR-RESERVA">Revisar reserva</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,
+          <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> entra na aplicação.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_geral.html#FAZ-LOGIN">faz login</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#SELECIONAR-RESTAURANTE">seleciona Restaurante</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#SELECIONAR-HORARIO">seleciona Horário</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> deve fazer <a href="cen_geral.html#FAZ-LOGIN">fazer o login</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+          <a href="cen_restaurantes.html#REVISAR-RESERVA">Revisar reserva</a>
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+  <div id="REVISAR-RESERVA" class="container ">
+    <h4>CR04 - Revisar Reserva</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Confirmar o <a href="lex_restaurantes.html#HORARIO">horário</a>, local e quantidade de <a href="lex_geral.html#HOSPEDE">hóspedes</a> da reserva de um
+          <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> através do aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          <b>Quem?</b> - <a href="lex_geral.html#USUARIO">Usuário</a><br>
+          <b>Local</b> - Local com acesso a <a href="lex_geral.html#INTERNET">internet</a><br>
+          <b>Tempo</b> - Qualquer horário <br>
+          **Pós-condição** - Reserva de [restaurante](lex_restaurantes.md#RESTAURANTE) realizada
+          <b>Pré-condição</b> - <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> selecionado, <a href="lex_restaurantes.html#HORARIO">horário</a> e data selcionado, opção de reserva clicada.
+           conectado à [<a href="lex_geral.html#INTERNET">internet</a> com o aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.<br>
+          <b>Pós-condição</b> - Reserva de <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> feita.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,
+          <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> entra na aplicação.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_geral.html#FAZ-LOGIN">faz login</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#SELECIONAR-RESTAURANTE">seleciona Restaurante</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#SELECIONAR-HORARIO">seleciona Horário</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#FAZER-RESERVA">faz a reserva</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> deve fazer <a href="cen_geral.html#FAZ-LOGIN">fazer o login</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+           Reserva de <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> feita.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+  <div id="ENVIAR-FEEDBACK" class="container ">
+    <h4>CR05 - Enviar feedback</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Enviar uma sugestão de alteração ou relatar um problema
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          <b>Quem?</b> - <a href="lex_geral.html#USUARIO">Usuário</a><br>
+          <b>Local</b> - Local com acesso a <a href="lex_geral.html#INTERNET">internet</a><br>
+          <b>Tempo</b> - Qualquer horário <br>
+          <b>Pré-condição</b> - Estar conectado à [<a href="lex_geral.html#INTERNET">internet</a> com o aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.<br>
+          <b>Pós-condição</b> - Sugestão ou problema relatado para a equipe do <a href="#lex_geral.html#AIRBNB">Airbnb</a>.
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,
+          <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> entra na aplicação.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> seleciona a opção <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#SELECIONAR-RESTAURANTE">seleciona Restaurante</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> seleciona a opção "enviar feedback".
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> deve fazer <a href="cen_geral.html#FAZ-LOGIN">fazer o login</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+           <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> receberá feedback.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+
+  <div id="SELECIONAR-RESTAURANTE" class="container ">
+    <h4>CR06 - Selecionar restaurante</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Objetivos
+        </th>
+        <th>
+          Escolher um  <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a> no aplicativo <a href="lex_geral.html#AIRBNB">Aibrnb</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Contexto
+        </th>
+        <th>
+          <b>Quem?</b> - <a href="lex_geral.html#USUARIO">Usuário</a><br>
+          <b>Local</b> - Local com acesso a <a href="lex_geral.html#INTERNET">internet</a><br>
+          <b>Tempo</b> - Qualquer horário <br>
+          <b>Pré-condição</b> - Estar conectado à [<a href="lex_geral.html#INTERNET">internet</a> com o aplicativo <a href="#lex_geral.html#AIRBNB">Airbnb</a>.<br>
+          <b>Pós-condição</b> - <a href="lex_geral.html#USUARIO">Usuário</a> verá os detalhes do <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>.
+      </tr>
+      <tr>
+        <th class="th">
+          Atores
+        </th>
+        <th>
+          <a href="lex_geral.html#HOSPEDE">Usuário hospede</a>,
+          <a href="lex_geral.html#VISITANTE">Usuário visitante</a>,
+          <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Recursos
+        </th>
+        <th>
+          Computador ou <a href="lex_geral.html#SMARTPHONE"> smartphone</a>,
+          acesso à <a href="lex_geral.html#INTERNET"> internet</a>,
+          navegador web.
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Episódios
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> entra na aplicação.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> seleciona a opção <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>.</br>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> <a href="cen_restaurante.html#SELECIONAR-RESTAURANTE">seleciona Restaurante</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Restrições
+        </th>
+        <th>
+          <a href="lex_geral.html#USUARIO"> Usuário</a> deve fazer <a href="cen_geral.html#FAZ-LOGIN">fazer o login</a>.</br>
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pós condição
+        </th>
+        <th>
+           <a href="lex_geral.html#USUARIO"> verá detalhes do <a href="lex_restaurantes.html#RESTAURANTE">Restaurante</a>.
+        </th>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+  <div id="versao_antiga" class="center-align">
+    <a href="cen_restaurantes.md" class="waves-effect waves-light btn-large">Versão anterior</a>
+  </div>
+
+  <footer class="page-footer grey darken-3">
+    <div class="container center-align">
+      <span class="site-footer-credits">
+        <b>Airbnb</b>
+        , Requisitos de Software,
+        <b> FGA UnB</b>
+      </span>
+    </div>
+  </footer>
+</body>
