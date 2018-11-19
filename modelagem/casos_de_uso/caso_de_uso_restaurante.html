@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/shared.css">
+  <style type="text/css">
+   th{
+     border:1px; border-style:solid; border-color:black;
+   }
+   .iten{
+      border:1px; border-style:solid; border-color:black;
+   }
+  </style>
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+          <span class="fa fa-hotel"></span> Airbnb
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <section id="main">
+   <div class="container center-align">
+     <div class="row valign-wrapper">
+       <div class="col s12 center-align">
+        <h2> <span class="fa fa-bookmark"></span> Casos de Uso - Restaurante</h2>
+        <p>2018.2</p>
+       </div>
+     </div>
+ </section>
+ <div id="uc01-restaurante" class="container ">
+    <h4>UC 01 - Buscar Restaurante</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Descrição
+        </th>
+        <th class="th">
+          Este caso de uso permite ao usuário buscar restaurantes na aplicação. Essa busca pode ser feita filtrando por localização.
+          </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Ator
+        </th>
+        <th class="th">
+          Usuário - Hóspede
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré-requisitos
+        </th>
+        <th class="th">Acesso à internet</th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Principal
+        </th>
+        <th>
+          1. O usuário acessa o airbnb. <br>
+          2. Aparece três opções na tela principal, uma para buscar acomodações, outra para experiência e uma para buscar restaurantes.<br>
+          3. O usuário seleciona a opção Restaurantes.<br>
+          4. O usuário busca pelo nome ou localidade do restaurante.<br>
+          5. Aparecem os resultados esperados relacionados a restaurantes.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Alternativo 01:
+        </th>
+        <th>
+          Buscar diretamente pela barra de pesquisa. <br>
+          1. O usuário acessa o airbnb.<br>
+          2. O usuário vai até a barra de pesquisa principal. <br>
+          3. Sem selecionar qualquer categoria o usuário digita o nome ou local do restaurante. <br>
+          4. Aparecem resultados referentes a todas as categorias.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>Regras de Negócio 01:</th>
+        <th>
+          <table>
+            <tr>
+              <td>Campo</td>
+              <td>Formato</td>
+              <td>Obrigatoriedade</td>
+              <td>Valor</td>
+            </tr>
+            <tr>
+              <td>Conexão com a Internet</td>
+              <td></td>
+              <td>Sim</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Nome válido</td>
+              <td></td>
+              <td>Sim</td>
+              <td>Nome coerente com o restaurante que deseja encontrar</td>
+            </tr>
+          </table>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo de Exceção 01:
+        </th>
+        <th>
+          1. O usuário acessa o airbnb<br>
+          2. O usuário digita na barra de pesquisa principal um nome inválido de restaurante. <br>
+          3. Não é encontrado nenhum resultado relacionado a restaurantes.<br>
+        </th>
+      </tr>
+
+      <tr>
+        <th>Pós-condição</th>
+        <th>Aparecem resultados relacionados ao restaurante ou similares.</th>
+      </tr>
+      <tr>
+        <th>Diagrama de Caso de Uso</th>
+        <th><img src="diagramas/uc_buscar_restaurante.png" width="100%"></th>
+      </tr>
+    </table>
+  </div>
+  <div id="uc02-restaurante" class="container ">
+     <h4>UC 02 - Reservar Restaurante</h4>
+     <table class="responsive-table centered">
+       <tr>
+         <th class="th">
+           Descrição
+         </th>
+         <th class="th">
+           Este caso de uso permite ao usuário reservar restaurantes na aplicação. Essa reserva é feita através do "Resy" - Serviço utilizado pelo airbnb para realizar reservas.
+           </th>
+       </tr>
+       <tr>
+         <th class="th">
+           Ator
+         </th>
+         <th class="th">
+           Usuário - Hóspede
+         </th>
+       </tr>
+       <tr>
+         <th class="th">
+           Pré-requisitos
+         </th>
+         <th class="th">Acesso à internet, conta no Resy</th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo Principal
+         </th>
+         <th>
+           1. Acesse a página airbnb.com.br e insira seu local, datas e número de hóspedes.<br>
+           2. Você pode selecionar filtros para refinar seus resultados de busca por faixa de preços ou horário do dia, ou clicar em Mais filtros para buscar por tipo de culinária.<br>
+           3. Clique em um restaurante para ler sua descrição e verificar quando as reservas estiverem disponíveis.<br>
+           4. Clique em uma reserva e, em seguida, revise as informações sobre o restaurante.<br>
+           5. Leia a política de cancelamento e, em seguida, clique em Confirmar reserva.<Br>
+         </th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo Alternativo 01
+         </th>
+         <th>
+           Acessar diretamente o site do Resy<br>
+           1. O usuário acessa a página do resy.com, insere o local, data e numero.<br>
+           2. Clica em restaurante para ler sua descrição e verificar se está disponivel.<br>
+           3. Clique em reservar e em seguida revise as informações.<br>
+           4. Leia a política de cancelamento e, em seguida, clique em Confirmar reserva.<br>
+         </th>
+       </tr>
+       <tr>
+         <th>Regras de Negócio 01:</th>
+         <th>
+           <table>
+             <tr>
+               <td>Campo</td>
+               <td>Formato</td>
+               <td>Obrigatoriedade</td>
+               <td>Valor</td>
+             </tr>
+             <tr>
+               <td>Conexão com a Internet</td>
+               <td></td>
+               <td>Sim</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>Data</td>
+               <td>01/10</td>
+               <td>Sim</td>
+               <td>Restaurante deve estar disponível</td>
+             </tr>
+             <tr>
+               <td>Horário</td>
+               <td>09:30am</td>
+               <td>Sim</td>
+               <td>Restaurante deve estar disponível</td>
+             </tr>
+           </table>
+         </th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo de Exceção 01
+         </th>
+         <th>
+           Restaurante indisponivel<br>
+           1. Acesse a página airbnb.com.br e insira seu local, datas e número de hóspedes.<br>
+           2. O usuário seleciona a data desejada. <br>
+           3. Data escolhida não está disponivel.<br>
+         </th>
+       </tr>
+
+       <tr>
+         <th>Pós-condição</th>
+         <th>Restaurante é reservado para o usuário e seus hóspedes.</th>
+       </tr>
+       <tr>
+        <th>Diagrama de Caso de Uso</th>
+        <th><img src="diagramas/uc_reservar_restaurante.png" width="100%"></th>
+       </tr>
+     </table>
+   </div>
+   <div id="uc03-geral" class="container ">
+      <h4>UC 03 - Selecionar Horário</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Descrição
+          </th>
+          <th class="th">
+            Este caso de uso permite ao usuário selecionar o horário da reserva dos restaurantes na aplicação. Essa reserva é feita através do "Resy" - Serviço utilizado pelo airbnb para realizar reservas.
+            </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Ator
+          </th>
+          <th class="th">
+            Usuário - Hóspede
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Pré-requisitos
+          </th>
+          <th class="th">Acesso à internet, estar logado</th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo Principal
+          </th>
+          <th>
+            1. Acesse a página airbnb.com.br.<br>
+            2. Usuário seleciona o horário do dia que deseja ir ao restaurante.<br>
+            3. Horário da reserva é selecionado e reservado.<br>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo Alternativo 01:
+          </th>
+          <th>
+            Acessar diretamente o site do Resy <br>
+            1. O usuário acessa a página do resy.com, insere o local, data e numero.<br>
+            2. Clica em restaurante para ler sua descrição e selecionar o horário da reserva. <br>
+            3. Horário da reserva é selecionado.<br>
+          </th>
+        </tr>
+        <tr>
+          <th>Regras de Negócio 01:</th>
+          <th>
+            <table>
+              <tr>
+                <td>Campo</td>
+                <td>Formato</td>
+                <td>Obrigatoriedade</td>
+                <td>Valor</td>
+              </tr>
+              <tr>
+                <td>Conexão com a Internet</td>
+                <td></td>
+                <td>Sim</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Disponibilidade</td>
+                <td></td>
+                <td>Sim</td>
+                <td>Horário da reserva deve estar disponível</td>
+              </tr>
+              <tr>
+                <td>Horário</td>
+                <td>09:30am</td>
+                <td>Sim</td>
+                <td>Horário da reserva deve estar disponível</td>
+              </tr>
+            </table>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo de Exceção 01:
+          </th>
+          <th>
+            1. Acesse a página airbnb.com.br<br>
+            2. O usuário insere o horário do restaurante que deseja ir ao restaurante.<br>
+            3. Horário desejado não está disponivel.<br>
+          </th>
+        </tr>
+
+        <tr>
+          <th>Pós-condição</th>
+          <th>Horário da reserva do restaurante é selecionado.</th>
+      </table>
+    </div>
+    <div id="uc04-restaurante" class="container ">
+       <h4>UC 04 - Revisar Reserva</h4>
+       <table class="responsive-table centered">
+         <tr>
+           <th class="th">
+             Descrição
+           </th>
+           <th class="th">
+             Este caso de uso permite ao usuário revisar sua reserva de restaurantes na aplicação. Essa revisão é feita através do "Resy" - Serviço utilizado pelo airbnb para realizar reservas.
+             </th>
+         </tr>
+         <tr>
+           <th class="th">
+             Ator
+           </th>
+           <th class="th">
+             Usuário - Hóspede
+           </th>
+         </tr>
+         <tr>
+           <th class="th">
+             Pré-requisitos
+           </th>
+           <th class="th">Acesso à internet, conta no Resy</th>
+         </tr>
+         <tr>
+           <th>
+             Fluxo Principal
+           </th>
+           <th>
+             1. Acesse a página airbnb.com.br e insira seu local, datas e número de hóspedes.<br>
+             2. Você pode selecionar filtros para refinar seus resultados de busca por faixa de preços ou horário do dia, ou clicar em Mais filtros para buscar por tipo de culinária.<br>
+             3. Clique em um restaurante para ler sua descrição e verificar quando as reservas estiverem disponíveis.<br>
+             4. Clique em uma reserva e, em seguida, revise as informações sobre o restaurante.<br>
+             5. Leia a política de cancelamento e, em seguida, clique em Confirmar reserva.<br>
+             6. Aparecem os detalhes relacionados a sua reserva, o usuário lê e confirma a sua reserva.<br>
+           </th>
+         </tr>
+         <tr>
+           <th>
+             Fluxo Alternativo 01:
+           </th>
+           <th>
+             Acessar diretamente o site do Resy <br>
+             1. O usuário acessa a página do resy.com, insere o local, data e numero.<br>
+             2. Clica em restaurante para ler sua descrição e verificar se está disponivel. <br>
+             3. Clique em reservar e em seguida revise as informações. <br>
+             4. Leia a política de cancelamento e, em seguida, clique em Confirmar reserva.<br>
+             6. Aparecem os detalhes relacionados a sua reserva, o usuário lê e confirma a sua reserva.<br>
+           </th>
+         </tr>
+         <tr>
+           <th>Regras de Negócio 01:</th>
+           <th>
+             <table>
+               <tr>
+                 <td>Campo</td>
+                 <td>Formato</td>
+                 <td>Obrigatoriedade</td>
+                 <td>Valor</td>
+               </tr>
+               <tr>
+                 <td>Conexão com a Internet</td>
+                 <td></td>
+                 <td>Sim</td>
+                 <td></td>
+               </tr>
+               <tr>
+                 <td>Data</td>
+                 <td>01/10</td>
+                 <td>Sim</td>
+                 <td>Restaurante deve estar disponível</td>
+               </tr>
+               <tr>
+                 <td>Horário</td>
+                 <td>09:30am</td>
+                 <td>Sim</td>
+                 <td>Restaurante deve estar disponível</td>
+               </tr>
+             </table>
+           </th>
+         </tr>
+         <tr>
+           <th>
+             Fluxo de Exceção 01:
+           </th>
+           <th>
+             Restaurante indisponível<br>
+             1. Acesse a página airbnb.com.br e insira seu local, datas e número de hóspedes.<br>
+             2. O usuário seleciona a data desejada. <br>
+             3. Data escolhida não está disponivel.<br>
+           </th>
+         </tr>
+         <tr>
+           <th>Pós-condição</th>
+           <th>Restaurante é reservado para o usuário e seus hóspedes.<th>
+       </table>
+     </div>
+     <div id="uc15-experiencia" class="container center-align ">
+      <h4>Diagrama Geral de Restaurante</h4>
+      <div id="uc15" class="col s12 center-align">
+        <img src="diagramas/uc_geral_restaurante.png" width="100%">
+      </div>
+    </div>
