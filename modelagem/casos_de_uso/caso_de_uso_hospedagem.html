@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/shared.css">
+  <style type="text/css">
+   th{
+     border:1px; border-style:solid; border-color:black;
+   }
+   .iten{
+      border:1px; border-style:solid; border-color:black;
+   }
+  </style>
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+          <span class="fa fa-hotel"></span> Airbnb
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <section id="main">
+   <div class="container center-align">
+     <div class="row valign-wrapper">
+       <div class="col s12 center-align">
+        <h2> <span class="fa fa-bookmark"></span> Casos de Uso - Hospedagem</h2>
+        <p>2018.2</p>
+       </div>
+     </div>
+ </section>
+ <div id="uc09-hospedagem" class="container ">
+    <h4>UC 09 - Pesquisar acomodações</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Descrição
+        </th>
+        <th class="th">
+          Este caso de uso permite que o usuário pesquise acomodações cadastradas na aplicação por cidade, país ou estado.
+          </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Ator
+        </th>
+        <th class="th">
+          Usuário - hóspede
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré-requisitos
+        </th>
+        <th class="th">Conexão com a internet, o usuário pode ou não estar logado.</th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Principal
+        </th>
+        <th>
+          1. O usuário acessa a página airbnb.com.br <br>
+          2. O usuário insere a localização desejada na barra de pesquisa<br>
+          3. O usuário pode selecionar filtros relativos a acomodações para refinar seus resultados, tais como: datas de disponiblidade, faixa de preço, tipo de acomodação, opções de checkin, instalações, regras, tipo de propriedade. <br>
+          4. A página de busca retorna os resultados filtrados.<br>
+        </th>
+      </tr>
+      <tr>
+        <th> Fluxo Alternativo 01:</th>
+        <th>
+          Acessar a página de acomodações através da página inicial<br>
+          1. O usuário acessa a página do Airbnb.<br>
+          2. O usuário seleciona o menu de acomodações na página inicial, logo abaixo da questão "O que podemos ajudar você a encontrar?"<br>
+          3. O usuário será redirecionado para a página de resultados de busca sendo demonstrando resultados genéricos.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>Regras de Negócio 01:</th>
+        <th>
+          <table>
+            <tr>
+              <td>Campo</td>
+              <td>Formato</td>
+              <td>Obrigatoriedade</td>
+              <td>Valor</td>
+            </tr>
+            <tr>
+              <td>Conexão com a Internet</td>
+              <td></td>
+              <td>Sim</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Nome do Local</td>
+              <td>Moscow</td>
+              <td>Sim</td>
+              <td>O nome do local deve ser válido,<br> não aceita coordenadas</td>
+            </tr>
+          </table>
+        </th>
+      </tr>
+      <tr>
+        <th>Fluxo de Exceção 01: Localização não existente</th>
+        <th>
+          1. O usuário acessa a página airbnb.com.br.<br>
+          2. O usuário insere a localização desejada na barra de busca.<br>
+          3. A página de busca retorna sem resultados.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>Fluxo de Exceção 02: Não há resultados para os filtros adicionados pelo usuário</th>
+        <th>
+          1. O usuário acessa a página airbnb.com.br.<br>
+          2. O usuário insere a localização desejada na barra de busca.<br>
+          3. O usuário insere filtros não atendidos pelas acomodações pesquisadas na localidade.<br>
+          4. A página de busca retorna sem resultados.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>Fluxo de Exceção 03: Não há acomodações na localização pesquisada</th>
+        <th>
+          1. O usuário acessa a página airbnb.com.br.<br>
+          2. O usuário insere a localização desejada na barra de busca.<br>
+          3. A localização é válida, mas não existem acomodações disponíveis.<br>
+          4. A página de busca retorna sem resultados.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>Pós-condição</th>
+        <th>O usuário é redirecionado para uma página de busca com a localização e filtros desejados.</th>
+      </tr>
+    </table>
+  </div>
+  <div id="uc10-hospedagem" class="container ">
+     <h4>UC 10 - Acessar detalhes da Acomodação</h4>
+     <table class="responsive-table centered">
+       <tr>
+         <th class="th">
+           Descrição
+         </th>
+         <th class="th">
+           Este caso de uso permite que o usuário visualize os detalhes de acomodações pesquisadas através da barra de busca.
+           </th>
+       </tr>
+       <tr>
+         <th class="th">
+           Ator
+         </th>
+         <th class="th">
+           Usuário - hóspede
+         </th>
+       </tr>
+       <tr>
+         <th class="th">
+           Pré-requisitos
+         </th>
+         <th class="th">Acesso à internet, ter efetuado uma busca</th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo Principal
+         </th>
+         <th>
+           1. O usuário efetuou uma busca.<br>
+           2. O usuário clica na acomodação desejada na página de busca.<br>
+           3. O usuário é redirecionado para os detalhes da acomodação.<br>
+         </th>
+       </tr>
+       <tr>
+         <th>Fluxo Alternativo 01:</th>
+         <th>O usuário acessa os detalhes de uma acomodação anunciada na página inicial.<br>
+         1. O usuário acessa a página do Airbnb.<br>
+         2. O usuário clica em alguma acomodação anunciada na página principal.<br>
+         3. O usuário será redirecionado para a página de detalhes da acomodação.<br></th>
+       </tr>
+       <tr>
+         <th>Regras de Negócio 01:</th>
+         <th>
+           <table>
+             <tr>
+               <td>Campo</td>
+               <td>Formato</td>
+               <td>Obrigatoriedade</td>
+               <td>Valor</td>
+             </tr>
+             <tr>
+               <td>Conexão com a Internet</td>
+               <td></td>
+               <td>Sim</td>
+               <td></td>
+             </tr>
+           </table>
+         </th>
+       </tr>
+       <tr>
+         <th>Pós-condição</th>
+         <th>O usuário é redirecionado para uma página de detalhes da acomodação desejada.
+</th>
+       </tr>
+     </table>
+   </div>
+   <div id="uc11-hospedagem" class="container ">
+      <h4>UC 11 - Reservar Acomodação</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Descrição
+          </th>
+          <th class="th">
+            Este caso de uso permite que o usuário reserve uma acomodação pesquisada.
+            </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Ator
+          </th>
+          <th class="th">
+            Usuário - hóspede
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Pré-requisitos
+          </th>
+          <th class="th">Conexão com a internet, ter acessado os detalhes de uma acomodação, possuir uma conta no Airbnb, estar logado.</th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo Principal
+          </th>
+          <th>
+            1. O usuário hóspede acessou os detalhes da acomodação.<br>
+            2. O usuário hóspede seleciona as datas de checkin e checkout desejadas.<br>
+            3. O usuário hóspede adiciona a quantidade de hóspedes convidados que ficarão na acomodação.<br>
+            4. O usuário clica em reservar.<br>
+            5. O usuário seleciona o método de pagamento.<br>
+            6. O usuário adiciona as informações de pagamento.<br>
+            6. O usuário adiciona suas informações pessoais de pagamento(nome, endereço, código postal).<br>
+            6. O usuário efetua a reserva.<br>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo Alternativo 01:
+          </th>
+          <th>
+            A acomodação não está disponível nas datas desejadas<br>
+            1. O usuário hóspede acessou os detalhes da acomodação.<br>
+            2. O usuário hóspede seleciona as datas de checkin e checkout desejadas.<br>
+            3. A acomodação não está disponível nas datas desejadas.<br>
+            4. A reserva não é realizada.<br>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo Alternativo 02:
+          </th>
+          <th>
+            A quantidade de hóspedes convidados não é compatível com a acomodação.<br>
+            1. O usuário hóspede acessou os detalhes da acomodação.<br>
+            2. O usuário hóspede seleciona as datas de checkin e checkout desejadas.<br>
+            3. O usuário hóspede adiciona a quantidade de hóspedes convidados que ficarão na acomodação.<br>
+            4. A acomodação não aceita a quantidade de hóspedes desejadas.<br>
+            5. A reserva não é realizada.<br>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo Alternativo 03:
+          </th>
+          <th>
+            acomodação não possui reserva instantânea.<br>
+            1. O usuário hóspede acessou os detalhes da acomodação.<br>
+            2. O usuário hóspede seleciona as datas de checkin e checkout desejadas.<br>
+            3. O usuário hóspede adiciona a quantidade de hóspedes convidados que ficarão na acomodação.<br>
+            4. O usuário clica em requisitar reserva.<br>
+            5. O usuário seleciona o método de pagamento.<br>
+            6. O usuário adiciona as informações de pagamento.<br>
+            6. O usuário adiciona suas informações pessoais de pagamento(nome, endereço, código postal).<br>
+            6. A requisição de reserva é enviada ao anfitrião.<br>
+            7. O anfitrião pode aceitar ou recusar a requisição de reserva do hóspede.<br>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo Alternativo 04:
+          </th>
+          <th>
+            O usuário deseja utilizar um método de pagamento não aceito pelo Airbnb.<br>
+            1. O usuário hóspede acessou os detalhes da acomodação.<br>
+            2. O usuário hóspede seleciona as datas de checkin e checkout desejadas.<br>
+            3. O usuário hóspede adiciona a quantidade de hóspedes convidados que ficarão na acomodação.<br>
+            4. O usuário clica em requisitar reserva.<br>
+            5. O usuário seleciona o método de pagamento por cartão de crédito.<br>
+            6. O usuário adiciona as informações de pagamento.<br>
+            6. As informações de pagamento do cartão de crédito não são válidas.<br>
+            7. O site impede o hóspede de continuar, retornando uma mensagem de erro.<br>
+          </th>
+        </tr>
+        <tr>
+          <th>Regras de Negócio 01:</th>
+          <th>
+            <table>
+              <tr>
+                <td>Campo</td>
+                <td>Formato</td>
+                <td>Obrigatoriedade</td>
+                <td>Valor</td>
+              </tr>
+              <tr>
+                <td>Conexão com a Internet</td>
+                <td></td>
+                <td>Sim</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Datas de Check-in e Checkout</td>
+                <td> dd/mm/yy</td>
+                <td>Sim</td>
+                <td>A data deve ser válida.<br> Deve ser posterior a data atual</td>
+              </tr>
+              <tr>
+                <td>Quantidade de Hóspedes</td>
+                <td>Números Inteiros</td>
+                <td>Sim</td>
+                <td>O valor deve ser superior a 0</td>
+              </tr>
+              <tr>
+                <td>Método de Pagamento</td>
+                <td>Dropdown List</td>
+                <td>Sim</td>
+                <td>O método de pagamento selecionado deve estar disponível para a região do usuário</td>
+              </tr>
+              <tr>
+                <td>Informações de pagamento</td>
+                <td></td>
+                <td>Sim</td>
+                <td>As informações de pagamento devem ser válidas</td>
+              </tr>
+              <tr>
+                <td>Código Postal do Usuário</td>
+                <td></td>
+                <td>Sim</td>
+                <td>O código postal deve ser válido e estar no formao da região do usuário</td>
+              </tr>
+            </table>
+          </th>
+        </tr>
+
+        <tr>
+          <th>Pós-condição</th>
+          <th>O usuário hóspede efetuou uma reserva.</th>
+      </table>
+    </div>
+    <div id="uc12-hospedagem" class="container ">
+       <h4>UC 12 - Cadastrar Acomodação</h4>
+       <table class="responsive-table centered">
+         <tr>
+           <th class="th">
+             Descrição
+           </th>
+           <th class="th">
+             Este caso de uso permite que o usuário anfitrião cadastre sua acomodação.
+             </th>
+         </tr>
+         <tr>
+           <th class="th">
+             Ator
+           </th>
+           <th class="th">
+             Anfitrião
+           </th>
+         </tr>
+         <tr>
+           <th class="th">
+             Pré-requisitos
+           </th>
+           <th class="th">Acesso à internet, usuário estar logado</th>
+         </tr>
+         <tr>
+           <th>
+             Fluxo Principal
+           </th>
+           <th>
+             1. O usuário anfitrião acessa o site da Airbnb.<br>
+             2. O usuário anfitrião clica em "Torne-se um anfitrião" na página principal.<br>
+             3. O usuário anfitrião adiciona as informações da acomodação(camas, banheiros, espaços comuns e define o tipo de residência e endereço).<br>
+             4. O usuário anfitrião adiciona fotos, resumo e o título da acomodação.<br>
+             5. O usuário adiciona as informações de preço, disponibilidade e configuração de reserva(quantidades de hóspedes, reserva instantânea, horários de check-in).<br>
+             6. O usuário anfitrião finaliza o cadastro da sua acomodação.<br>
+           </th>
+         </tr>
+         <tr>
+           <th>Regras de Negócio 01:</th>
+           <th>
+             <table>
+               <tr>
+                 <td>Campo</td>
+                 <td>Formato</td>
+                 <td>Obrigatoriedade</td>
+                 <td>Valor</td>
+               </tr>
+               <tr>
+                 <td>Conexão com a Internet</td>
+                 <td></td>
+                 <td>Sim</td>
+                 <td></td>
+               </tr>
+             </table>
+           </th>
+         </tr>
+         <tr>
+           <th>Pós-condição</th>
+           <th>O usuário anfitrião cadastra sua acomodação que passa a aparecer na página de busca.</th>
+       </table>
+     </div>
