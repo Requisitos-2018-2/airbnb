@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/shared.css">
+  <style type="text/css">
+   th{
+     border:1px; border-style:solid; border-color:black;
+   }
+   .iten{
+      border:1px; border-style:solid; border-color:black;
+   }
+  </style>
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+          <span class="fa fa-hotel"></span> Airbnb
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <section id="main">
+   <div class="container center-align">
+     <div class="row valign-wrapper">
+       <div class="col s12 center-align">
+        <h2> <span class="fa fa-bookmark"></span> Casos de Uso - Experiência</h2>
+        <p>2018.2</p>
+       </div>
+     </div>
+ </section>
+ <div id="uc013-experiencia" class="container ">
+    <h4>UC 13 - Usuário Procura Experiência</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Descrição
+        </th>
+        <th class="th">
+          Este caso de uso permite ao usuário buscar experiências na aplicação. Essa busca pode ser feita por meio da localização ou o nome da experiência.
+          </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Ator
+        </th>
+        <th class="th">
+          Usuário - Hóspede
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré-requisitos
+        </th>
+        <th class="th">Acesso à internet</th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Principal
+        </th>
+        <th>
+          FP00. O usuário acessa a página inicial do Airbnb.<br>
+          FP02. O usuário seleciona a opção experiências. <br>
+          FP03. O sistema retorna categorias de experiências e as experiências em destaque de qualquer lugar.<br>
+          FP04. O usuário seleciona uma experiência.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Alternativo 01
+        </th>
+        <th>
+          Buscar diretamente pela barra de pesquisa por nome<br>
+          - FA0100. Este fluxo parte de FP00<br>
+          - FA0101. O usuário pesquisa o nome da experiência diretamente na barra de pesquisa.<br>
+          - FA0102. O sistema retorna a experiência buscada e/ou algumas experiências semelhantes<br>
+          - FA0103. Este fluxo retorna em FP03
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Alternativo 02
+        </th>
+        <th>
+          Buscar experiência em categorias.<br>
+          - FA0200. Este fluxo parte de FP02: <br>
+          - FA0201. O usuário seleciona uma categoria de experiências.<br>
+          - FA0202. O sistema retorna as experiências relacionadas a categoria selecionada. <br>
+          - FA0203. Este fluxo retorna em FP03      <br>
+          </th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Alternativo 03
+        </th>
+        <th>
+          Buscar diretamente pela barra de pesquisa por localidade:<br>
+          - FA0300. Este fluxo parte de FP00.<br>
+          - FA0301. O usuário pesquisa a localidade da experiência diretamente na barra de pesquisa.<br>
+          - FA0302. O sistema retorna as experiência naquela localidade. <br>
+          - FA0303. Este fluxo retorna em FP03<br>
+        </th>
+      </tr>
+      <tr>
+        <th>Regras de Negócio 01:</th>
+        <th>
+          <table>
+            <tr>
+              <td>Campo</td>
+              <td>Formato</td>
+              <td>Obrigatoriedade</td>
+              <td>Valor</td>
+            </tr>
+            <tr>
+              <td>Barra de Pesquisa</td>
+              <td>Experiência em "nome da localidade" ou nome da Experiência</td>
+              <td>Não</td>
+              <td>Caractéres Alfanuméricos</td>
+            </tr>
+          </table>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo de Exceção 01
+        </th>
+        <th>
+          - FE0100. Este fluxo parte de FA0101<br>
+          - FE0101. O sistema não encontra nenhuma experiênica relacionada com o nome da busca.<br>
+          - FE0102. Este fluxo finaliza retornando uma mensagem de que nenhum resultado foi encontrado.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Alternativo 02
+        </th>
+        <th>
+          - FE0200. Este fluxo parte de FA0301<br>
+          - FE0201. O sistema não encontra nenhuma experiênica relacionada com a localidade da busca.<br>
+          - FE0202. Este fluxo finaliza retornando uma mensagem de que nenhum resultado foi encontrado<br>
+        </th>
+      </tr>
+
+      <tr>
+        <th>Pós-condição</th>
+        <th>O sistema retorna os detalhes da experiência selecionada pelo usuário.</th>
+      </tr>
+      <tr>
+        <th>Diagrama de Caso de Uso</th>
+        <th><img src="img/Use Case Diagram 13.png" width="100%"></th>
+      </tr>
+    </table>
+  </div>
+  <div id="uc14-experiencia" class="container ">
+     <h4>UC 14 - Usuário Reserva Experiência</h4>
+     <table class="responsive-table centered">
+       <tr>
+         <th class="th">
+           Descrição
+         </th>
+         <th class="th">
+           Este caso de uso permite ao usuário reserve experiências na aplicação.
+           </th>
+       </tr>
+       <tr>
+         <th class="th">
+           Ator
+         </th>
+         <th class="th">
+           Usuário - Hóspede
+         </th>
+       </tr>
+       <tr>
+         <th class="th">
+           Pré-requisitos
+         </th>
+         <th class="th">Acesso à internet, usuário estar logado e ter selecionado uma experiência</th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo Principal
+         </th>
+         <th>
+           1. O usuário clica na opção de reservar. <br>
+           2. o usuário insere os dados de pagamento dele e confirma.<br>
+           3. O usuário insere os dados pessoais e confirma.<br>
+           4. O usuário confirma a reserva.<br>
+           5. O Anfitrião receberá a requisição de reserva.<br>
+           6. O Anfitrião aceita a reserva.<br>
+           7. A reserva é confirmada.<br>
+         </th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo Alternativo 01
+         </th>
+         <th>
+           Reserva instantânea<br>
+           1. O usuário clica na opção de reserva instatânea. <br>
+           2. o usuário insere os dados de pagamento dele e confirma.<br>
+           3. O usuário insere os dados pessoais e confirma.<br>
+           4. O usuário confirma a reserva.<br>
+           5. A reserva é confirmada.<br>
+         </th>
+       </tr>
+       <tr>
+         <th>Regras de Negócio 01:</th>
+         <th>
+           <table>
+             <tr>
+               <td>Campo</td>
+               <td>Formato</td>
+               <td>Obrigatoriedade</td>
+               <td>Valor</td>
+             </tr>
+             <tr>
+               <td>Conexão com a Internet</td>
+               <td></td>
+               <td>Sim</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>Datas de Check-in e Checkout</td>
+               <td> dd/mm/yy</td>
+               <td>Sim</td>
+               <td>A data deve ser válida.<br> Deve ser posterior a data atual</td>
+             </tr>
+             <tr>
+               <td>Quantidade de Hóspedes</td>
+               <td>Números Inteiros</td>
+               <td>Sim</td>
+               <td>O valor deve ser superior a 0</td>
+             </tr>
+             <tr>
+               <td>Método de Pagamento</td>
+               <td>Dropdown List</td>
+               <td>Sim</td>
+               <td>O método de pagamento selecionado deve estar disponível para a região do usuário</td>
+             </tr>
+             <tr>
+               <td>Informações de pagamento</td>
+               <td></td>
+               <td>Sim</td>
+               <td>As informações de pagamento devem ser válidas</td>
+             </tr>
+             <tr>
+               <td>Código Postal do Usuário</td>
+               <td></td>
+               <td>Sim</td>
+               <td>O código postal deve ser válido e estar no formao da região do usuário</td>
+             </tr>
+           </table>
+         </th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo de Exceção 01
+         </th>
+         <th>
+           Dados de pagamento incorretos ou que campos obrigatórios não preenchidos<br>
+           1. O usuário clica na opção de reservar. <br>
+           2. o usuário insere os dados de pagamento dele incorretamente ou não preenche campos obrigatórios e confirma.<br>
+           3. O sistema retorna uma mensagem de erro que algum dado está incoerente ou algum campo obrigatório não está preenchido.<br>
+                  </th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo de Exceção 02
+         </th>
+         <th>
+            Dados pessoais incorretos ou que campos obrigatórios não preenchidos<br>
+           1. O usuário clica na opção de reservar. <br>
+           2. o usuário insere os dados de pagamento e confirma.<br>
+           3. O usuário insere os dados pessoais dele incorretamente ou não preenche campos obrigatórios e confirma.<br>
+           4. O sistema retorna uma mensagem de erro que algum dado está incoerente ou algum campo obrigatório não está preenchido.<br>
+                  </th>
+       </tr>
+       <tr>
+         <th>Pós-condição</th>
+         <th>Usuário recebe a confirmação da reserva.</th>
+       </tr>
+     </table>
+   </div>
+   <div id="uc15-experiencia" class="container center-align ">
+      <h4>UC 15 - Usuário Cadastra Experiência</h4>
+      <div id="uc15" class="col s12 center-align">
+        <img src="diagramas/uc15.png" width="140%">
+      </div>
+      <div id="uc15" class="col s12 center-align">
+        <img src="diagramas/uc15_ex2.png" width="70%">
+      </div>
+      <div id="uc15" class="col s12 center-align">
+        <img src="diagramas/uc15_ex.png" width="70%">
+      </div>
+    </div>
