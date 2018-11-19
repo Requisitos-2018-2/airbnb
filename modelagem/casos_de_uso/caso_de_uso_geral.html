@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/shared.css">
+  <style type="text/css">
+   th{
+     border:1px; border-style:solid; border-color:black;
+   }
+   .iten{
+      border:1px; border-style:solid; border-color:black;
+   }
+  </style>
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+          <span class="fa fa-hotel"></span> Airbnb
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <section id="main">
+   <div class="container center-align">
+     <div class="row valign-wrapper">
+       <div class="col s12 center-align">
+        <h2> <span class="fa fa-bookmark"></span> Casos de Uso - Geral</h2>
+        <p>2018.2</p>
+       </div>
+     </div>
+ </section>
+ <div id="uc05-geral" class="container ">
+    <h4>UC 05 - Cadastrar conta</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Descrição
+        </th>
+        <th class="th">
+          Este caso de uso permite o usuário realizar seu cadastro na aplicação. O cadastro pode ser feito com uma conta Google, com o Facebook ou com e-mail genérico.
+          </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Ator
+        </th>
+        <th class="th">
+          Usuário
+        </th>
+      </tr>
+      <tr>
+        <th class="th">
+          Pré-requisitos
+        </th>
+        <th class="th">Acesso à internet</th>
+      </tr>
+      <tr>
+        <th>
+          Fluxo Principal
+        </th>
+        <th>
+          1. Usuário acessa a aplicação.<br>
+          2. Usuário clica em "Cadastre-se".<br>
+          3. Usuário seleciona opção de cadastro entre Facebook, Google ou e-mail.<br>
+          4. Usuário insere informações necessárias.<br>
+          5. Usuário pressiona cadastre-se.<br>
+        </th>
+      </tr>
+      <tr>
+        <th>Pós-condição</th>
+        <th>A conta do usuário é criada, o usuário é logado automaticamente</th>
+      </tr>
+    </table>
+  </div>
+  <div id="uc06-geral" class="container ">
+     <h4>UC 06 - Realizar login</h4>
+     <table class="responsive-table centered">
+       <tr>
+         <th class="th">
+           Descrição
+         </th>
+         <th class="th">
+           Este caso de uso permite ao usuário fazer login no airbnb. O login pode ser feito com Facebook, Google ou e-mail.
+           </th>
+       </tr>
+       <tr>
+         <th class="th">
+           Ator
+         </th>
+         <th class="th">
+           Usuário
+         </th>
+       </tr>
+       <tr>
+         <th class="th">
+           Pré-requisitos
+         </th>
+         <th class="th">Acesso à internet</th>
+       </tr>
+       <tr>
+         <th>
+           Fluxo Principal
+         </th>
+         <th>
+           1. Usuário acessa o airbnb.<br>
+           2. Usuário clica em "Entrar".<br>
+           3. Usuário seleciona entre Entrar com Facebook, Google ou e-mail.<br>
+           4. Usuário pressiona "Entrar".<br>
+         </th>
+       </tr>
+       <tr>
+         <th>Pós-condição</th>
+         <th>O usuário está logado</th>
+       </tr>
+     </table>
+   </div>
+   <div id="uc07-geral" class="container ">
+      <h4>UC 07 - Realizar Logout</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Descrição
+          </th>
+          <th class="th">
+            Este caso de uso permite o usuário fazer logout da aplicação.
+            </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Ator
+          </th>
+          <th class="th">
+            Usuário
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Pré-requisitos
+          </th>
+          <th class="th">Acesso à internet, estar logado</th>
+        </tr>
+        <tr>
+          <th>
+            Fluxo Principal
+          </th>
+          <th>
+            1. Usuário está logado na aplicação.<br>
+            2. Usuário clica em "Sair".<br>
+          </th>
+        </tr>
+        <tr>
+          <th>Pós-condição</th>
+          <th>Usuário não está mais logado no airbnb</th>
+      </table>
+    </div>
+    <div id="uc08-geral" class="container ">
+       <h4>UC 08 - Recuperar Senha</h4>
+       <table class="responsive-table centered">
+         <tr>
+           <th class="th">
+             Descrição
+           </th>
+           <th class="th">
+             Este caso de uso permite que o usuário recupere uma senha perdida/esquecida.
+             </th>
+         </tr>
+         <tr>
+           <th class="th">
+             Ator
+           </th>
+           <th class="th">
+             Usuário
+           </th>
+         </tr>
+         <tr>
+           <th class="th">
+             Pré-requisitos
+           </th>
+           <th class="th">Acesso à internet, usuário possuir uma conta e estar deslogado</th>
+         </tr>
+         <tr>
+           <th>
+             Fluxo Principal
+           </th>
+           <th>
+             1. Usuário acessa o airbnb.<br>
+             2. Usuário clica em "Esqueceu a senha?"<br>
+             3. Usuário insere e-mail.<br>
+             4. Usuário clica em "Enviar link de redefinição".<br>
+           </th>
+         </tr>
+         <tr>
+           <th>Pós-condição</th>
+           <th>E-mail contendo um link para redefinição de senha é enviado ao usuário.</th>
+       </table>
+     </div>
