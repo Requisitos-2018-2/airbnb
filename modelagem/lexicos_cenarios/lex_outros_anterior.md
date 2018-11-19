@@ -1,4 +1,4 @@
-### Outros Léxicos
+### Outros Léxicos - Versão Inicial
 
 ***
 #### Wish List
