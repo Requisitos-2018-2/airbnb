@@ -284,3 +284,17 @@ nav li a {
 .module-link:hover *{
   color: black !important;
 }
+
+.row .myPushpin a {
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.card.medium.hoverable {
+  padding: 2em;
+}
+
+#offsetBox .card {
+  padding: 0.5em;
+}
