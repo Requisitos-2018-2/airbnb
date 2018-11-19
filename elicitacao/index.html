@@ -8,382 +8,403 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="../css/shared.css">
 </head>
 
 <body>
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
-        <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
-          <span class="fa fa-hotel"></span> Airbnb
-        </a>
-        <ul class="right">
-          <li>
-            <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
-              GitHub
-            </a>
-          </li>
-        </ul>
+          <a href="https://requisitos-2018-2.github.io/airbnb" class="brand-logo left ">
+            <span class="fa fa-hotel"></span> Airbnb
+          </a>
+          <ul class="right">
+            <li>
+              <a href="https://github.com/Requisitos-2018-2/airbnb" class="hide-on-small-only">
+                GitHub
+              </a>
+            </li>
+          </ul>
       </div>
     </nav>
   </div>
- <section id="promo2">
-    <div class="container center-align">
-      <div class="row valign-wrapper">
-        <div class="col s12 center-align">
-         <h2> <span class="fa fa-bookmark"></span> Elicitação</h2>
-         <p>2018.2</p>
-         <a href="#storyTelling">Storytelling</a> |
-          <a href="#brainstorm">BrainStorm</a>   |
-         <a href="#introspecao">Introspecção</a>    |
-         <a href="#prototipacao">Prototipação</a>    |
-         <a href="#analiseDeProtocolo">Análise de protocolo</a>    |
-         <a href="#priorizacao">Priorização</a>    |
-         <a href="#moscow">Moscow</a>    |
+
+  <div class="container"><!-- CONTAINER -->
+    <div class="row" id="offsetBox"><!-- ROW -->
+      <div class="col m10 center-align"><!--COL M10 -->
+        <h2> <span class="fa fa-bookmark"></span> Elicitação</h2>
+        <p>2018.2</p>
+        <div id="elicitacao" class="ection scrollspy">
+          <p>Elicitação, a primeira das três grandes areas da engenharia de requisitos, nessa etapa são definidos os
+            requisitos que serão trabalhados no projeto bem como a prioridade de cada.</p>
         </div>
-      </div>
-        <br>
-        <hr>
-        <br>
-        <div id="storyTelling" class="row promo-row">
+
+        <div id="storyTelling" class="ection scrollspy">
           <h2>Storytelling</h2>
           <p>
             O Storytelling foi utilizado na elicitação de requisitos de maneira a forçar o desenvolvimento de possíveis situações a serem vividas pelos usuários, por meio de pequenas histórias. A partir dessas histórias é possível visualizar com mais clareza os requisitos envolvidos em cada situação simulada.
           </p>
-        </div>
-        <div id="storyGatos" class="col s12 center-align">
-          <h3>ST01 - História dos 10 gatos</h3>
-          <p>
-            Uma vez devido ao fato de necessitar de uma hospedagem mais barata na cidade de pirenópolis, estava no meu computador e acabei chegando ao airbnb. Selecionei meu destino e a data que gostaria de me hospedar, li as informações da acomodação e mandei as fotos para minha amiga. Quando chegamos ao local a anfitriã foi bastante simpática e nos mostrou a acomodação, porém ficamos muito surpresos ao nos deparar com vários gatos (mais de 10) o que não estava avisado na descrição do anúncio. Foi muito constrangedor pelo motivo de ter alergia aos gatos, o que acabou interferindo na minha experiência. Mesmo com os contratempos e problemas que tivemos gostamos bastante do local, bastante organizado e avaliamos bem a anfitriã (o aplicativo possui uma aba para avaliar quando a hospedagem acaba.
-          </p>
+          <div id="storyGatos" class="col s12 center-align">
+            <h4>ST01 - História dos 10 gatos</h3>
+            <p>
+              Uma vez devido ao fato de necessitar de uma hospedagem mais barata na cidade de pirenópolis, estava no meu computador e acabei chegando ao airbnb. Selecionei meu destino e a data que gostaria de me hospedar, li as informações da acomodação e mandei as fotos para minha amiga. Quando chegamos ao local a anfitriã foi bastante simpática e nos mostrou a acomodação, porém ficamos muito surpresos ao nos deparar com vários gatos (mais de 10) o que não estava avisado na descrição do anúncio. Foi muito constrangedor pelo motivo de ter alergia aos gatos, o que acabou interferindo na minha experiência. Mesmo com os contratempos e problemas que tivemos gostamos bastante do local, bastante organizado e avaliamos bem a anfitriã (o aplicativo possui uma aba para avaliar quando a hospedagem acaba.
+            </p>
+          </div>
+
+          <div id="stoyryPrimeiraExperiencia" class="center-align">
+            <h4>ST02 - Primeira experiência com Airbnb</h3>
+            <p>
+                Esse ano tive a oportunidade, pela primeira vez, de utilizar o aplicativo do Airbnb. O app já estava instalado no meu smartphone a um tempo, mas nunca precisei realmente utilizá-lo, tinha baixado por curiosidade. Mas esse ano fiz uma viagem para São Paulo durante as férias e precisei de um lugar para ficar que fosse mais barato que um hotel e com uma localização que me favorecesse. Primeiramente combinei com minha namorada que já estava em São Paulo de nós alugarmos juntos um lugar para ficar através do Airbnb e então comecei a buscar lugares no aplicativo.
+                Primeiramente defini a cidade na busca, e comecei olhando as acomodações que apareciam na busca, priorizando o baixo custo e a localização. Acabei achando alguns lugares muito bons de acordo com meus critérios, mas que não possuíam vaga para a data que eu planejava ficar na cidade, então decidi aplicar mais um filtro na busca, a data de estadia. Encontrei uma acomodação que me agradou, mas me deparei com um problema, eu precisava parcelar o valor da hospedagem no cartão de crédito e encontrei <a href="https://community.withairbnb.com/t5/Ajuda/">um post no fórum</a>Como-funcionam-os-parcelamentos-de-pagamento/td-p/10085).  do Airbnb falando que o parcelamento só pode ser feito através do site, não funciona no aplicativo.
+                Fiz a reserva através do site com meus dados e da minha namorada que seria a segunda hóspede. Ao finalizar a compra o anfitrião entrou em contato comigo através do aplicativo pedindo meu número de RG para identificação. Ao chegar em São Paulo fui para o endereço da acomodação, chegando lá informei meus dados para o porteiro e ele me deu a chave do apartamento. Durante o período de estadia não tive nenhum problema, mas também não tive nenhum contato com o anfitrião. Ao finalizar o período de hospedagem deixei a chave com o porteiro. Após algumas horas o aplicativo do Airbnb solicitou que eu avaliasse a acomodação, escrevesse um feedback privado e um público para o anfitrião.
+
+            </p>
+          </div>
+          <div id="storyAnfitriaoAusente" class="center-align">
+            <h4>ST03 - Anfitrião Ausente</h3>
+            <p>
+              Resolvi recorrer ao AirBnb para minha hospedagem no mochilão que realizei pela Europa por conta do preço. Planejei passar por 4 cidades: Amsterdã, Berlim, Bruxelas e Praga, realizando, portanto, quatro hospedagens no AirBnb. A minha experiência foi ótima em todas as cidades, exceto em Bruxelas.</p>
+            <p>
+            Um dia antes da minha viagem o anfitrião de Bruxelas entrou em contato pedindo para que eu cancelasse minha reserva, eu disse que não seria possível devido ao prazo e entrei em contato com a AirBnb que confirmou a reserva. Apesar da empresa ter confirmado minha reserva, ao chegar no local da acomodação o anfitrião estava ausente, entrei em contato com a empresa pelo aplicativo no celular, entretanto como já era noite, e pela demora na resposta da empresa, tive que me hospedar em um hotel. A AirBnb só me respondeu 6 horas depois cancelando a reserva e me dando o reembolso integral.</p>
+            <p>
+            Apesar desse problema, minha experiência nas demais acomodações foi ótima. Serviço de qualidade e, acima de tudo, acessível, barato. Não paguei mais de 90 euros para ficar 3 dias num lugar. Em Berlim paguei 62 euros 3 dias, em Amsterdã 86 euros 5 dias e em Praga 58 euros 3 dias. Exceto na Bélgica, nos outros demais lugares foi tranquilo e fui muito bem recebido. Locais sempre limpos, ambiente agradável e pessoas atenciosas.  As casas geralmente tem regras que podem ser vistas nos detalhes da acomodação no site, entretanto há algumas regras simples que são avisadas pelo host ao chegar no local. Por exemplo: em Berlim a regra era sempre manter a porta do banheiro fechada; já em Praga é não andar com calçados dentro da casa para não sujar ou, como eles dizem "não trazer energias estranhas do exterior para o lado interno da casa".</p>
+            <p>
+            A AirBNB peca um pouco quando você entra em contato- demora um pouco a responder - mas este é um ponto nocivo. Único ponto negativo que achei foi a responsabilidade deles terem confirmado uma reserva com o anfitrião que acabou estando ausente e não houve uma atitude tomada pela empresa em tempo hábil. Fora isso, tudo foi perfeito e vale muito a pena.</p>
+            </p>
+          </div>
+          <h3>Resultado do Story Telling</h2>
+            <table class="table table-dark">
+              <tr>
+                <th>História</th>
+                <th>Requisito</th>
+              </tr>
+              <tr>
+                <td>1, 2, 3</td>
+                <td>O usuário deve ser capaz de realizar busca por localização</td>
+              </tr>
+              <tr>
+                <td>1, 2</td>
+                <td>O usuário deve ser capaz de filtrar as acomodações por data</td>
+              </tr>
+              <tr>
+                <td>1, 2</td>
+                <td>O usuário deve ser capaz de fitlrar as acomodações por preço</td>
+              </tr>
+              <tr>
+                <td>1, 2, 3</td>
+                <td>O usuário deve ser capaz de realizar reserva</td>
+              </tr>
+              <tr>
+                <td>1, 2, 3</td>
+                <td>O usuário deve ser capaz de especificar a data da reserva</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>O anfitrião deve ser capaz de adicionar as fotos da acomodação</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>O usuário deve ser capaz de efetuar o pagamento pelo aplicativo</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>O anfitrião deve ser capaz de adicionar as regras da acomodação</td>
+              </tr>
+              <tr>
+                <td>1, 3</td>
+                <td>A AirBnb deve oferecer transparência aos usuários</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>O tempo de resposta da empresa deve ser rápido, especialmente na data do checkin</td>
+              </tr>
+              <tr>
+                <td>1, 2</td>
+                <td>O anfitrião deve ser capaz de especificar os detalhes da acomodação(quartos, camas, animais de estimação, limite de quantidade de hóspedes, etc)</td>
+              </tr>
+              <tr>
+                <td>1, 2, 3</td>
+                <td>O anfitrião e hóspede devem poder se comunicar pelo aplicativo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>O usuário deve especificar a quantidade de hóspedes que ficarão na acomodação</td>
+              </tr>
+            </table>
         </div>
 
-        <div id="stoyryPrimeiraExperiencia" class="col s12 center-align">
-          <h3>ST02 - Primeira experiência com Airbnb</h3>
-          <p>
-              Esse ano tive a oportunidade, pela primeira vez, de utilizar o aplicativo do Airbnb. O app já estava instalado no meu smartphone a um tempo, mas nunca precisei realmente utilizá-lo, tinha baixado por curiosidade. Mas esse ano fiz uma viagem para São Paulo durante as férias e precisei de um lugar para ficar que fosse mais barato que um hotel e com uma localização que me favorecesse. Primeiramente combinei com minha namorada que já estava em São Paulo de nós alugarmos juntos um lugar para ficar através do Airbnb e então comecei a buscar lugares no aplicativo.
-              Primeiramente defini a cidade na busca, e comecei olhando as acomodações que apareciam na busca, priorizando o baixo custo e a localização. Acabei achando alguns lugares muito bons de acordo com meus critérios, mas que não possuíam vaga para a data que eu planejava ficar na cidade, então decidi aplicar mais um filtro na busca, a data de estadia. Encontrei uma acomodação que me agradou, mas me deparei com um problema, eu precisava parcelar o valor da hospedagem no cartão de crédito e encontrei <a href="https://community.withairbnb.com/t5/Ajuda/">um post no fórum</a>Como-funcionam-os-parcelamentos-de-pagamento/td-p/10085).  do Airbnb falando que o parcelamento só pode ser feito através do site, não funciona no aplicativo.
-              Fiz a reserva através do site com meus dados e da minha namorada que seria a segunda hóspede. Ao finalizar a compra o anfitrião entrou em contato comigo através do aplicativo pedindo meu número de RG para identificação. Ao chegar em São Paulo fui para o endereço da acomodação, chegando lá informei meus dados para o porteiro e ele me deu a chave do apartamento. Durante o período de estadia não tive nenhum problema, mas também não tive nenhum contato com o anfitrião. Ao finalizar o período de hospedagem deixei a chave com o porteiro. Após algumas horas o aplicativo do Airbnb solicitou que eu avaliasse a acomodação, escrevesse um feedback privado e um público para o anfitrião.
-
-          </p>
-        </div>
-
-        <div id="storyAnfitriaoAusente" class="col s12 center-align">
-          <h3>ST03 - Anfitrião Ausente</h3>
-          <p>
-            Resolvi recorrer ao AirBnb para minha hospedagem no mochilão que realizei pela Europa por conta do preço. Planejei passar por 4 cidades: Amsterdã, Berlim, Bruxelas e Praga, realizando, portanto, quatro hospedagens no AirBnb. A minha experiência foi ótima em todas as cidades, exceto em Bruxelas.</p>
-          <p>
-          Um dia antes da minha viagem o anfitrião de Bruxelas entrou em contato pedindo para que eu cancelasse minha reserva, eu disse que não seria possível devido ao prazo e entrei em contato com a AirBnb que confirmou a reserva. Apesar da empresa ter confirmado minha reserva, ao chegar no local da acomodação o anfitrião estava ausente, entrei em contato com a empresa pelo aplicativo no celular, entretanto como já era noite, e pela demora na resposta da empresa, tive que me hospedar em um hotel. A AirBnb só me respondeu 6 horas depois cancelando a reserva e me dando o reembolso integral.</p>
-          <p>
-          Apesar desse problema, minha experiência nas demais acomodações foi ótima. Serviço de qualidade e, acima de tudo, acessível, barato. Não paguei mais de 90 euros para ficar 3 dias num lugar. Em Berlim paguei 62 euros 3 dias, em Amsterdã 86 euros 5 dias e em Praga 58 euros 3 dias. Exceto na Bélgica, nos outros demais lugares foi tranquilo e fui muito bem recebido. Locais sempre limpos, ambiente agradável e pessoas atenciosas.  As casas geralmente tem regras que podem ser vistas nos detalhes da acomodação no site, entretanto há algumas regras simples que são avisadas pelo host ao chegar no local. Por exemplo: em Berlim a regra era sempre manter a porta do banheiro fechada; já em Praga é não andar com calçados dentro da casa para não sujar ou, como eles dizem "não trazer energias estranhas do exterior para o lado interno da casa".</p>
-          <p>
-          A AirBNB peca um pouco quando você entra em contato- demora um pouco a responder - mas este é um ponto nocivo. Único ponto negativo que achei foi a responsabilidade deles terem confirmado uma reserva com o anfitrião que acabou estando ausente e não houve uma atitude tomada pela empresa em tempo hábil. Fora isso, tudo foi perfeito e vale muito a pena.</p>
-          </p>
-        </div>
-
-        <div class="col s12">
-          <h2>Resultado do Story Telling</h2>
-          <table class="table table-dark">
-            <tr>
-              <th>História</th>
-              <th>Requisito</th>
-            </tr>
-            <tr>
-              <td>1, 2, 3</td>
-              <td>O usuário deve ser capaz de realizar busca por localização</td>
-            </tr>
-            <tr>
-              <td>1, 2</td>
-              <td>O usuário deve ser capaz de filtrar as acomodações por data</td>
-            </tr>
-            <tr>
-              <td>1, 2</td>
-              <td>O usuário deve ser capaz de fitlrar as acomodações por preço</td>
-            </tr>
-            <tr>
-              <td>1, 2, 3</td>
-              <td>O usuário deve ser capaz de realizar reserva</td>
-            </tr>
-            <tr>
-              <td>1, 2, 3</td>
-              <td>O usuário deve ser capaz de especificar a data da reserva</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>O anfitrião deve ser capaz de adicionar as fotos da acomodação</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>O usuário deve ser capaz de efetuar o pagamento pelo aplicativo</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>O anfitrião deve ser capaz de adicionar as regras da acomodação</td>
-            </tr>
-            <tr>
-              <td>1, 3</td>
-              <td>A AirBnb deve oferecer transparência aos usuários</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>O tempo de resposta da empresa deve ser rápido, especialmente na data do checkin</td>
-            </tr>
-            <tr>
-              <td>1, 2</td>
-              <td>O anfitrião deve ser capaz de especificar os detalhes da acomodação(quartos, camas, animais de estimação, limite de quantidade de hóspedes, etc)</td>
-            </tr>
-            <tr>
-              <td>1, 2, 3</td>
-              <td>O anfitrião e hóspede devem poder se comunicar pelo aplicativo</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>O usuário deve especificar a quantidade de hóspedes que ficarão na acomodação</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-
+      <br>
       <br>
       <hr>
       <br>
+      <br>
 
-
-      <div id="brainStorm"class="col s12 center-align">
+      <div id="brainStorm" class="center-align ection scrollspy">
         <h2>Brainstorm</h2>
         <p>
-           O Brainstorming é uma técnica na Engenharia de Requisitos. Ela consiste em um grupo de pessoas de diferentes áres levantando opiniões e trocando ideias sobre determinado assunto.
+          O Brainstorming é uma técnica na Engenharia de Requisitos. Ela consiste em um grupo de pessoas de diferentes áres levantando opiniões e trocando ideias sobre determinado assunto.
         </p>
-        <p> O brainstorming também foi usado nas reuniões para levantar os requisitos do airbnb. Exemplo de Brainstorm da equipe
+        <p> O brainstorming realizado pela equipe foi realizado através de uma conversa onde o tentamos abordar a maior quantidade de palavras relacionadas ao Airbnb,
+           podendo falar deliberadamente e com repetições. Posteriormente foi contado o número de repetições de cada palavra para a criação da <b>cloud of tags</b>, onde
+           as palavras com maior incidência aparecem maiores.
         </p>
-        <p><b>Exemplo de Brainstorm utilizado pela equipe</b>:</p>
-        <h3>BS01 - Cloud of Tags</h3>
-        <img src="images/wordcloud_airbnb.png" width="50%">
+        <h4>BS01 - Cloud of Tags</h4>
+        <img src="images/wordcloud_airbnb.png" class="materialboxed" width="450" style="padding-left:25%;" >
       </div>
 
       <br>
+      <br>
       <hr>
       <br>
+      <br>
 
-
-      <div id="introspecao" class="col s12 center-align">
-        <h2>Introspecção</h2>
+      <div id="introspecao" class="center-align ection scrollspy">
+        <h2>Introspecção:</h2>
         <p>A introspecção é uma é uma técnica muito utilizada na etapa de elicitação. Ela consiste em entender as funcionalidades importantes de um sistema, de forma que ele funcione.</p>
-        <h3>IP01 - Instrospecção Rio Janeiro</h3>
+        <h4>IP01 - Instrospecção Rio Janeiro</h4>
         <p>A equipe utilizou a introspecção na etapa de levantamento de requisitos. Os integrates fizeram uma atividade que consistia em se colocavam no lugar de um usuário realizando dada funcionalidade. Essa etapa foi feita sem usar o sistema, somente com o que os integrantes se lembravam e conheciam do mesmo. Isso facilitou a elicitação dos requisitos funcionais.</p>
         <p>Imaginamos entrando pelo computador no site do airbnb procurando por uma hospedagem no rio de janeiro de um quarto, deve ser possivel se cadastrar para que os dados fiquem seguros e salvos, deve ter uma parte para pesquisar por localização onde vou procurar pela minha hospedagem no Rio de Janeiro. Ao achar uma hospedagem que me agrade deve ter uma parte onde estão as fotos e regras sobre o local, incluindo uma pequena descrição do anfitrião caso tenha. Depois de realizar a reserva escolhendo a data de saida e data de entrada o usuário deve ter a opção de cancelar caso tenha um contratempo, caso contrário ele deve prosseguir para o pagamento, devem ter possibilidades de pagamentos como cartão de crédito, paypal, boleto bancário ou transferência. É importante lembrar que a segurança é um fator muito importante para que o usuário se sinta confortavel.</p>
-        <h5>Resultado:</h5>
-        <div class="col s12">
-        <table style="margin-left: 400px;" class="table table-dark">
-            <tr>
-              <th>Número</th>
-              <th>Requisito</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>O usuário deve ser capaz de cancelar uma reserva.</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>O anfitrião deve ser capaz de cancelar uma reserva. </td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>O anfitrião deve ser capaz de inserir fotos da sua acomodação</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>A Airbnb deve promover anúncios de acomodações, restaurantes e esperiências</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>A Airbnb deve oferecer segurança aos usuários</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>O anfitrião deve definir a localização da acomodação </td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>O anfitrião deve pagar taxas para a Airbnb</td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>O hóspede deve poder realizar o pagamento com PayPal </td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>O hóspede deve poder realizar o pagamento com depósito bancário</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>A Airbnb deve verificar antecedentes dos usuários</td>
-            </tr>
-          </table>
-          </div>
-        </div>
+        <h4>Resultado:</h4>
+        <table  class="table table-dark">
+          <tr>
+            <th>Número</th>
+            <th>Requisito</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>O usuário deve ser capaz de cancelar uma reserva.</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>O anfitrião deve ser capaz de cancelar uma reserva. </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>O anfitrião deve ser capaz de inserir fotos da sua acomodação</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>A Airbnb deve promover anúncios de acomodações, restaurantes e esperiências</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>A Airbnb deve oferecer segurança aos usuários</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>O anfitrião deve definir a localização da acomodação </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>O anfitrião deve pagar taxas para a Airbnb</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>O hóspede deve poder realizar o pagamento com PayPal </td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>O hóspede deve poder realizar o pagamento com depósito bancário</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>A Airbnb deve verificar antecedentes dos usuários</td>
+          </tr>
+        </table>
+      </div>
 
-        <br>
-        <hr>
-        <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
 
-
-        <div id="prototipacao" class="col s12 center-align">
-          <h2>Prototipação</h2>
-          <p>Visão Genérica Web Site Protótipo de baixa fidelidade que expressa a ideia geral do layout do software como Web Site.</p>
-          <div class="row">
-
-            <div class="col m12">
-              <div class="col s12 m4" id="PT01">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT01 - Página Inicial</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="pt01" class="materialboxed" data-caption="PT01 - Página Inicial" src="images/prot_web_site_home.jpeg">
-                  </div>
+      <div id="prototipacao" class="col s12 center-align ection scrollspy">
+        <h2>Prototipação</h2>
+        <p>Visão Genérica Web Site Protótipo de baixa fidelidade que expressa a ideia geral do layout do software como Web Site.</p>
+        <div class="row">
+          <div class="col m12">
+            <div class="col s12 m4" id="PT01">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT01 - Página Inicial</h5>
                 </div>
-              </div>
-
-              <div class="col s12 m4" id="PT02">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT02 - Página de uma Categoria Selecionada</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="pt02" class="materialboxed" data-caption="PT02 - Página de uma Categoria Selecionada" src="images/prot_web_site_categ.jpeg">
-                  </div>
-                </div>
-              </div>
-
-              <div class="col s12 m4" id="PT03">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT03 - Visão Genérica App Mobile</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="pt03" class="materialboxed" data-caption="PT03 - Visão Genérica App Mobile" src="images/prot_web_site_categ.jpeg">
-                  </div>
-                </div>
-              </div>
-              </div>
-
-
-          <div class="row">
-
-              <div class="col s12 m4" id="PT04">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT04 - Página Inicial</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="pt04" class="materialboxed" data-caption="PT04 - Página Inicial" src="images/prot_app_home.png">
-                  </div>
-                </div>
-              </div>
-
-              <div class="col s12 m4" id="PT05">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT05 - Página de uma Categoria Selecionada</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="prototipoCategoriaSelecionadaMobile" class="materialboxed" data-caption="PT05 - Página de uma Categoria Selecionada" src="images/prot_app_categoria.png">
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="col s12 m4" id="PT06">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT06 - Página de um Serviço Selecionado</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="prototipoServicoSelecionado" class="materialboxed" data-caption="PT06 - Página de um Serviço Selecionado" src="images/prot_app_servico.png">
-                  </div>
-                </div>
-              </div>
-              </div>
-
-          <div class="row">
-              <div class="col s12 m4" id="PT07">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT07 - Página inicial do app</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="prototipoPaginaInicial" class="materialboxed" data-caption="PT07 - Página inicial do app" src="images/prot-home.jpg">
-                  </div>
-                </div>
-              </div>
-
-              <div class="col s12 m4" id="PT08">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT08 - Listagem de acomodações</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="prototipoListagemAcomod" class="materialboxed" data-caption="PT08 - Listagem de acomodações" src="images/prot-acod.jpg">
-                  </div>
-                </div>
-              </div>
-
-              <div class="col s12 m4" id="PT09">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT09 - Detalhe de uma acomodação</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="prototipoDetalheAcomod" class="materialboxed" data-caption="PT09 - Detalhe de uma acomodação" src="images/prot-detalhe-acod.jpg">
-                  </div>
-                </div>
-              </div>
-              </div>
-
-          <div class="row">
-              <div class="col s12 m4 offset-m4" id="PT10">
-                <div class="card hoverable">
-                  <div class="card-content">
-                    <h5>PT10 - Listagem de Experiências</h5>
-                  </div>
-                  <div class="card-image">
-                    <img id="prototipoListagemExp" class="materialboxed" data-caption="PT10 - Listagem de Experiências" src="images/prot-exp.jpg">
-                  </div>
+                <div class="card-image">
+                  <img id="pt01" class="materialboxed" data-caption="PT01 - Página Inicial" src="images/prot_web_site_home.jpeg">
                 </div>
               </div>
             </div>
-
+            <div class="col s12 m4" id="PT02">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT02 - Página de uma Categoria Selecionada</h5>
+                </div>
+                <div class="card-image">
+                  <img id="pt02" class="materialboxed" data-caption="PT02 - Página de uma Categoria Selecionada" src="images/prot_web_site_categ.jpeg">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4" id="PT03">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT03 - Visão Genérica App Mobile</h5>
+                </div>
+                <div class="card-image">
+                  <img id="pt03" class="materialboxed" data-caption="PT03 - Visão Genérica App Mobile" src="images/prot_web_site_categ.jpeg">
+                </div>
+              </div>
+            </div>
           </div>
-
+          <div class="row">
+            <div class="col s12 m4" id="PT04">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT04 - Página Inicial</h5>
+                </div>
+                <div class="card-image">
+                  <img id="pt04" class="materialboxed" data-caption="PT04 - Página Inicial" src="images/prot_app_home.png">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4" id="PT05">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT05 - Página de uma Categoria Selecionada</h5>
+                </div>
+                <div class="card-image">
+                  <img id="prototipoCategoriaSelecionadaMobile" class="materialboxed" data-caption="PT05 - Página de uma Categoria Selecionada" src="images/prot_app_categoria.png">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4" id="PT06">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT06 - Página de um Serviço Selecionado</h5>
+                </div>
+                <div class="card-image">
+                  <img id="prototipoServicoSelecionado" class="materialboxed" data-caption="PT06 - Página de um Serviço Selecionado" src="images/prot_app_servico.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m4" id="PT07">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT07 - Página inicial do app</h5>
+                </div>
+                <div class="card-image">
+                  <img id="prototipoPaginaInicial" class="materialboxed" data-caption="PT07 - Página inicial do app" src="images/prot-home.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4" id="PT08">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT08 - Listagem de acomodações</h5>
+                </div>
+                <div class="card-image">
+                  <img id="prototipoListagemAcomod" class="materialboxed" data-caption="PT08 - Listagem de acomodações" src="images/prot-acod.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4" id="PT09">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT09 - Detalhe de uma acomodação</h5>
+                </div>
+                <div class="card-image">
+                  <img id="prototipoDetalheAcomod" class="materialboxed" data-caption="PT09 - Detalhe de uma acomodação" src="images/prot-detalhe-acod.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m4 offset-m4" id="PT10">
+              <div class="card hoverable">
+                <div class="card-content">
+                  <h5>PT10 - Listagem de Experiências</h5>
+                </div>
+                <div class="card-image">
+                  <img id="prototipoListagemExp" class="materialboxed" data-caption="PT10 - Listagem de Experiências" src="images/prot-exp.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div id="analiseDeProtocolo" class="col s12 center-align">
-          <h2>Análise de protocolo</h2>
-          <p>Análise de protocolo é uma forma de levantamento de requisitos no qual o analista analisa as partes interessadas quando estão envolvidas em algum tipo de tarefas.</p>
-          <h3>AN01 - Análise com um jovem</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/LXiydo15qCw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+      <!--fim prototipacao  -->
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
 
-        <br>
-        <hr>
-        <br>
-        <div class="col s12 center-align">
-          <h2>Priorização</h2>
-          <h3>PR01 - First Things First</h3>
+      <div id="analiseDeProtocolo" class="col s12 center-align ection scrollspy">
+        <h2>Análise de protocolo</h2>
+        <p>Análise de protocolo é uma forma de levantamento de requisitos no qual o analista analisa as partes interessadas quando estão envolvidas em algum tipo de tarefas.</p>
+        <h4>AN01 - Análise com um jovem</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LXiydo15qCw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+
+      <div id="priorizacao" class="row center-align ection scrollspy">
+        <h2>Priorização</h2>
+        <h4>PR01 - First Things First</h4>
         <p>Listagem dos requisitos priorizados utilizando a técnica First things First, a lista está ordenada de acordo com a prioridade para realização dos requisitos.</p>
-        <img id="priorizacao" src="images/firstthingsfirst.png" class="responsive-img" width="70%">
+        <img id="priorizacao" src="images/firstthingsfirst.png" class="materialboxed" style="padding-left:25%" width="70%">
         <hr>
 
-        <h3>PR02 - Moscow</h3>
-        <img id="moscow" src="images/moscow.png" class="responsive-img" width="70%">
-
-
+        <h4>PR02 - Moscow</h4>
+        <img id="moscow" src="images/moscow.png" class="materialboxed"style="padding-left:25%"  width="70%">
       </div>
-
+    </div>
+    <div class="col hide-on-small-only m2" >
+      <div class="myPushpin" data-target="offsetBox">
+        <ul class="section table-of-contents" style="padding-top:60px;">
+          <li><a href="#elicitacao">Elicitação<br>de Requisitos</a></li>
+          <li><a href="#storyTelling">Storytelling</a></li>
+          <li><a href="#brainStorm">BrainStorm</a></li>
+          <li><a href="#introspecao">Introspecção</a></li>
+          <li><a href="#prototipacao">Prototipação</a></li>
+          <li><a href="#analiseDeProtocolo">Analise de <br> Protocolo</a></li>
+          <li><a href="#priorizacao">Priorização</a></li>
+        </ul>
       </div>
-  </section>
+    </div>
+  </div>
+  </div>
+  <footer class="page-footer grey darken-3">
+    <div class="container center-align">
+      <span class="site-footer-credits">
+        <b>Airbnb</b>
+        , Requisitos de Software,
+        <b> FGA UnB</b>
+      </span>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+      $('.myPushpin').each(function() {
+        var $this = $(this);
+        var $target = $('#' + $(this).attr('data-target'));
+        $this.pushpin({
+          top: $target.offset().top,
+          bottom: $target.offset().top + $target.outerHeight() - $this.height()
+        });
+      });
+      $('.materialboxed').materialbox();
+    });
+  </script>
+</body>
