@@ -136,7 +136,7 @@ main .container .row {
 }
 
 #about {
-  padding-top: 10em;
+  padding-top: 5em;
   padding-bottom: 10em;
 }
 
@@ -282,5 +282,5 @@ nav li a {
 }
 
 .module-link:hover *{
-  color: black !important; 
+  color: black !important;
 }
